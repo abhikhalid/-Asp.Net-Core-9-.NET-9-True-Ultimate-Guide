@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 3 -  HTTP [MVC and Web API]\\HTTP\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T12:39:46.237Z",
               "EditorCaption": ""
@@ -55,10 +55,6 @@
           "DockedWidth": 149,
           "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
