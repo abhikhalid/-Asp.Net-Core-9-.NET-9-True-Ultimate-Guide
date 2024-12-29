@@ -3,17 +3,24 @@ var app = builder.Build();
 
 //app object is used to created Middleware
 
-app.Run(async (HttpContext context) =>
+//middleware 1
+app.Use(async (HttpContext context, RequestDelegate next) =>
 {
     await context.Response.WriteAsync("Hello");
+    await next(context);
 });
 
-//now, can we create multiple multiple middleware like this? 
+//middleware 2
+app.Use(async (HttpContext context, RequestDelegate next) =>
+{
+    await context.Response.WriteAsync("Hello again");
+    await next(context);
+});
+
+//middleware 3 (terminating middleware)
 app.Run(async (HttpContext context) =>
 {
     await context.Response.WriteAsync("Hello again");
 });
-
-//NO!! because the nature of Run() method is that it does not forward the request to the subsequent middleware.
 
 app.Run();
