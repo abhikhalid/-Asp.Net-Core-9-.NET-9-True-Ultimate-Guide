@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HTTP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44f04b762b76cfcc186584a879ec553a749b4728")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+763e0fab0255558243b1e6f69911ca81b62003ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("HTTP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HTTP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
