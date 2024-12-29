@@ -1,17 +1,24 @@
+using Microsoft.AspNetCore.WebUtilities;
+using Microsoft.Extensions.Primitives;
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 //When a browser sends a request to the Kestrel and Kestrl forwards the same request to the application code, then asp dot net core automatically creates an object of type http context
 app.Run(async (HttpContext context) =>
 {
-    context.Response.Headers["Content-type"] = "text/html";
+   System.IO.StreamReader reader = new StreamReader(context.Request.Body);
+   string body = await reader.ReadToEndAsync();
 
-    if (context.Request.Headers.ContainsKey("User-Agent"))
+   Dictionary<string, StringValues> queryDict = QueryHelpers.ParseQuery(body);
+
+    if (queryDict.ContainsKey("firstName"))
     {
-        string userAgent = context.Request.Headers["User-Agent"];
-        await context.Response.WriteAsync(userAgent);
+        string firstName = queryDict["firstName"][0];
+        await context.Response.WriteAsync(firstName);
     }
 
+   
 });
 
 app.Run();
