@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 4 - Middleware - MVC and Web API\\MiddlewareExample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9A0B09A-A7ED-44CF-AAED-DCED7E9BDACD}|MiddlewareExample.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 4 - middleware - mvc and web api\\middlewareexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A0B09A-A7ED-44CF-AAED-DCED7E9BDACD}|MiddlewareExample.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9A0B09A-A7ED-44CF-AAED-DCED7E9BDACD}|MiddlewareExample.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 4 - middleware - mvc and web api\\middlewareexample\\custommiddleware\\mycustommiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9A0B09A-A7ED-44CF-AAED-DCED7E9BDACD}|MiddlewareExample.csproj|solutionrelative:custommiddleware\\mycustommiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A0B09A-A7ED-44CF-AAED-DCED7E9BDACD}|MiddlewareExample.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 4 - middleware - mvc and web api\\middlewareexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A0B09A-A7ED-44CF-AAED-DCED7E9BDACD}|MiddlewareExample.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 263,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 4 - Middleware - MVC and Web API\\MiddlewareExample\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 4 - Middleware - MVC and Web API\\MiddlewareExample\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:38:29.505Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyCustomMiddleware.cs",
+              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 4 - Middleware - MVC and Web API\\MiddlewareExample\\CustomMiddleware\\MyCustomMiddleware.cs",
+              "RelativeDocumentMoniker": "CustomMiddleware\\MyCustomMiddleware.cs",
+              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 4 - Middleware - MVC and Web API\\MiddlewareExample\\CustomMiddleware\\MyCustomMiddleware.cs",
+              "RelativeToolTip": "CustomMiddleware\\MyCustomMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:21:07.93Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -39,32 +67,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MyCustomMiddleware.cs",
-              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 4 - Middleware - MVC and Web API\\MiddlewareExample\\CustomMiddleware\\MyCustomMiddleware.cs",
-              "RelativeDocumentMoniker": "CustomMiddleware\\MyCustomMiddleware.cs",
-              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 4 - Middleware - MVC and Web API\\MiddlewareExample\\CustomMiddleware\\MyCustomMiddleware.cs",
-              "RelativeToolTip": "CustomMiddleware\\MyCustomMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T18:21:07.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 4 - Middleware - MVC and Web API\\MiddlewareExample\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 4 - Middleware - MVC and Web API\\MiddlewareExample\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T17:38:29.505Z",
-              "EditorCaption": ""
             }
           ]
         },
