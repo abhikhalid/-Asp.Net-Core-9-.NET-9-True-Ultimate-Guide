@@ -21,7 +21,8 @@ app.Use(async (HttpContext context, RequestDelegate next) =>
 //});
 
 //app.UseMiddleware<MyCustomMiddleware>();
-app.UseMyCustomMiddleware();
+//app.UseMyCustomMiddleware();
+app.UseMiddleware();
 
 //middleware 3 (terminating middleware)
 app.Run(async (HttpContext context) =>
