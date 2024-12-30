@@ -10,12 +10,12 @@ app.UseEndpoints(endpoints =>
 {
     //add your end points
     //this does not forward req to next middleware. so it is a short-circuiting middleware.
-    endpoints.Map("map1", async (context) =>
+    endpoints.MapGet("map1", async (context) =>
     {
         await context.Response.WriteAsync("In Map 1");
     });
 
-    endpoints.Map("map2", async (context) =>
+    endpoints.MapPost("map2", async (context) =>
     {
         await context.Response.WriteAsync("In Map 2");
     });
