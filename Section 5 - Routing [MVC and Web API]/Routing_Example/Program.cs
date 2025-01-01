@@ -1,8 +1,29 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
+app.Use(async (context, next) =>
+{
+    Endpoint? endpoint = context.GetEndpoint(); //null
+    if(endpoint != null)
+    {
+        await context.Response.WriteAsync($"Endpoint: {endpoint.DisplayName}]n");
+    }
+
+    await next(context);
+});
+
 //enable routing
 app.UseRouting();
+
+app.Use(async (context, next) =>
+{
+    Endpoint? endpoint = context.GetEndpoint();
+    if (endpoint != null)
+    {
+        await context.Response.WriteAsync($"Endpoint: {endpoint.DisplayName}]n");
+    }
+    await next(context);
+});
 
 
 //creating end points
@@ -21,8 +42,8 @@ app.UseEndpoints(endpoints =>
     });
 });
 
-//app.Run();
-app.Run(async context =>
-{
-    await context.Response.WriteAsync($"Request received at {context.Request.Path}");
-});
+app.Run();
+//app.Run(async context =>
+//{
+//    await context.Response.WriteAsync($"Request received at {context.Request.Path}");
+//});

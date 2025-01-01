@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "aE9GU4wv5N6STKANQIhkGhFQaeiYQ36hWTKoiT1fug0=",
+  "Source": "Routing_Example",
+  "BasePath": "_content/Routing_Example",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
