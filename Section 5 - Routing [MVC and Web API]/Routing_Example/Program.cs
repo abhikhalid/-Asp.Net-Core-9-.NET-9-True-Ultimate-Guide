@@ -22,10 +22,18 @@ app.UseEndpoints(endpoints =>
     });
 
     ///Eg: products/details/1
-    endpoints.Map("products/details/{id=1}", async context =>
+    /// if the user does not supply then id=null as it is optional parameter
+    endpoints.Map("products/details/{id?}", async context =>
     {
-       int id = Convert.ToInt32(context.Request.RouteValues["id"]);
-       await context.Response.WriteAsync($"Product details - {id}");
+        if (context.Request.RouteValues.ContainsKey("id"))
+        {
+            int id = Convert.ToInt32(context.Request.RouteValues["id"]);
+            await context.Response.WriteAsync($"Product details - {id}");
+        }
+        else
+        {
+            await context.Response.WriteAsync($"Products details - id is not supplied");
+        }
     });
 });
 
