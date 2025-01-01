@@ -1,7 +1,14 @@
 using Microsoft.AspNetCore.Routing;
+using Routing_Example.CustomConstraints;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
+//hey builder, I would like to add a service called 'Routing' and as a part of the routing, I would like to register a constraint.
+builder.Services.AddRouting(options =>
+{
+    options.ConstraintMap.Add("months",typeof(MonthsCustomConstraint));
+});
+
 var app = builder.Build();
 
 //enable routing
@@ -60,7 +67,7 @@ app.UseEndpoints(endpoints =>
 
     //For example, you can return a status code 400(Bad Request), which informs the client about the expected or accepted values for this route.This approach provides more clarity and flexibility in handling invalid inputs.
 
-    endpoints.Map("sales-report/{year:int:min(1900)}/{month:regex(^(apr|jul|oct|jan)$)}", async context =>
+    endpoints.Map("sales-report/{year:int:min(1900)}/{month:months}", async context =>
     {
         int year = Convert.ToInt32(context.Request.RouteValues["year"]);
         string? month = Convert.ToString(context.Request.RouteValues["month"]);
