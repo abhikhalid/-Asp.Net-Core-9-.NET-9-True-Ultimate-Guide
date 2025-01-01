@@ -1,3 +1,6 @@
+using Microsoft.AspNetCore.Routing;
+using System;
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
@@ -15,14 +18,15 @@ app.UseEndpoints(endpoints =>
     });
 
     //route parameter name are case insensitive
-    endpoints.Map("employee/profile/{employeeName=khalid}", async (context) =>
+    //endpoints.Map("employee/profile/{employeeName:minlength(3):maxlength(7)=khalid}", async (context) =>
+    endpoints.Map("employee/profile/{employeeName:length(4,7):alpha=khalid}", async (context) =>
     {
        string? employeeName =  Convert.ToString(context.Request.RouteValues["employeename"]); // by default it returns object type. We have converted into string type
         await context.Response.WriteAsync($"In Employee profile - {employeeName}");
     });
 
     ///Eg: products/details/1
-    endpoints.Map("products/details/{id:int?}", async context =>
+    endpoints.Map("products/details/{id:int:range(1,1000)?}", async context =>
     {
         if (context.Request.RouteValues.ContainsKey("id"))
         {
@@ -47,11 +51,26 @@ app.UseEndpoints(endpoints =>
        Guid cityId = Guid.Parse(Convert.ToString(context.Request.RouteValues["cityid"]));
         await context.Response.WriteAsync($"City information - {cityId}");
     });
+
+    //sales-report/2030/apr
+
+    //But in general, as per Microsoft Docs, you should not use route constraints to validate values.
+
+    //The better approach is to accept invalid values into the route and then validate them in your code using "if" statements.If the value is found to be invalid, you can provide an appropriate response.
+
+    //For example, you can return a status code 400(Bad Request), which informs the client about the expected or accepted values for this route.This approach provides more clarity and flexibility in handling invalid inputs.
+
+    endpoints.Map("sales-report/{year:int:min(1900)}/{month:regex(^(apr|jul|oct|jan)$)}", async context =>
+    {
+        int year = Convert.ToInt32(context.Request.RouteValues["year"]);
+        string? month = Convert.ToString(context.Request.RouteValues["month"]);
+        await context.Response.WriteAsync($"sales report - {year} - {month}");
+    });
 });
 
 app.Run(async context =>
 {
-    await context.Response.WriteAsync($"Request received at {context.Request.Path}");
+    await context.Response.WriteAsync($"No route matched at {context.Request.Path}");
 });
 
 app.Run();
