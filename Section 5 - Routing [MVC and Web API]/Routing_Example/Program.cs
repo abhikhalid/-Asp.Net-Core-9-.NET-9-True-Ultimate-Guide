@@ -40,6 +40,13 @@ app.UseEndpoints(endpoints =>
        DateTime reportDate =  Convert.ToDateTime(context.Request.RouteValues["reportdate"]);
        await context.Response.WriteAsync($"In daily-digest-report - {reportDate.ToShortDateString()}");
     });
+
+    // Eg: cities/cityid
+    endpoints.Map("cities/{cityid:guid}", async context =>
+    {
+       Guid cityId = Guid.Parse(Convert.ToString(context.Request.RouteValues["cityid"]));
+        await context.Response.WriteAsync($"City information - {cityId}");
+    });
 });
 
 app.Run(async context =>
