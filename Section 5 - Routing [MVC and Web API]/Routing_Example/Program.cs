@@ -15,10 +15,17 @@ app.UseEndpoints(endpoints =>
     });
 
     //route parameter name are case insensitive
-    endpoints.Map("employee/profile/{employeeName}", async (context) =>
+    endpoints.Map("employee/profile/{employeeName=khalid}", async (context) =>
     {
        string? employeeName =  Convert.ToString(context.Request.RouteValues["employeename"]); // by default it returns object type. We have converted into string type
         await context.Response.WriteAsync($"In Employee profile - {employeeName}");
+    });
+
+    ///Eg: products/details/1
+    endpoints.Map("products/details/{id=1}", async context =>
+    {
+       int id = Convert.ToInt32(context.Request.RouteValues["id"]);
+       await context.Response.WriteAsync($"Product details - {id}");
     });
 });
 
