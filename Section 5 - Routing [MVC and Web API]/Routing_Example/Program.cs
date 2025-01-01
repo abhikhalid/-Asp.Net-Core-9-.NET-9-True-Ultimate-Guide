@@ -73,6 +73,11 @@ app.UseEndpoints(endpoints =>
         string? month = Convert.ToString(context.Request.RouteValues["month"]);
         await context.Response.WriteAsync($"sales report - {year} - {month}");
     });
+
+    endpoints.Map("sales-report/2024/jan", async context =>
+    {
+        await context.Response.WriteAsync("Sales report exclusively for 2024 - jan");
+    });
 });
 
 app.Run(async context =>
