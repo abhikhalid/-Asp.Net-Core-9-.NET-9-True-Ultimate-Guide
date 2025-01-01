@@ -7,10 +7,23 @@ namespace Controllers_Example.Controllers
     {
         //this is called attribute routing
         [Route("/")]
+        [Route("home")]
         // this method could return anything
-        public string method1()
+        public string Index() //first action method name is Index as per the convention.
         {
-            return "Hello from method1!";
+            return "Hello from Index!";
+        }
+
+        [Route("about")]
+        public string About()
+        {
+            return "About Page";
+        }
+
+        [Route("contact-us/{mobile:regex(^\\d{10}$)}")]
+        public string Contact()
+        {
+            return "Contact Page";
         }
     }
 }
