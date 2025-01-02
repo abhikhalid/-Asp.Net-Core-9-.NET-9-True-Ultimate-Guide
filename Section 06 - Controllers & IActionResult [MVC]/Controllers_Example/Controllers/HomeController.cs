@@ -70,7 +70,7 @@ namespace Controllers_Example.Controllers
         }
 
         [Route("file-download3")]
-        public FileContentResult FileDownload3()
+        public IActionResult FileDownload3()
         {
             byte[] bytes = System.IO.File.ReadAllBytes("D:\\Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions.pdf");
                 
