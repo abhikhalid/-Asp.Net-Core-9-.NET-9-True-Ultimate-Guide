@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers & IActionResult [MVC]\\Controllers_Example\\wwwroot\\sample.pdf",
+      "PackagePath": "staticwebassets\\sample.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Controllers_Example.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Controllers_Example.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Controllers_Example.props",
+      "PackagePath": "build\\Controllers_Example.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Controllers_Example.props",
+      "PackagePath": "buildMultiTargeting\\Controllers_Example.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Controllers_Example.props",
+      "PackagePath": "buildTransitive\\Controllers_Example.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

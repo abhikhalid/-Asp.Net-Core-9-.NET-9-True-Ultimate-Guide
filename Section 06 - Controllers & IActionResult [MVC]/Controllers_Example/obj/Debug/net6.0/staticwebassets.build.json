@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "68rb23PWu26R6IwDDOcOSgG+pN2qtRwgukSl3FBSp7w=",
+  "Hash": "f6CZbJG9KHbXxKEAimOLM5k7dfEuw3WExzUQDdwpeVE=",
   "Source": "Controllers_Example",
   "BasePath": "_content/Controllers_Example",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Controllers_Example\\wwwroot",
+      "Source": "Controllers_Example",
+      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers & IActionResult [MVC]\\Controllers_Example\\wwwroot\\",
+      "BasePath": "_content/Controllers_Example",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers & IActionResult [MVC]\\Controllers_Example\\wwwroot\\sample.pdf",
+      "SourceId": "Controllers_Example",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers & IActionResult [MVC]\\Controllers_Example\\wwwroot\\",
+      "BasePath": "_content/Controllers_Example",
+      "RelativePath": "sample#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rnxovvulx8",
+      "Integrity": "mcRppcUerdKJD1qY9vMMVduQ6VtRsn7g7vxcgQHlNsg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample.pdf"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "sample.pdf",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers & IActionResult [MVC]\\Controllers_Example\\wwwroot\\sample.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7191797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mcRppcUerdKJD1qY9vMMVduQ6VtRsn7g7vxcgQHlNsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 31 Mar 2021 07:48:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mcRppcUerdKJD1qY9vMMVduQ6VtRsn7g7vxcgQHlNsg="
+        }
+      ]
+    },
+    {
+      "Route": "sample.rnxovvulx8.pdf",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers & IActionResult [MVC]\\Controllers_Example\\wwwroot\\sample.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7191797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mcRppcUerdKJD1qY9vMMVduQ6VtRsn7g7vxcgQHlNsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 31 Mar 2021 07:48:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rnxovvulx8"
+        },
+        {
+          "Name": "label",
+          "Value": "sample.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mcRppcUerdKJD1qY9vMMVduQ6VtRsn7g7vxcgQHlNsg="
+        }
+      ]
+    }
+  ]
 }

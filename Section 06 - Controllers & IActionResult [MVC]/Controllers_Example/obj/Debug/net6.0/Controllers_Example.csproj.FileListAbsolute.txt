@@ -28,3 +28,4 @@ D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Sectio
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 06 - Controllers & IActionResult [MVC]\Controllers_Example\obj\Debug\net6.0\Controllers_Example.pdb
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 06 - Controllers & IActionResult [MVC]\Controllers_Example\obj\Debug\net6.0\Controllers_Example.genruntimeconfig.cache
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 06 - Controllers & IActionResult [MVC]\Controllers_Example\obj\Debug\net6.0\ref\Controllers_Example.dll
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 06 - Controllers & IActionResult [MVC]\Controllers_Example\bin\Debug\net6.0\Controllers_Example.staticwebassets.runtime.json
