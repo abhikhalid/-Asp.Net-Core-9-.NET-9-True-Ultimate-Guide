@@ -7,9 +7,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DB37C1B-0B17-4CF7-83B5-EC83D20C6134}|..\\IActionResultExample\\IActionResultExample.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 06 - controllers \u0026 iactionresult [mvc]\\iactionresultexample\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DB37C1B-0B17-4CF7-83B5-EC83D20C6134}|..\\IActionResultExample\\IActionResultExample.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 06 - controllers \u0026 iactionresult [mvc]\\iactionresultexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,8 +16,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 263,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\IActionResultExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\IActionResultExample\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\IActionResultExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\IActionResultExample\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:33:54.752Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -43,43 +54,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\IActionResultExample\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "..\\IActionResultExample\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\IActionResultExample\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "..\\IActionResultExample\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAwCcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T12:33:54.752Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "StoreController.cs",
               "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\IActionResultExample\\Controllers\\StoreController.cs",
               "RelativeDocumentMoniker": "..\\IActionResultExample\\Controllers\\StoreController.cs",
               "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\IActionResultExample\\Controllers\\StoreController.cs",
               "RelativeToolTip": "..\\IActionResultExample\\Controllers\\StoreController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T16:18:14.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\IActionResultExample\\Program.cs",
-              "RelativeDocumentMoniker": "..\\IActionResultExample\\Program.cs",
-              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\IActionResultExample\\Program.cs",
-              "RelativeToolTip": "..\\IActionResultExample\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T12:32:45.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T16:18:14.137Z"
             }
           ]
         },
@@ -87,10 +70,6 @@
           "DockedWidth": 149,
           "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
