@@ -5,7 +5,7 @@ namespace IActionResultExample.Controllers
     public class HomeController : Controller
     {
         //https://localhost:7119?bookid=123&isloggedin=true
-        [Route("bookstore")]
+        [Route("bookstore/{bookid?}/{isLoggedIn?}")]
         [Route("/")]
         public IActionResult Index(int? bookid, bool? isLoggedIn)
         {
