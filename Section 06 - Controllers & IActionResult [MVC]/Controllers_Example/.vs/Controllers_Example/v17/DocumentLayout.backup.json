@@ -1,12 +1,15 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\Controllers_Example\\",
+  "WorkspaceRootPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\Controllers_Example\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4DB37C1B-0B17-4CF7-83B5-EC83D20C6134}|..\\IActionResultExample\\IActionResultExample.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 06 - controllers \u0026 iactionresult [mvc]\\iactionresultexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7BE1480-675E-4D7D-8F74-CC35A0BEEEF8}|..\\ModelValidationsExample\\ModelValidationsExample.csproj|d:\\assignment\\practice\\dot net core\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 06 - controllers \u0026 iactionresult [mvc]\\modelvalidationsexample\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DB37C1B-0B17-4CF7-83B5-EC83D20C6134}|..\\IActionResultExample\\IActionResultExample.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 06 - controllers \u0026 iactionresult [mvc]\\iactionresultexample\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7BE1480-675E-4D7D-8F74-CC35A0BEEEF8}|..\\ModelValidationsExample\\ModelValidationsExample.csproj|d:\\assignment\\practice\\dot net core\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 06 - controllers \u0026 iactionresult [mvc]\\modelvalidationsexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7BE1480-675E-4D7D-8F74-CC35A0BEEEF8}|..\\ModelValidationsExample\\ModelValidationsExample.csproj|d:\\assignment\\practice\\dot net core\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 06 - controllers \u0026 iactionresult [mvc]\\modelvalidationsexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -15,69 +18,48 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 263,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Book.cs",
-              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\IActionResultExample\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "..\\IActionResultExample\\Models\\Book.cs",
-              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\IActionResultExample\\Models\\Book.cs",
-              "RelativeToolTip": "..\\IActionResultExample\\Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\ModelValidationsExample\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "..\\ModelValidationsExample\\Models\\Person.cs",
+              "ToolTip": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\ModelValidationsExample\\Models\\Person.cs",
+              "RelativeToolTip": "..\\ModelValidationsExample\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T15:20:07.525Z",
+              "WhenOpened": "2025-01-06T13:39:39.755Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\ModelValidationsExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\ModelValidationsExample\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\ModelValidationsExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\ModelValidationsExample\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T13:43:17.831Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\IActionResultExample\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "..\\IActionResultExample\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\IActionResultExample\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "..\\IActionResultExample\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\ModelValidationsExample\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ModelValidationsExample\\Program.cs",
+              "ToolTip": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\ModelValidationsExample\\Program.cs",
+              "RelativeToolTip": "..\\ModelValidationsExample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T15:22:12.762Z",
+              "WhenOpened": "2025-01-06T13:36:20.799Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 149,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

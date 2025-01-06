@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers_Example", "Cont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IActionResultExample", "..\IActionResultExample\IActionResultExample.csproj", "{4DB37C1B-0B17-4CF7-83B5-EC83D20C6134}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelValidationsExample", "..\ModelValidationsExample\ModelValidationsExample.csproj", "{A7BE1480-675E-4D7D-8F74-CC35A0BEEEF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4DB37C1B-0B17-4CF7-83B5-EC83D20C6134}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DB37C1B-0B17-4CF7-83B5-EC83D20C6134}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DB37C1B-0B17-4CF7-83B5-EC83D20C6134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7BE1480-675E-4D7D-8F74-CC35A0BEEEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7BE1480-675E-4D7D-8F74-CC35A0BEEEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7BE1480-675E-4D7D-8F74-CC35A0BEEEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7BE1480-675E-4D7D-8F74-CC35A0BEEEF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

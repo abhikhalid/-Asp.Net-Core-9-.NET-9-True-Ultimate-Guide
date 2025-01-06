@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "sample.pdf",
+      "AssetFile": "sample.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7191797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mcRppcUerdKJD1qY9vMMVduQ6VtRsn7g7vxcgQHlNsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 12:58:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mcRppcUerdKJD1qY9vMMVduQ6VtRsn7g7vxcgQHlNsg="
+        }
+      ]
+    },
+    {
+      "Route": "sample.rnxovvulx8.pdf",
+      "AssetFile": "sample.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7191797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mcRppcUerdKJD1qY9vMMVduQ6VtRsn7g7vxcgQHlNsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 12:58:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rnxovvulx8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mcRppcUerdKJD1qY9vMMVduQ6VtRsn7g7vxcgQHlNsg="
+        },
+        {
+          "Name": "label",
+          "Value": "sample.pdf"
+        }
+      ]
+    }
+  ]
+}
