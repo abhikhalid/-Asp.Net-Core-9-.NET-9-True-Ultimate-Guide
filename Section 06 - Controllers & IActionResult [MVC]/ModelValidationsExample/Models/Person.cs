@@ -37,6 +37,12 @@ namespace ModelValidationsExample.Models
         [MinimumYearValidator(2005)] //in case if the user doesn't supply the error mesasge, then system should genarate a default error message.
         public DateTime? DateOfBirth{ get; set; }
 
+        public DateTime? FromDate { get; set; }
+
+        [DateRangeValidator("FromDate", ErrorMessage = "From Date should be older than or equal to 'To date'")]
+        public DateTime? ToDate { get; set; }
+
+
         public override string ToString()
         {
             return $"Person object - Person name: {PersonName}, Email: {Email}, Phone: {Phone}, Password: {Password}, Confirm Password: {ConfirmPassword}, Price: {Price}";
