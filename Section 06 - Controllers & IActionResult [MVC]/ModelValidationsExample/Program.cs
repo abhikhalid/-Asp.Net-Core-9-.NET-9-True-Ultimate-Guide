@@ -1,6 +1,11 @@
+using ModelValidationsExample.CustomModelBinders;
+
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddControllers();
-builder.Services.AddControllers().AddXmlSerializerFormatters();
+
+builder.Services.AddControllers(options =>
+{
+    options.ModelBinderProviders.Insert(0, new PersonBinderProvider());
+});
 
 var app = builder.Build();
 
