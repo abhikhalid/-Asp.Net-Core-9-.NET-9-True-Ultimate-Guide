@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using ModelValidationsExample.CustomValidators;
 using System.ComponentModel.DataAnnotations;
 
@@ -35,6 +36,7 @@ namespace ModelValidationsExample.Models
 
         //[MinimumYearValidator(2005,ErrorMessage="Date of Birth should not be newer than Jan 01, {0}")]
         [MinimumYearValidator(2005)] //in case if the user doesn't supply the error mesasge, then system should genarate a default error message.
+        [BindNever] //this attribute is used to exclude the property from model binding.
         public DateTime? DateOfBirth { get; set; }
 
         public int? Age { get; set; }
