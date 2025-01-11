@@ -4,7 +4,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers(options =>
 {
-    options.ModelBinderProviders.Insert(0, new PersonBinderProvider());
+    // We have commented here, because we are going to use default model binder provider.
+    //options.ModelBinderProviders.Insert(0, new PersonBinderProvider());
 });
 
 var app = builder.Build();

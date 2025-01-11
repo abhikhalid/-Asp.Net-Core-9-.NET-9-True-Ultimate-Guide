@@ -41,6 +41,8 @@ namespace ModelValidationsExample.Models
 
         public int? Age { get; set; }
 
+        public List<string?> Tags { get; set; } = new List<string?>();
+
         public DateTime? FromDate { get; set; }
 
         [DateRangeValidator("FromDate", ErrorMessage = "From Date should be older than or equal to 'To date'")]
