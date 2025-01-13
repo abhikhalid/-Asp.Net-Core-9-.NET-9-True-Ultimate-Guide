@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\Controllers_Example\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7BE1480-675E-4D7D-8F74-CC35A0BEEEF8}|..\\ModelValidationsExample\\ModelValidationsExample.csproj|d:\\assignment\\practice\\dot net core\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 06 - controllers \u0026 iactionresult [mvc]\\modelvalidationsexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\ModelValidationsExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\ModelValidationsExample\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 06 - Controllers \u0026 IActionResult [MVC]\\ModelValidationsExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\ModelValidationsExample\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:06:01.862Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

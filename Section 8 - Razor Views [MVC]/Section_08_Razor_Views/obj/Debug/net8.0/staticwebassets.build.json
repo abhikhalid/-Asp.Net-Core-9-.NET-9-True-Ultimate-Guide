@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "G8pEWDs9NW7zaboR28h75zRDm+P4jbS3KraxPXSvx9I=",
+  "Source": "Section_08_Razor_Views",
+  "BasePath": "_content/Section_08_Razor_Views",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Section_08_Razor_Views\\wwwroot",
+      "Source": "Section_08_Razor_Views",
+      "ContentRoot": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 8 - Razor Views [MVC]\\Section_08_Razor_Views\\wwwroot\\",
+      "BasePath": "_content/Section_08_Razor_Views",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

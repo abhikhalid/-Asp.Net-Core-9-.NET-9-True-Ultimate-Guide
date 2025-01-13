@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Section_08_Razor_Views.props" />
+</Project>
