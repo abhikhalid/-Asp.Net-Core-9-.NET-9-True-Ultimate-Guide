@@ -5,6 +5,7 @@ namespace Section_08_Razor_Views.Controllers
     public class HomeController : Controller
     {
         [Route("home")]
+        [Route("/")]
         public IActionResult Index()
         {
             // if you don't specify the view name, it will look for a view with the same name as the action method. (Index.cshtml)

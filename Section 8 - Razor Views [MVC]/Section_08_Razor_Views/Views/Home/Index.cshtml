@@ -1,10 +1,28 @@
-﻿<!DOCTYPE html>
+﻿@using Section_08_Razor_Views.Models
+
+@{
+    string appTitle = "Asp.Net Core App";
+
+    Person person = new Person()
+    {
+        Name = "Khalid",
+        DateOfBirth = Convert.ToDateTime("1999-01-01")
+    };
+}
+
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Asp.Net Core App</title>
+        <title>@appTitle</title>
         <meta charset="utf-8"/>
     </head>
     <body>
-        Welcome
+       <h1>Welcome</h1> 
+       <h2>@person.Name</h2>
+       @{
+          double age = Math.Round((DateTime.Now - person.DateOfBirth).TotalDays / 365.25);
+       }
+
+       <h3>@age years old</h3>
     </body>
 </html>
