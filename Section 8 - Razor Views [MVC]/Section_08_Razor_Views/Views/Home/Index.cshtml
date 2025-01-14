@@ -17,8 +17,9 @@
 </head>
 <body>
     <h1>Welcome</h1>
-    
-    @foreach(var person in people){
+
+    @for(int i=0; i<2; i++){
+        Person person = people[i];
         <div>
             @person.Name
             <span>, </span>
