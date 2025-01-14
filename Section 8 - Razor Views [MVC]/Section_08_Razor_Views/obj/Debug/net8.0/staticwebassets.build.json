@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G8pEWDs9NW7zaboR28h75zRDm+P4jbS3KraxPXSvx9I=",
+  "Hash": "Qd/DpUCHuJci9Mp5eiBWkNNtvkW4xiE4SkX+HFqd8C4=",
   "Source": "Section_08_Razor_Views",
   "BasePath": "_content/Section_08_Razor_Views",
   "Mode": "Default",
@@ -15,6 +15,111 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": [
+    {
+      "Identity": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 8 - Razor Views [MVC]\\Section_08_Razor_Views\\wwwroot\\StyleSheet.css",
+      "SourceId": "Section_08_Razor_Views",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 8 - Razor Views [MVC]\\Section_08_Razor_Views\\wwwroot\\",
+      "BasePath": "_content/Section_08_Razor_Views",
+      "RelativePath": "StyleSheet#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5uu26jy5yf",
+      "Integrity": "nVrbeyM/cs8p/LWaudItWJzJ1xm2uQqOO78QwjFCO1A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "StyleSheet.5uu26jy5yf.css",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 8 - Razor Views [MVC]\\Section_08_Razor_Views\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2851"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nVrbeyM/cs8p/LWaudItWJzJ1xm2uQqOO78QwjFCO1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 15:17:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5uu26jy5yf"
+        },
+        {
+          "Name": "label",
+          "Value": "StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nVrbeyM/cs8p/LWaudItWJzJ1xm2uQqOO78QwjFCO1A="
+        }
+      ]
+    },
+    {
+      "Route": "StyleSheet.css",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 8 - Razor Views [MVC]\\Section_08_Razor_Views\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2851"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nVrbeyM/cs8p/LWaudItWJzJ1xm2uQqOO78QwjFCO1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 15:17:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nVrbeyM/cs8p/LWaudItWJzJ1xm2uQqOO78QwjFCO1A="
+        }
+      ]
+    }
+  ]
 }

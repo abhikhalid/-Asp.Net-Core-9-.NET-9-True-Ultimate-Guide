@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 8 - Razor Views [MVC]\\Section_08_Razor_Views\\wwwroot\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\StyleSheet.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Section_08_Razor_Views.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Section_08_Razor_Views.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Section_08_Razor_Views.props",
+      "PackagePath": "build\\Section_08_Razor_Views.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Section_08_Razor_Views.props",
+      "PackagePath": "buildMultiTargeting\\Section_08_Razor_Views.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Section_08_Razor_Views.props",
+      "PackagePath": "buildTransitive\\Section_08_Razor_Views.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

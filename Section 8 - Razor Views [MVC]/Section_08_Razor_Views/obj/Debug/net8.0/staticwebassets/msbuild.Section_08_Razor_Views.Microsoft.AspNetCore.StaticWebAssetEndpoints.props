@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Section_08_Razor_Views/StyleSheet.5uu26jy5yf.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StyleSheet.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5uu26jy5yf"},{"Name":"integrity","Value":"sha256-nVrbeyM/cs8p/LWaudItWJzJ1xm2uQqOO78QwjFCO1A="},{"Name":"label","Value":"_content/Section_08_Razor_Views/StyleSheet.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2851"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nVrbeyM/cs8p/LWaudItWJzJ1xm2uQqOO78QwjFCO1A=\u0022"},{"Name":"Last-Modified","Value":"Tue, 14 Jan 2025 15:17:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Section_08_Razor_Views/StyleSheet.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StyleSheet.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nVrbeyM/cs8p/LWaudItWJzJ1xm2uQqOO78QwjFCO1A="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2851"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nVrbeyM/cs8p/LWaudItWJzJ1xm2uQqOO78QwjFCO1A=\u0022"},{"Name":"Last-Modified","Value":"Tue, 14 Jan 2025 15:17:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
