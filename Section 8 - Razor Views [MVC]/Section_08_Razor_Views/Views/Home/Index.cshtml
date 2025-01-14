@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@ViewData["appTitle"]</title>
+    <title>@ViewBag.appTitle</title>
     <meta charset="utf-8"/>
     <link href="~/StyleSheet.css" rel="stylesheet"/>
 </head>
@@ -13,10 +13,10 @@
         <h1>Welcome</h1>
 
         @{
-            List<Person>? people = (List<Person>?)ViewData["people"];
+            // List<Person>? people = (List<Person>?)ViewData["people"];
         }
 
-        @foreach (Person person in people)
+        @foreach (Person person in ViewBag.people)
         {
             <div class="box float-left w-50">
                 <h3>@person.Name</h3>

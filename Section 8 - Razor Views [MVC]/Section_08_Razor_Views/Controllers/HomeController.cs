@@ -17,7 +17,8 @@ namespace Section_08_Razor_Views.Controllers
                     new Person(){Name="Jack", DateOfBirth = DateTime.Parse("2000-05-06"), PersonGender = Gender.Male}
                 };
 
-            ViewData["people"] = people;
+            //ViewData["people"] = people;
+            ViewBag.people = people;
 
             return View(); 
         }
