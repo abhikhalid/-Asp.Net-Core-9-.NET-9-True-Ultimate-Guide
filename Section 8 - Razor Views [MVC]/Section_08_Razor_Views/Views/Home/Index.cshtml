@@ -9,6 +9,36 @@
     };
 }
 
+@* @{ *@
+@*     //local function *@
+@*     double? GetAge(DateTime? dateOfBirth){ *@
+@*         if(dateOfBirth is not null){ *@
+@*             return (DateTime.Now - dateOfBirth.Value).TotalDays / 365; *@
+@*         } *@
+
+@*         return null; *@
+@*     } *@
+@* } *@
+
+@{
+    //code block
+
+    //method
+    double? GetAge(DateTime? dateOfBirth)
+    {
+        if (dateOfBirth is not null)
+        {
+            return (DateTime.Now - dateOfBirth.Value).TotalDays / 365;
+        }
+
+        return null;
+    }
+
+    int x = 10; //internally converted to private field in the class because razor view is a class
+
+    string alertMessage = $"<script>alert('{people.Count} people found')</script>";
+}
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,14 +46,13 @@
     <meta charset="utf-8"/>
 </head>
 <body>
-    <h1>Welcome</h1>
+    @Html.Raw(alertMessage)
+    <h1>Welcome
+    </h1>
 
     @for(int i=0; i<2; i++){
         Person person = people[i];
         <span>Hello to</span>
-        @* <text>Hello to</text> *@
-        @* or *@
-        @* @:Hello to *@
         <div>
             @person.Name
             <span>, </span>
@@ -31,6 +60,7 @@
             
             @if(person.DateOfBirth !=null){
                 <span>@person.DateOfBirth.Value.ToString("MM/dd/yyyy")</span>
+                <span>@GetAge(person.DateOfBirth) years old</span>
             }
         </div>
     }
