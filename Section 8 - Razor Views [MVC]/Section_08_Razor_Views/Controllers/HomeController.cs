@@ -18,9 +18,9 @@ namespace Section_08_Razor_Views.Controllers
                 };
 
             //ViewData["people"] = people;
-            ViewBag.people = people;
+            //ViewBag.people = people;
 
-            return View(); 
+            return View("Index", people);
         }
     }
 }

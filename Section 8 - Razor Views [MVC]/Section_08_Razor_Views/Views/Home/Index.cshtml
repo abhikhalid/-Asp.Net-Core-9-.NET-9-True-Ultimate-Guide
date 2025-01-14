@@ -1,5 +1,5 @@
 ﻿@using Section_08_Razor_Views.Models
-
+@model IEnumerable<Person>
 
 <!DOCTYPE html>
 <html>
@@ -12,11 +12,7 @@
     <div class="page-content">
         <h1>Welcome</h1>
 
-        @{
-            // List<Person>? people = (List<Person>?)ViewData["people"];
-        }
-
-        @foreach (Person person in ViewBag.people)
+        @foreach (Person person in Model)
         {
             <div class="box float-left w-50">
                 <h3>@person.Name</h3>
