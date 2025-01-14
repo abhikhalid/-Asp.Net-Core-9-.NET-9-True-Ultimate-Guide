@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Section_08_Razor_Views.Models;
 
 namespace Section_08_Razor_Views.Controllers
 {
@@ -8,11 +9,17 @@ namespace Section_08_Razor_Views.Controllers
         [Route("/")]
         public IActionResult Index()
         {
-            // if you don't specify the view name, it will look for a view with the same name as the action method. (Index.cshtml)
-            // default location is Views/Home/Index.cshtml
+            ViewData["appTitle"] = "Asp.Next Core Demo App";
+
+            List<Person> people = new List<Person>(){
+                  new Person(){Name="John", DateOfBirth = DateTime.Parse("2000-05-06"), PersonGender = Gender.Male},
+                    new Person(){Name="Jane", DateOfBirth = DateTime.Parse("2000-05-06"), PersonGender = Gender.Male},
+                    new Person(){Name="Jack", DateOfBirth = DateTime.Parse("2000-05-06"), PersonGender = Gender.Male}
+                };
+
+            ViewData["people"] = people;
+
             return View(); 
-            //return View("abc"); //abc.cshtml
-            //return new ViewResult { ViewName = "abc" }; //abc.cshtml
         }
     }
 }
