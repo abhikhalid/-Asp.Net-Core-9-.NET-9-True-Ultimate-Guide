@@ -1,4 +1,4 @@
-﻿@using Section_08_Razor_Views.Models;
+﻿@* @using Section_08_Razor_Views.Models; *@
 @model Person
 
 <!DOCTYPE html>
@@ -30,5 +30,8 @@
           </div>
           <a href="/home">Back to persons</a>
         </div>
+        @{
+           ArrayList list = new ArrayList(); 
+        }
     </body>
 </html>
