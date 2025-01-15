@@ -68,5 +68,15 @@ namespace Section_08_Razor_Views.Controllers
 
             return View(personAndProductWrapperModel);
         }
+
+
+        [Route("home/all-products")]
+        public IActionResult All()
+        {
+            return View();
+            //Views/Home/All.cshtml
+            //Views/Shared/All.cshtml
+        }
     }
+
 }

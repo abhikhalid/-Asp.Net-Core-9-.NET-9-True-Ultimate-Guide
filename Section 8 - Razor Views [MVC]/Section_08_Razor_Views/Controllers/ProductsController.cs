@@ -8,6 +8,8 @@ namespace Section_08_Razor_Views.Controllers
         public IActionResult All()
         {
             return View();
+            //Views/Products/All.cshtml
+            //Views/Shared/All.cshtml
         }
     }
 }
