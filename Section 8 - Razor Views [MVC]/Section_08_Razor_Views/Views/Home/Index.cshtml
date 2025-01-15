@@ -24,10 +24,11 @@
                         </tr>
                         <tr>
                             <td>Date of Birth</td>
-                            <td>@person.DateOfBirth.Value.ToString("MM/dd/yyyy")</td>
+                            <td>@person.DateOfBirth?.ToString("MM/dd/yyyy")</td>
                         </tr>
                     </tbody>
                 </table>
+                <a href="/person-details/@person.Name">Details</a>
             </div>
         }
     </div>

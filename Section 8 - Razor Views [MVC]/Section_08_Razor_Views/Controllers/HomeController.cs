@@ -22,5 +22,26 @@ namespace Section_08_Razor_Views.Controllers
 
             return View("Index", people);
         }
+
+        [Route("person-details/{name}")]
+        public IActionResult Details(string? name)
+        {
+            if(name == null)
+            {
+                return Content("Person name can't be null");
+            }
+
+            List<Person> people = new List<Person>(){
+                  new Person(){Name="John", DateOfBirth = DateTime.Parse("2000-05-06"), PersonGender = Gender.Male},
+                    new Person(){Name="Jane", DateOfBirth = DateTime.Parse("2000-05-06"), PersonGender = Gender.Male},
+                    new Person(){Name="Jack", DateOfBirth = DateTime.Parse("2000-05-06"), PersonGender = Gender.Male}
+            };
+
+            Person? matchingPerson = people.Where(temp => temp.Name == name).FirstOrDefault();
+
+            //return View("Details", matchingPerson);
+            //or
+            return View(matchingPerson); //Views/Home/Details.cshtml
+        }
     }
 }
