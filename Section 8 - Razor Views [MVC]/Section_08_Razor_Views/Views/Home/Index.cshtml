@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="page-content">
-        <h1>Welcome</h1>
+        <h1>Persons</h1>
 
         @foreach (Person person in Model)
         {
@@ -28,9 +28,14 @@
                         </tr>
                     </tbody>
                 </table>
-                <a href="/person-details/@person.Name">Details</a>
+                <div>
+                    <a href="/person-details/@person.Name">Details</a>
+                </div>
             </div>
         }
+        <div>
+            <a href="/person-with-product">Person with Product</a>
+        </div>
     </div>
  </body>
 </html>

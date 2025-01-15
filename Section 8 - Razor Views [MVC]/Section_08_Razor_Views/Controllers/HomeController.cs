@@ -43,5 +43,30 @@ namespace Section_08_Razor_Views.Controllers
             //or
             return View(matchingPerson); //Views/Home/Details.cshtml
         }
+
+        [Route("person-with-product")]
+        public IActionResult PersonWithProduct()
+        {
+            Person person = new Person()
+            {
+                Name = "John",
+                DateOfBirth = DateTime.Parse("2000-05-06"),
+                PersonGender = Gender.Male
+            };
+
+            Product product = new Product()
+            {
+                ProductId = 101,
+                ProductName = "Laptop"
+            };
+
+            PersonAndProductWrapperModel personAndProductWrapperModel = new PersonAndProductWrapperModel()
+            {
+                PersonData = person,
+                ProductData = product
+            };
+
+            return View(personAndProductWrapperModel);
+        }
     }
 }
