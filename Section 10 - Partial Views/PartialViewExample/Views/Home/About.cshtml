@@ -15,5 +15,15 @@
 @* or *@
 
 @{
-    await Html.RenderPartialAsync("_ListPartialView");
+    ListModel listModel = new ListModel()
+            {
+                ListTitle = "Programming Languages",
+                ListItems = new List<string>()
+        {
+            "Java",
+            "C#",
+            "Python"
+        }
+            };
+    await Html.RenderPartialAsync("_ListPartialView", listModel);
 }
