@@ -4,8 +4,10 @@
 
 
 @{
-    ViewData["ListTitle"] = "Countries";
-    ViewData["ListItems"] = new List<string>()
+    var myViewData = new ViewDataDictionary(ViewData);
+
+    myViewData["ListTitle"] = "Countries";
+    myViewData["ListItems"] = new List<string>()
             {
                "USA",
                "Canada",
@@ -16,7 +18,7 @@
 }
 
 <div class="box">
-    <partial name="_ListPartialView"></partial>
+    <partial name="_ListPartialView" view-data="myViewData"></partial>
 </div>
 
 <h3>ListTitle is View :  @ViewData["ListTitle"]</h3>
