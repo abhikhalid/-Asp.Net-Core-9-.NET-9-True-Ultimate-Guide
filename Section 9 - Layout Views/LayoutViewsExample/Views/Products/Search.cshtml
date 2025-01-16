@@ -1,6 +1,10 @@
 ﻿@{
-    Layout = "~/Views/Shared/_ProductsLayout.cshtml";
     ViewData["Title"] = "Search Products";
+
+    if (ViewBag.Products == null)
+    {
+        Layout = "~/Views/Shared/_ProductsLayout.cshtml";
+    }
 }
 
 <h1>Search</h1>
