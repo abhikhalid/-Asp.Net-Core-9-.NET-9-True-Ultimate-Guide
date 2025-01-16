@@ -2,6 +2,21 @@
 
 <partial name="_ListPartialView"></partial>
 
+
+@{
+    ViewData["ListTitle"] = "Countries";
+    ViewData["ListItems"] = new List<string>()
+            {
+               "USA",
+               "Canada",
+               "UK",
+               "Australia",
+               "Germany",
+            };
+}
+
 <div class="box">
     <partial name="_ListPartialView"></partial>
 </div>
+
+<h3>ListTitle is View :  @ViewData["ListTitle"]</h3>
