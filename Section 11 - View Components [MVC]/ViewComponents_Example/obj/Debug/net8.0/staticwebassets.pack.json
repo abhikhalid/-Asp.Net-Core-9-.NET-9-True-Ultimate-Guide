@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 11 - View Components [MVC]\\ViewComponents_Example\\wwwroot\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\StyleSheet.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ViewComponents_Example.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ViewComponents_Example.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ViewComponents_Example.props",
+      "PackagePath": "build\\ViewComponents_Example.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ViewComponents_Example.props",
+      "PackagePath": "buildMultiTargeting\\ViewComponents_Example.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ViewComponents_Example.props",
+      "PackagePath": "buildTransitive\\ViewComponents_Example.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

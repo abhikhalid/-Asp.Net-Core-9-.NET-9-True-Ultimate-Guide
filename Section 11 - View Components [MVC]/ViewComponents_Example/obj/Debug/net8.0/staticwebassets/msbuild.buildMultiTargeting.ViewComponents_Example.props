@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ViewComponents_Example.props" />
+</Project>
