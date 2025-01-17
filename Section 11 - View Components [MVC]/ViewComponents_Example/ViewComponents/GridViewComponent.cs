@@ -6,22 +6,13 @@ namespace ViewComponents_Example.ViewComponents
     [ViewComponent] //this attribute is optional as long as the class name ends with "ViewComponent"
     public class GridViewComponent : ViewComponent
     {
-        public async Task<IViewComponentResult> InvokeAsync()
+        //public async Task<IViewComponentResult> InvokeAsync(int x, int y)
+        public async Task<IViewComponentResult> InvokeAsync(PersonGridModel personGridModel)
         {
             //here we can write the logic to get data from database or any other source or calculation logic
 
 
-            PersonGridModel personGridModel = new PersonGridModel()
-            {
-                GridTitle = "Person List",
-                Persons = new List<Person>()
-                {
-                    new Person() { PersonName = "John Doe", JobTitle = "Software Developer" },
-                    new Person() { PersonName = "Jane Doe", JobTitle = "Software Developer" },
-                    new Person() { PersonName = "John Smith", JobTitle = "Software Developer" },
-                    new Person() { PersonName = "Jane Smith", JobTitle = "Software Developer" }
-                }
-            };
+            
 
             //invoked a partial view
 
