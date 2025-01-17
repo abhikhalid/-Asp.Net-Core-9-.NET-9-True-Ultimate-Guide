@@ -1,5 +1,7 @@
-﻿<div class="box">
-    <h3>@ViewBag.Grid.GridTitle</h3>
+﻿@model PersonGridModel
+
+<div class="box">
+    <h3>@Model.GridTitle</h3>
     <table class="table w-100">
         <thead>
             <tr>
@@ -9,7 +11,8 @@
         </thead>
 
         <tbody>
-            @foreach(Person person in ViewBag.Grid.Persons){
+            @foreach (Person person in @Model.Persons)
+            {
                 <tr>
                     <td>@person.PersonName</td>
                     <td>@person.JobTitle</td>

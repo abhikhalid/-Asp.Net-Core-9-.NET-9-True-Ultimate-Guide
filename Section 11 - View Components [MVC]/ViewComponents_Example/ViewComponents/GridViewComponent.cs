@@ -11,7 +11,7 @@ namespace ViewComponents_Example.ViewComponents
             //here we can write the logic to get data from database or any other source or calculation logic
 
 
-            PersonGridModel model = new PersonGridModel()
+            PersonGridModel personGridModel = new PersonGridModel()
             {
                 GridTitle = "Person List",
                 Persons = new List<Person>()
@@ -25,9 +25,12 @@ namespace ViewComponents_Example.ViewComponents
 
             //invoked a partial view
 
-            ViewBag.Grid = model; //passing the model to the partial view
+            //ViewBag.Grid = personGridModel; //passing the model to the partial view
             //the default location of partial view is Views/Shared/Components/Grid/Default.cshtml
-            return View(); 
+
+
+            //instead of sending 'personGridModel' object as ViewData, we can directly pass it to the View() method as shown below
+            return View(personGridModel); 
             //return View("Sample"); //do this if you change the partial view name instead of 'Default.cshtml' 
         }
     }
