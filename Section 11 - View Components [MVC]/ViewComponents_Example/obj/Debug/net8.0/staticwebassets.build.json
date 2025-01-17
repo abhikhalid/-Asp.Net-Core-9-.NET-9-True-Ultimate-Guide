@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BlKsj8HfJDjMvtm/jBy4FaBMfdEgyOG/XkaDEGBagRY=",
+  "Hash": "NEdD3dCPXCqD8U2wVr1mR546IUNm1gpOs1SQzsDJQsY=",
   "Source": "ViewComponents_Example",
   "BasePath": "_content/ViewComponents_Example",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 11 - View Components [MVC]\\ViewComponents_Example\\wwwroot\\friends.js",
+      "SourceId": "ViewComponents_Example",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 11 - View Components [MVC]\\ViewComponents_Example\\wwwroot\\",
+      "BasePath": "_content/ViewComponents_Example",
+      "RelativePath": "friends#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gr2jyadtsd",
+      "Integrity": "vG6wxRmU3ms3kAYnPe9v12c3uzsZh7Cacy3N30nP0xQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\friends.js"
+    },
     {
       "Identity": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 11 - View Components [MVC]\\ViewComponents_Example\\wwwroot\\StyleSheet.css",
       "SourceId": "ViewComponents_Example",
@@ -39,6 +60,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "friends.gr2jyadtsd.js",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 11 - View Components [MVC]\\ViewComponents_Example\\wwwroot\\friends.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vG6wxRmU3ms3kAYnPe9v12c3uzsZh7Cacy3N30nP0xQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 12:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gr2jyadtsd"
+        },
+        {
+          "Name": "label",
+          "Value": "friends.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vG6wxRmU3ms3kAYnPe9v12c3uzsZh7Cacy3N30nP0xQ="
+        }
+      ]
+    },
+    {
+      "Route": "friends.js",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 11 - View Components [MVC]\\ViewComponents_Example\\wwwroot\\friends.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vG6wxRmU3ms3kAYnPe9v12c3uzsZh7Cacy3N30nP0xQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 12:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vG6wxRmU3ms3kAYnPe9v12c3uzsZh7Cacy3N30nP0xQ="
+        }
+      ]
+    },
     {
       "Route": "StyleSheet.css",
       "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 11 - View Components [MVC]\\ViewComponents_Example\\wwwroot\\StyleSheet.css",

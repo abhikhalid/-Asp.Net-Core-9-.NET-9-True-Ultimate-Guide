@@ -83,6 +83,88 @@
           "Value": "StyleSheet.css"
         }
       ]
+    },
+    {
+      "Route": "friends.gr2jyadtsd.js",
+      "AssetFile": "friends.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vG6wxRmU3ms3kAYnPe9v12c3uzsZh7Cacy3N30nP0xQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 12:42:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gr2jyadtsd"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vG6wxRmU3ms3kAYnPe9v12c3uzsZh7Cacy3N30nP0xQ="
+        },
+        {
+          "Name": "label",
+          "Value": "friends.js"
+        }
+      ]
+    },
+    {
+      "Route": "friends.js",
+      "AssetFile": "friends.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vG6wxRmU3ms3kAYnPe9v12c3uzsZh7Cacy3N30nP0xQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 12:42:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vG6wxRmU3ms3kAYnPe9v12c3uzsZh7Cacy3N30nP0xQ="
+        }
+      ]
     }
   ]
 }

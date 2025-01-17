@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\StyleSheet.css"
     },
     {
+      "Id": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 11 - View Components [MVC]\\ViewComponents_Example\\wwwroot\\friends.js",
+      "PackagePath": "staticwebassets\\friends.js"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ViewComponents_Example.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

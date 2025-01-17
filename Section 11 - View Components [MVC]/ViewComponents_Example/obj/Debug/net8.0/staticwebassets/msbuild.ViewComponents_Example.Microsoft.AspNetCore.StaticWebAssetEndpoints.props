@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ViewComponents_Example/friends.gr2jyadtsd.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\friends.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gr2jyadtsd"},{"Name":"integrity","Value":"sha256-vG6wxRmU3ms3kAYnPe9v12c3uzsZh7Cacy3N30nP0xQ="},{"Name":"label","Value":"_content/ViewComponents_Example/friends.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"306"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vG6wxRmU3ms3kAYnPe9v12c3uzsZh7Cacy3N30nP0xQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 12:42:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ViewComponents_Example/friends.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\friends.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vG6wxRmU3ms3kAYnPe9v12c3uzsZh7Cacy3N30nP0xQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"306"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vG6wxRmU3ms3kAYnPe9v12c3uzsZh7Cacy3N30nP0xQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 12:42:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ViewComponents_Example/StyleSheet.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\StyleSheet.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
