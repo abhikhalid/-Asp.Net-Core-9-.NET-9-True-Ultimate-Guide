@@ -6,17 +6,19 @@ namespace DIExample.Controllers
 {
     public class HomeController : Controller
     {
-        public readonly ICitiesService _citiesService;
+        //public readonly ICitiesService _citiesService;
 
-        public HomeController(ICitiesService citiesService)
-        {
+        //constructor injection
+        //public HomeController(ICitiesService citiesService)
+        //{
 
-            _citiesService = citiesService;
-        }
+        //    _citiesService = citiesService;
+        //}
 
 
         [Route("/")]
-        public IActionResult Index()
+        //method injection
+        public IActionResult Index([FromServices]ICitiesService _citiesService)
         {
             //we are in the controller, without worrying about where actual citiesService are coming, we can simply demand the service.
             //now, it is responsibility of the service to provide the data.
