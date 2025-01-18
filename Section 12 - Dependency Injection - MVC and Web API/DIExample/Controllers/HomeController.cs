@@ -6,24 +6,29 @@ namespace DIExample.Controllers
 {
     public class HomeController : Controller
     {
-        //public readonly ICitiesService _citiesService;
+        public readonly ICitiesService _citiesService1;
+        public readonly ICitiesService _citiesService2;
+        public readonly ICitiesService _citiesService3;
 
         //constructor injection
-        //public HomeController(ICitiesService citiesService)
-        //{
+        public HomeController(ICitiesService citiesService1, ICitiesService citiesService2, ICitiesService citiesService3)
+        {
 
-        //    _citiesService = citiesService;
-        //}
+            _citiesService1 = citiesService1;
+            _citiesService2 = citiesService2;
+            _citiesService3 = citiesService3;
+        }
 
 
         [Route("/")]
-        //method injection
-        public IActionResult Index([FromServices]ICitiesService _citiesService)
+        public IActionResult Index()
         {
-            //we are in the controller, without worrying about where actual citiesService are coming, we can simply demand the service.
-            //now, it is responsibility of the service to provide the data.
-            List<string> cities = _citiesService.GetCities();
-            //now we can supply the cities to the view so that the view can be strongly typed view.
+            List<string> cities = _citiesService1.GetCities();
+
+            ViewBag.InstanceId_CitiesService1 = _citiesService1.ServiceInstanceId;
+            ViewBag.InstanceId_CitiesService2 = _citiesService2.ServiceInstanceId;
+            ViewBag.InstanceId_CitiesService3 = _citiesService3.ServiceInstanceId;
+
             return View(cities);
         }
     }

@@ -7,7 +7,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.Add(new ServiceDescriptor(
     typeof(ICitiesService), // whenever some class for ICitiesService object
     typeof(CitiesService), // Create and supply the object of CitiesService
-    ServiceLifetime.Transient //we will learn about it in the next chapter.
+    ServiceLifetime.Singleton //we will learn about it in the next chapter.
 ));
 
 
