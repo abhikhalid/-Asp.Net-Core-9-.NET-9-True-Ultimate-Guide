@@ -2,7 +2,7 @@
 
 namespace Services
 {
-    public class CitiesService : ICitiesService
+    public class CitiesService : ICitiesService, IDisposable
     {
         private List<string> _cities;
 
@@ -28,11 +28,18 @@ namespace Services
                 "Berlin",
                 "Tokyo"
             };
+
+            //TO DO: Add logic to open the db connection
         }
 
         public List<string> GetCities()
         {
             return _cities;
+        }
+
+        public void Dispose()
+        {
+            // TO DO: add logic top clode db connection
         }
     }
 }
