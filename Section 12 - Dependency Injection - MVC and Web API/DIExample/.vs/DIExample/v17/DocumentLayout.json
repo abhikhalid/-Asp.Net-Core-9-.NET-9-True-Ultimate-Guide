@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 12 - Dependency Injection - MVC and Web API\\DIExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B88B11FD-C4B5-4D62-ABDD-1D1F23133055}|..\\ServiceContracts\\ServiceContracts.csproj|d:\\assignment\\practice\\dot net core\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 12 - dependency injection - mvc and web api\\servicecontracts\\icitiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ICitiesService.cs",
+              "DocumentMoniker": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 12 - Dependency Injection - MVC and Web API\\ServiceContracts\\ICitiesService.cs",
+              "RelativeDocumentMoniker": "..\\ServiceContracts\\ICitiesService.cs",
+              "ToolTip": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 12 - Dependency Injection - MVC and Web API\\ServiceContracts\\ICitiesService.cs",
+              "RelativeToolTip": "..\\ServiceContracts\\ICitiesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T06:32:51.519Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
