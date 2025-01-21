@@ -28,3 +28,6 @@ D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\S
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 14 - Configuration [MVC and Web API]\ConfigurationExample\obj\Debug\net8.0\ConfigurationExample.pdb
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 14 - Configuration [MVC and Web API]\ConfigurationExample\obj\Debug\net8.0\ConfigurationExample.genruntimeconfig.cache
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 14 - Configuration [MVC and Web API]\ConfigurationExample\obj\Debug\net8.0\ref\ConfigurationExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 14 - Configuration [MVC and Web API]\ConfigurationExample\bin\Debug\net8.0\ConfigurationExample.staticwebassets.runtime.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 14 - Configuration [MVC and Web API]\ConfigurationExample\obj\Debug\net8.0\ConfigurationExample.RazorAssemblyInfo.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 14 - Configuration [MVC and Web API]\ConfigurationExample\obj\Debug\net8.0\ConfigurationExample.RazorAssemblyInfo.cs
