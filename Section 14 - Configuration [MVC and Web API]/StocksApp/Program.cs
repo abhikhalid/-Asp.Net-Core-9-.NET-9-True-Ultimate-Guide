@@ -1,10 +1,13 @@
+using StocksApp.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 
 //Hey 'builder.Services', I would like to add 'HTTP Client Service'
 builder.Services.AddHttpClient();
-
+//add our custom service
+builder.Services.AddScoped<MyService>();
 
 var app = builder.Build();
 

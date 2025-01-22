@@ -16,11 +16,17 @@
             {
                 HttpRequestMessage httpRequestMessage = new HttpRequestMessage()
                 {
-                    RequestUri = new Uri("url"),
+                    RequestUri = new Uri("https://finnhub.io/api/v1/stock/candle?symbol=AAPL&resolution=1&from=1693493346&to=1693752546&token=ckc5md9r01qirs4v92ngckc5md9r01qirs4v92o0"),
                     Method = HttpMethod.Get,
                 };
  
                 HttpResponseMessage httpResponseMessage =  await httpClient.SendAsync(httpRequestMessage);
+
+                Stream stream = httpResponseMessage.Content.ReadAsStream();
+
+                StreamReader streamReader = new StreamReader(stream);
+
+                string response = streamReader.ReadToEnd();
             }
         }
     }
