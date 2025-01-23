@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "StyleSheet.css",
+      "AssetFile": "StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iDdvFBO4c05TYgSBuiYQLdgS6xzlYw3EuJFvzcKkqBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jan 2025 08:28:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iDdvFBO4c05TYgSBuiYQLdgS6xzlYw3EuJFvzcKkqBg="
+        }
+      ]
+    },
+    {
+      "Route": "StyleSheet.okagqheipi.css",
+      "AssetFile": "StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iDdvFBO4c05TYgSBuiYQLdgS6xzlYw3EuJFvzcKkqBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jan 2025 08:28:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "okagqheipi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iDdvFBO4c05TYgSBuiYQLdgS6xzlYw3EuJFvzcKkqBg="
+        },
+        {
+          "Name": "label",
+          "Value": "StyleSheet.css"
+        }
+      ]
+    }
+  ]
+}

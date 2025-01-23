@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "U7x8Ymx0FHC5vEtXgtBXJcaci3qD/VuL+u5pOpO41iI=",
+  "Source": "StocksApp",
+  "BasePath": "_content/StocksApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StocksApp\\wwwroot",
+      "Source": "StocksApp",
+      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\",
+      "BasePath": "_content/StocksApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\StyleSheet.css",
+      "SourceId": "StocksApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\",
+      "BasePath": "_content/StocksApp",
+      "RelativePath": "StyleSheet#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "okagqheipi",
+      "Integrity": "iDdvFBO4c05TYgSBuiYQLdgS6xzlYw3EuJFvzcKkqBg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "StyleSheet.css",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iDdvFBO4c05TYgSBuiYQLdgS6xzlYw3EuJFvzcKkqBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jan 2025 08:28:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iDdvFBO4c05TYgSBuiYQLdgS6xzlYw3EuJFvzcKkqBg="
+        }
+      ]
+    },
+    {
+      "Route": "StyleSheet.okagqheipi.css",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iDdvFBO4c05TYgSBuiYQLdgS6xzlYw3EuJFvzcKkqBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jan 2025 08:28:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "okagqheipi"
+        },
+        {
+          "Name": "label",
+          "Value": "StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iDdvFBO4c05TYgSBuiYQLdgS6xzlYw3EuJFvzcKkqBg="
+        }
+      ]
+    }
+  ]
+}
