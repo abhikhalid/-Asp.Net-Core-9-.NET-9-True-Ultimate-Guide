@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U7x8Ymx0FHC5vEtXgtBXJcaci3qD/VuL+u5pOpO41iI=",
+  "Hash": "IcgRyVmE27UvlyCoqkknqCw8F5LMRiX0J0p7bj1l4no=",
   "Source": "StocksApp",
   "BasePath": "_content/StocksApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "StocksApp\\wwwroot",
       "Source": "StocksApp",
-      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\",
+      "ContentRoot": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\",
       "BasePath": "_content/StocksApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\StyleSheet.css",
+      "Identity": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\StyleSheet.css",
       "SourceId": "StocksApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\",
+      "ContentRoot": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\",
       "BasePath": "_content/StocksApp",
       "RelativePath": "StyleSheet#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -41,7 +41,7 @@
   "Endpoints": [
     {
       "Route": "StyleSheet.css",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\StyleSheet.css",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\StyleSheet.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -62,7 +62,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 08:28:20 GMT"
+          "Value": "Thu, 23 Jan 2025 12:16:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -78,7 +78,7 @@
     },
     {
       "Route": "StyleSheet.okagqheipi.css",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\StyleSheet.css",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\wwwroot\\StyleSheet.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -99,7 +99,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 08:28:20 GMT"
+          "Value": "Thu, 23 Jan 2025 12:16:14 GMT"
         },
         {
           "Name": "Cache-Control",

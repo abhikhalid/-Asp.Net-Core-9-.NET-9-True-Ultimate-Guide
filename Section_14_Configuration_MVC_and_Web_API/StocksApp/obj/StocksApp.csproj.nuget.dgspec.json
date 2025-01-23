@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\StocksApp.csproj": {}
+    "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\StocksApp.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\StocksApp.csproj": {
+    "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\StocksApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\StocksApp.csproj",
+        "projectUniqueName": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\StocksApp.csproj",
         "projectName": "StocksApp",
-        "projectPath": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\StocksApp.csproj",
-        "packagesPath": "C:\\Users\\abhik\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\obj\\",
+        "projectPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\StocksApp.csproj",
+        "packagesPath": "C:\\Users\\kmahmud‎\\.nuget\\packages\\",
+        "outputPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_14_Configuration_MVC_and_Web_API\\StocksApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\abhik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kmahmud‎\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/CSafeCloud/CCVP/_packaging/CCVP-NuGetFeed/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -68,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
