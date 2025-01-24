@@ -12,6 +12,7 @@ namespace CRUDTests
         //we want to test this 'Add' method, whether it works correctly.
         public int Add(int a, int b)
         {
+            //return 0;
             return a + b;
         }
     }
