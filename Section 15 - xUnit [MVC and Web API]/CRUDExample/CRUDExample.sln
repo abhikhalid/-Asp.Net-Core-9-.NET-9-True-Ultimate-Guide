@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDExample", "CRUDExample.csproj", "{7D6B0214-8511-42D9-AD22-28E50614AE2D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDTests", "..\CRUDTests\CRUDTests.csproj", "{DA8639B1-0A11-4986-BDDE-25E357392B4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "..\Entities\Entities.csproj", "{958107A0-BE47-438E-927B-467C74FA24F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceContracts", "..\ServiceContracts\ServiceContracts.csproj", "{0B5B8AA4-E149-40A4-B2B9-46FA2FFD7D57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{DA8639B1-0A11-4986-BDDE-25E357392B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA8639B1-0A11-4986-BDDE-25E357392B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA8639B1-0A11-4986-BDDE-25E357392B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958107A0-BE47-438E-927B-467C74FA24F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958107A0-BE47-438E-927B-467C74FA24F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958107A0-BE47-438E-927B-467C74FA24F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958107A0-BE47-438E-927B-467C74FA24F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B5B8AA4-E149-40A4-B2B9-46FA2FFD7D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B5B8AA4-E149-40A4-B2B9-46FA2FFD7D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B5B8AA4-E149-40A4-B2B9-46FA2FFD7D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B5B8AA4-E149-40A4-B2B9-46FA2FFD7D57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
