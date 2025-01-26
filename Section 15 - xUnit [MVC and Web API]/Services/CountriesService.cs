@@ -55,8 +55,13 @@ namespace Services
 
         public CountryResponse? GetCountryByCountryID(Guid? countryID)
         {
-            throw new NotImplementedException();
+            if (countryID == null) return null;
+
+            Country? country_response_from_list = _countries.FirstOrDefault(temp => temp.CountryID == countryID);
+
+            if (country_response_from_list == null) return null;
+
+            return country_response_from_list.ToCountryResponse();
         }
     }
 }
- 
