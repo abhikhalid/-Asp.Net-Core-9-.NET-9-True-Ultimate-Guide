@@ -13,6 +13,7 @@ namespace Services
             _countries = new List<Country>();
         }
 
+       
         public CountryResponse AddCountry(CountryAddRequest? countryAddRequest)
         {
             //Validation: countryAddRequest parameter can't be null
@@ -43,6 +44,13 @@ namespace Services
             _countries.Add(country);
 
             return country.ToCountryResponse();
+        }
+
+
+       
+        public List<CountryResponse> GetAllCountries()
+        {
+            throw new NotImplementedException();
         }
     }
 }
