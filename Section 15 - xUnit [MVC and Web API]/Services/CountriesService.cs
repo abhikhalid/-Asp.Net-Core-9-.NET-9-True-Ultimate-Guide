@@ -52,6 +52,11 @@ namespace Services
         {
            return _countries.Select(country => country.ToCountryResponse()).ToList();
         }
+
+        public CountryResponse? GetCountryByCountryID(Guid? countryID)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
  
