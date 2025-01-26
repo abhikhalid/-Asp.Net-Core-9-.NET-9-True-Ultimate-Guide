@@ -50,7 +50,7 @@ namespace Services
        
         public List<CountryResponse> GetAllCountries()
         {
-            throw new NotImplementedException();
+           return _countries.Select(country => country.ToCountryResponse()).ToList();
         }
     }
 }
