@@ -373,6 +373,7 @@
       },
       "Services/1.0.0": {
         "dependencies": {
+          "Entities": "1.0.0",
           "ServiceContracts": "1.0.0"
         },
         "runtime": {

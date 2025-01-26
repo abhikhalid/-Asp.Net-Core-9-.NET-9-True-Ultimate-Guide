@@ -73,7 +73,8 @@ namespace CRUDTests
             Assert.Throws<ArgumentException>(() =>
             {
                 //Act
-                //_countriesService.AddCountry(request);
+                _countriesService.AddCountry(request1);
+                _countriesService.AddCountry(request2);
             });
         }
 

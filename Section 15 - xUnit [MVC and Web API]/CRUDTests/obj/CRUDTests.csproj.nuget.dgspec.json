@@ -265,6 +265,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 15 - xUnit [MVC and Web API]\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 15 - xUnit [MVC and Web API]\\Entities\\Entities.csproj"
+              },
               "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 15 - xUnit [MVC and Web API]\\ServiceContracts\\ServiceContracts.csproj": {
                 "projectPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 15 - xUnit [MVC and Web API]\\ServiceContracts\\ServiceContracts.csproj"
               }
