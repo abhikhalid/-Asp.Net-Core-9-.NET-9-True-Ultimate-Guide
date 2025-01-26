@@ -8,7 +8,10 @@
     ".NETCoreApp,Version=v8.0": {
       "CRUDTests/1.0.0": {
         "dependencies": {
+          "Entities": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
+          "ServiceContracts": "1.0.0",
+          "Services": "1.0.0",
           "coverlet.collector": "6.0.0",
           "xunit": "2.9.3",
           "xunit.runner.visualstudio": "3.0.1"
@@ -348,7 +351,37 @@
           }
         }
       },
-      "xunit.runner.visualstudio/3.0.1": {}
+      "xunit.runner.visualstudio/3.0.1": {},
+      "Entities/1.0.0": {
+        "runtime": {
+          "Entities.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ServiceContracts/1.0.0": {
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "runtime": {
+          "ServiceContracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Services/1.0.0": {
+        "dependencies": {
+          "ServiceContracts": "1.0.0"
+        },
+        "runtime": {
+          "Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
     }
   },
   "libraries": {
@@ -468,6 +501,21 @@
       "sha512": "sha512-lbyYtsBxA8Pz8kaf5Xn/Mj1mL9z2nlBWdZhqFaj66nxXBa4JwiTDm4eGcpSMet6du9TOWI6bfha+gQR6+IHawg==",
       "path": "xunit.runner.visualstudio/3.0.1",
       "hashPath": "xunit.runner.visualstudio.3.0.1.nupkg.sha512"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceContracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

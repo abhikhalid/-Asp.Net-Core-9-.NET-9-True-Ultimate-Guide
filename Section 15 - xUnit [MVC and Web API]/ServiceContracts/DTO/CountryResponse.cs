@@ -13,6 +13,7 @@ namespace ServiceContracts.DTO
         public string? CountryName { get; set; }
     }
 
+    //assume that, we are adding this method to 'Country Class'
     public static class CountryExtensions
     {
         public static CountryResponse ToCountryResponse(this Country country)
