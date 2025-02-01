@@ -180,6 +180,36 @@ namespace Services
 
         public PersonResponse UpdatePerson(PersonUpdateRequest? personUpdateRequest)
         {
+            if (personUpdateRequest == null)
+            {
+                throw new ArgumentNullException(nameof(Person));
+            }
+
+            //validation
+            ValidationHelper.ModelValidation(personUpdateRequest);
+
+            //get matching person object to update
+            Person? matchingPerson =  _persons.FirstOrDefault(temp => temp.PersonID == personUpdateRequest.PersonID);
+
+            if(matchingPerson == null)
+            {
+                throw new ArgumentException("Given Person Id does not exist");
+            }
+            
+            //update all deatails
+            matchingPerson.PersonName = personUpdateRequest.PersonName;
+            matchingPerson.Email = personUpdateRequest.Email;
+            matchingPerson.DateOfBirth = personUpdateRequest.DateOfBirth;
+            matchingPerson.Gender = personUpdateRequest.Gender.ToString();
+            matchingPerson.CountryID = personUpdateRequest.CountryID;
+            matchingPerson.Address = personUpdateRequest.Address;
+            matchingPerson.ReciveNewsLetters = personUpdateRequest.ReceiveNewsLetters;
+
+            return matchingPerson.ToPersonResponse();
+        }
+
+        public bool DeletePerson(Guid? personID)
+        {
             throw new NotImplementedException();
         }
     }

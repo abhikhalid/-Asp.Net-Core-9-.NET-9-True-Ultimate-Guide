@@ -542,7 +542,10 @@ namespace CRUDTests
             PersonAddRequest person_add_request = new PersonAddRequest()
             {
                 PersonName = "John",
-                CountryID = country_response_from_add.CountryID
+                CountryID = country_response_from_add.CountryID,
+                Email = "abc@example.com",
+                Address = "Dhaka",
+                Gender = GenderOptions.Male
             };
 
             PersonResponse person_response_from_add = _personsService.AddPerson(person_add_request);
@@ -597,5 +600,52 @@ namespace CRUDTests
         }
 
         #endregion
+
+        #region DeletePerson
+        //When you supply an valid PersonID, it should return true
+        [Fact]
+        public void DeletePerson_ValidPersonID()
+        {
+            //Arrange
+            CountryAddRequest counry_add_request = new CountryAddRequest()
+            {
+                CountryName = "USA"
+            };
+
+            CountryResponse country_response_from_add = 
+             _countriesService.AddCountry(counry_add_request);
+
+            PersonAddRequest person_add_request = new PersonAddRequest()
+            {
+                PersonName = "Jones",
+                Address = "address",
+                CountryID = country_response_from_add.CountryID,
+                DateOfBirth = Convert.ToDateTime("2010-01-01"),
+                Email = "jones@example.com",
+                Gender = GenderOptions.Male,
+                ReceiveNewsLetters = true,
+            };
+
+            PersonResponse person_response_from_add = _personsService.AddPerson(person_add_request);
+
+            //Act
+            bool isDeleted = _personsService.DeletePerson(person_response_from_add.PersonID);
+
+            //Assert
+            Assert.True(isDeleted);
+        }
+
+        //When you supply an invalid PersonID, it should return false
+        [Fact]
+        public void DeletePerson_InvalidPersonID()
+        {
+            //Act
+            bool isDeleted = _personsService.DeletePerson(Guid.NewGuid());
+
+            //Assert
+            Assert.False(isDeleted);
+        }
+        #endregion
+
     }
 }
