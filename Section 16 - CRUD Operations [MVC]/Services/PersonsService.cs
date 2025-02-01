@@ -31,7 +31,7 @@ namespace Services
                     Gender = "Male",
                     ReciveNewsLetters = true,
                     Address = "Dhaka",
-                    CountryID = Guid.Parse("554C00E8-1114-4F3E-99C8-8D895DACE4E1")
+                    CountryID = Guid.Parse("9C0CAB52-4CA3-4F38-A2B8-1255D8BFD232")
                 });
                 
                 _persons.Add(new Person()
@@ -42,7 +42,7 @@ namespace Services
                     DateOfBirth = DateTime.Parse("3/22/2024"),
                     Gender = "Female",
                     ReciveNewsLetters = false,
-                    CountryID = Guid.Parse("554C00E8-1114-4F3E-99C8-8D895DACE4E1")
+                    CountryID = Guid.Parse("9C0CAB52-4CA3-4F38-A2B8-1255D8BFD232")
                 }); 
                 
                 _persons.Add(new Person()
