@@ -12,9 +12,12 @@
             <select class="form-input" name="searchBy">
                 @foreach (var field in ViewBag.SearchFields)
                 {
-                    if(field.Key == ViewBag.CurrentSearchBy){
+                    if (field.Key == ViewBag.CurrentSearchBy)
+                    {
                         <option value="@field.Key" selected="selected">@field.Value</option>
-                    }else{
+                    }
+                    else
+                    {
                         <option value="@field.Key">@field.Value</option>
                     }
                 }
@@ -42,7 +45,27 @@
     <table class="table w-100 mt">
         <thead>
             <tr>
-                <th>Person Name</th>
+                @if (ViewBag.CurrentSortBy == nameof(PersonResponse.PersonName) && ViewBag.CurrentSortOrder == SortOrderOptions.ASC.ToString())
+                {
+                    <th>
+                        <a href="~/persons/index?searchBy=@ViewBag.CurrentSearchBy&searchString=@ViewBag.CurrentSearchString&sortBy=@nameof(PersonResponse.PersonName)&sortOrder=@nameof(SortOrderOptions.DESC)">Person Name</a>
+                        <i class="fa-solid fa-sort-up" />
+                    </th>
+                }
+                else if (ViewBag.CurrentSortBy == nameof(PersonResponse.PersonName) && ViewBag.CurrentSortOrder == SortOrderOptions.DESC.ToString())
+                {
+                    <th>
+                        <a href="~/persons/index?searchBy=@ViewBag.CurrentSearchBy&searchString=@ViewBag.CurrentSearchString&sortBy=@nameof(PersonResponse.PersonName)&sortOrder=@nameof(SortOrderOptions.ASC)">Person Name</a>
+                        <i class="fa-solid fa-sort-down" />
+                    </th>
+                }
+                else
+                {
+                    <th>
+                        <a href="~/persons/index?searchBy=@ViewBag.CurrentSearchBy&searchString=@ViewBag.CurrentSearchString&sortBy=@nameof(PersonResponse.PersonName)&sortOrder=@nameof(SortOrderOptions.ASC)">Person Name</a>
+                    </th>
+                }
+
                 <th>Email</th>
                 <th>Date of Birth</th>
                 <th>Age</th>

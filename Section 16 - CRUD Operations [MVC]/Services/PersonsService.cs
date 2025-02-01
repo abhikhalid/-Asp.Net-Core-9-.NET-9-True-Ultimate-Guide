@@ -25,7 +25,7 @@ namespace Services
                _persons.Add(new Person()
                 {
                     PersonID = Guid.Parse("F594D20E-8CF8-4887-8CBF-8CC0925F4A9A"),
-                    PersonName = "Jareb",
+                    PersonName = "Khalid",
                     Email = "jjorgensen0@wisc.edu",
                     DateOfBirth = DateTime.Parse("12/8/2024"),
                     Gender = "Male",
@@ -37,7 +37,7 @@ namespace Services
                 _persons.Add(new Person()
                 {
                     PersonID = Guid.Parse("4FC86808-AC69-4F14-8002-465665D3EC02"),
-                    PersonName = "Currie",
+                    PersonName = "Mahmud",
                     Email = "cupstell1@ibm.com",
                     DateOfBirth = DateTime.Parse("3/22/2024"),
                     Gender = "Female",
@@ -48,7 +48,7 @@ namespace Services
                 _persons.Add(new Person()
                 {
                     PersonID = Guid.Parse("7C5540CE-CFE8-44F9-98EC-D1706B9C07FB"),
-                    PersonName = "Jorgan",
+                    PersonName = "Khan",
                     Email = "jgoade2@sciencedaily.com",
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
@@ -59,7 +59,7 @@ namespace Services
                 _persons.Add(new Person()
                 {
                     PersonID = Guid.Parse("BAFADA56-1069-4FB6-B58F-C8586D074078"),
-                    PersonName = "Jorgan",
+                    PersonName = "Abhi",
                     Email = "jgoade2@sciencedaily.com",
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
@@ -70,7 +70,7 @@ namespace Services
                 _persons.Add(new Person()
                 {
                     PersonID = Guid.Parse("71064E7E-F41F-4AEF-B342-4F87460C6B7B"),
-                    PersonName = "Jorgan",
+                    PersonName = "Israr",
                     Email = "jgoade2@sciencedaily.com",
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
@@ -81,7 +81,7 @@ namespace Services
                 _persons.Add(new Person()
                 {
                     PersonID = Guid.Parse("27BFA180-EF71-4DC1-B120-EA61DABDACB4"),
-                    PersonName = "Jorgan",
+                    PersonName = "Chowdhury",
                     Email = "jgoade2@sciencedaily.com",
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
@@ -92,7 +92,7 @@ namespace Services
                 _persons.Add(new Person()
                 {
                     PersonID = Guid.Parse("A45B55E9-EC6F-4548-A4B8-ECD382405FB4"),
-                    PersonName = "Jorgan",
+                    PersonName = "Prianka",
                     Email = "jgoade2@sciencedaily.com",
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
@@ -103,7 +103,7 @@ namespace Services
                 _persons.Add(new Person()
                 {
                     PersonID = Guid.Parse("76CA5315-9697-4E16-B93E-2AE65F529D3C"),
-                    PersonName = "Jorgan",
+                    PersonName = "Saif",
                     Email = "jgoade2@sciencedaily.com",
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
@@ -114,7 +114,7 @@ namespace Services
                 _persons.Add(new Person()
                 {
                     PersonID = Guid.Parse("E5009D2C-E94B-4A1E-940B-EF69A51C1FF6"),
-                    PersonName = "Jorgan",
+                    PersonName = "Suvo",
                     Email = "jgoade2@sciencedaily.com",
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
@@ -125,7 +125,7 @@ namespace Services
                 _persons.Add(new Person()
                 {
                     PersonID = Guid.Parse("32BD53DB-5DE7-44E2-A918-6C0E0F5A5431"),
-                    PersonName = "Jorgan",
+                    PersonName = "Bakshi",
                     Email = "jgoade2@sciencedaily.com",
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
