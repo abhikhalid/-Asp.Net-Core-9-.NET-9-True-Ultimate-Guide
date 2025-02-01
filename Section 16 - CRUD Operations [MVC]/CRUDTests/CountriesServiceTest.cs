@@ -15,7 +15,8 @@ namespace CRUDTests
 
         public CountriesServiceTest()
         {
-            _countriesService = new CountriesService();
+            //we don't want to create mock data for test.
+            _countriesService = new CountriesService(false);
         }
 
         #region AddCountry
