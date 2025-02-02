@@ -15,7 +15,8 @@
         @* PersonName *@
         <div class="form-field flex">
             <div class="w-25">
-                <label for="PersonName" class="form-label pt">Person Name</label>
+                difference between for and asp-for is, it will give you compiler time error if you supply wrong value to the for.
+                <label asp-for="PersonName" class="form-label pt">Person Name</label>
             </div>
 
             <div class="flex-1">
@@ -30,7 +31,7 @@
         @* Email*@
         <div class="form-field flex">
             <div class="w-25">
-                <label for="Email" class="form-label pt">Email</label>
+                <label asp-for="Email" class="form-label pt">Email</label>
             </div>
 
             <div class="flex-1">
@@ -42,7 +43,7 @@
         @*DateOfBirth*@
         <div class="form-field flex">
             <div class="w-25">
-                <label for="DateOfBirth" class="form-label pt">Date Of Birth</label>
+                <label asp-for="DateOfBirth" class="form-label pt">Date Of Birth</label>
             </div>
 
             <div class="flex-1">
@@ -65,7 +66,7 @@
                     @foreach (string gender in genders)
                     {
                         <input asp-for="Gender" type="radio" value="@gender" class="ml" />
-                        <label for="@gender">@gender</label>
+                        <label asp-for="@gender">@gender</label>
                     }
                 }
             </div>
@@ -74,16 +75,16 @@
         @*Country*@
         <div class="form-field flex">
             <div class="w-25">
-                <label class="form-label" for="CountryID">Country</label>
+                <label class="form-label" asp-for="CountryID">Country</label>
             </div>
 
             <div class="flex-1">
-                <select asp-for="CountryID" class="form-input">
-                    <option value="">Please Select</option>
-                    @foreach (CountryResponse country in ViewBag.Countries)
-                    {
-                        <option value="@country.CountryID">@country.CountryName</option>
-                    }
+                <select asp-for="CountryID" class="form-input" asp-items="@ViewBag.Countries" >
+                <option value="">Please Select</option>
+                @*     @foreach (CountryResponse country in ViewBag.Countries) *@
+                @*     { *@
+                @*         <option value="@country.CountryID">@country.CountryName</option> *@
+                @*     } *@
                 </select>
 
             </div>
@@ -92,7 +93,7 @@
         @*Address*@
         <div class="form-field flex">
             <div class="w-25">
-                <label for="Address" class="form-label pt">Address</label>
+                <label asp-for="Address" class="form-label pt">Address</label>
             </div>
 
             <div class="flex-1">
@@ -108,7 +109,7 @@
 
             <div class="flex-1">
                 <input type="checkbox" asp-for="ReceiveNewsLetters" value="true" />
-                <label for="ReceiveNewsLetters" class="form-label">Receive News Letters</label>
+                <label asp-for="ReceiveNewsLetters" class="form-label">Receive News Letters</label>
             </div>
         </div>
 
