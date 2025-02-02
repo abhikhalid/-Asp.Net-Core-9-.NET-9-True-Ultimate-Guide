@@ -42,6 +42,7 @@ namespace Services
                     DateOfBirth = DateTime.Parse("3/22/2024"),
                     Gender = "Female",
                     ReciveNewsLetters = false,
+                    Address = "Dhaka",
                     CountryID = Guid.Parse("9C0CAB52-4CA3-4F38-A2B8-1255D8BFD232")
                 }); 
                 
@@ -53,6 +54,7 @@ namespace Services
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
                     ReciveNewsLetters = false,
+                    Address = "Dhaka",
                     CountryID = Guid.Parse("9C0CAB52-4CA3-4F38-A2B8-1255D8BFD232")
                 });
                 
@@ -64,6 +66,7 @@ namespace Services
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
                     ReciveNewsLetters = false,
+                    Address = "Dhaka",
                     CountryID = Guid.Parse("9C0CAB52-4CA3-4F38-A2B8-1255D8BFD232")
                 }); 
                 
@@ -75,6 +78,7 @@ namespace Services
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
                     ReciveNewsLetters = false,
+                    Address = "Dhaka",
                     CountryID = Guid.Parse("D7E9512D-2845-4728-8E54-1AA478141FF4")
                 });
                 
@@ -86,6 +90,7 @@ namespace Services
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
                     ReciveNewsLetters = false,
+                    Address = "Dhaka",
                     CountryID = Guid.Parse("D7E9512D-2845-4728-8E54-1AA478141FF4")
                 }); 
                 
@@ -97,6 +102,7 @@ namespace Services
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
                     ReciveNewsLetters = false,
+                    Address = "Dhaka",
                     CountryID = Guid.Parse("526922C9-4B81-42D6-A417-8A2D2F5F6482")
                 });
                 
@@ -108,6 +114,7 @@ namespace Services
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
                     ReciveNewsLetters = false,
+                    Address = "Dhaka",
                     CountryID = Guid.Parse("9D7ECC1B-F7AD-4754-9951-F303D9DE83A7")
                 }); 
                 
@@ -119,6 +126,7 @@ namespace Services
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
                     ReciveNewsLetters = false,
+                    Address = "Dhaka",
                     CountryID = Guid.Parse("9D7ECC1B-F7AD-4754-9951-F303D9DE83A7")
                 });
                 
@@ -129,6 +137,7 @@ namespace Services
                     Email = "jgoade2@sciencedaily.com",
                     DateOfBirth = DateTime.Parse("10/28/2024"),
                     Gender = "Male",
+                    Address = "Dhaka",
                     ReciveNewsLetters = false,
                     CountryID = Guid.Parse("554C00E8-1114-4F3E-99C8-8D895DACE4E1")
                 });

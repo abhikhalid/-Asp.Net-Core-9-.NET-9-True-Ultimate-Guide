@@ -25,14 +25,14 @@ namespace ServiceContracts.DTO
 
         public string? Address { get; set; }
 
-        public bool? ReceiveNewsLetters { get; set; }
+        public bool ReceiveNewsLetters { get; set; }
 
         public double? Age { get; set; }
 
         public override bool Equals(object? obj)
         {
-            if(obj == null) return false;
-            if(obj.GetType() != typeof(PersonResponse)) return false;
+            if (obj == null) return false;
+            if (obj.GetType() != typeof(PersonResponse)) return false;
 
             PersonResponse other = (PersonResponse)obj;
 
@@ -53,16 +53,8 @@ namespace ServiceContracts.DTO
 
         public PersonUpdateRequest ToPersonUpdateRequest()
         {
-            return new PersonUpdateRequest()
-            {
-                PersonID = PersonID,
-                PersonName = PersonName,
-                Email = Email,
-                DateOfBirth = DateOfBirth,
-                //we can convert string type into specific enumeration type
-                Gender = (GenderOptions?)Enum.Parse(typeof(GenderOptions), Gender, true),
-                ReceiveNewsLetters = ReceiveNewsLetters
-            };
+            return new PersonUpdateRequest() { PersonID = PersonID, PersonName = PersonName, Email = Email, DateOfBirth = DateOfBirth, Gender = (GenderOptions)Enum.Parse(typeof(GenderOptions), Gender, true), Address = Address, CountryID = CountryID, ReceiveNewsLetters = ReceiveNewsLetters };
+
         }
     }
 

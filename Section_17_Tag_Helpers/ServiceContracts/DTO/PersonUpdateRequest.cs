@@ -31,7 +31,7 @@ namespace ServiceContracts.DTO
 
         public string? Address { get; set; }
 
-        public bool? ReceiveNewsLetters { get; set; }
+        public bool ReceiveNewsLetters { get; set; }
 
         /// <summary>
         /// Converts the current object of PersonAddRequest into a new object of Person type
