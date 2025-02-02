@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jjexufH6EF4UXskOK7buitwqZ88MNze/tYTuVEue7aI=",
+  "Hash": "UCp7X23UAPd/3thYG/o5KKnCNGgNdcrrkmemlhkhdq8=",
   "Source": "CRUDExample",
   "BasePath": "_content/CRUDExample",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dd6z7egasc",
-      "Integrity": "/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",
+      "Fingerprint": "ehgnz7f14e",
+      "Integrity": "zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\jquery.min.js"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "x0l543ewpl",
-      "Integrity": "T7ad2xAWz7SU3JW6WeCeeFD277TAtBTy41NVPqCYNjs=",
+      "Fingerprint": "9xennu59i4",
+      "Integrity": "sxUVUQTdesX9Z/MoT6Xpsfws/9SC9ZfmzCtVfaNb05s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\jquery.validate.min.js"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zsgxx0ffs5",
-      "Integrity": "U0QNhD4uBhJ7ScGl6Q1x/ZLPgwm21StzEevAazLvUF0=",
+      "Fingerprint": "ev0g547zpy",
+      "Integrity": "lrJc52zl1+2qf6yUL7FHRZuA1L7ZR7RiP32xQ63BXsE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\StyleSheet.css"
@@ -124,7 +124,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "jquery.min.dd6z7egasc.js",
+      "Route": "jquery.min.ehgnz7f14e.js",
       "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_17_Tag_Helpers\\CRUDExample\\wwwroot\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -134,7 +134,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89501"
+          "Value": "89503"
         },
         {
           "Name": "Content-Type",
@@ -142,11 +142,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\""
+          "Value": "\"zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 15:48:30 GMT"
+          "Value": "Sun, 02 Feb 2025 18:41:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -156,7 +156,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dd6z7egasc"
+          "Value": "ehgnz7f14e"
         },
         {
           "Name": "label",
@@ -164,7 +164,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          "Value": "sha256-zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs="
         }
       ]
     },
@@ -179,7 +179,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89501"
+          "Value": "89503"
         },
         {
           "Name": "Content-Type",
@@ -187,11 +187,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\""
+          "Value": "\"zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 15:48:30 GMT"
+          "Value": "Sun, 02 Feb 2025 18:41:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -201,7 +201,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          "Value": "sha256-zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs="
+        }
+      ]
+    },
+    {
+      "Route": "jquery.validate.min.9xennu59i4.js",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_17_Tag_Helpers\\CRUDExample\\wwwroot\\jquery.validate.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sxUVUQTdesX9Z/MoT6Xpsfws/9SC9ZfmzCtVfaNb05s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 18:41:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9xennu59i4"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery.validate.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sxUVUQTdesX9Z/MoT6Xpsfws/9SC9ZfmzCtVfaNb05s="
         }
       ]
     },
@@ -216,7 +261,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24489"
+          "Value": "24492"
         },
         {
           "Name": "Content-Type",
@@ -224,11 +269,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T7ad2xAWz7SU3JW6WeCeeFD277TAtBTy41NVPqCYNjs=\""
+          "Value": "\"sxUVUQTdesX9Z/MoT6Xpsfws/9SC9ZfmzCtVfaNb05s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 15:48:35 GMT"
+          "Value": "Sun, 02 Feb 2025 18:41:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -238,52 +283,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T7ad2xAWz7SU3JW6WeCeeFD277TAtBTy41NVPqCYNjs="
-        }
-      ]
-    },
-    {
-      "Route": "jquery.validate.min.x0l543ewpl.js",
-      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_17_Tag_Helpers\\CRUDExample\\wwwroot\\jquery.validate.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24489"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"T7ad2xAWz7SU3JW6WeCeeFD277TAtBTy41NVPqCYNjs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 15:48:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "x0l543ewpl"
-        },
-        {
-          "Name": "label",
-          "Value": "jquery.validate.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-T7ad2xAWz7SU3JW6WeCeeFD277TAtBTy41NVPqCYNjs="
+          "Value": "sha256-sxUVUQTdesX9Z/MoT6Xpsfws/9SC9ZfmzCtVfaNb05s="
         }
       ]
     },
@@ -310,7 +310,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 15:48:41 GMT"
+          "Value": "Sun, 02 Feb 2025 18:41:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -355,7 +355,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 15:48:41 GMT"
+          "Value": "Sun, 02 Feb 2025 18:41:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -392,7 +392,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 16:28:16 GMT"
+          "Value": "Sun, 02 Feb 2025 18:41:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -429,7 +429,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 16:28:16 GMT"
+          "Value": "Sun, 02 Feb 2025 18:41:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -462,7 +462,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5061"
+          "Value": "5507"
         },
         {
           "Name": "Content-Type",
@@ -470,11 +470,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U0QNhD4uBhJ7ScGl6Q1x/ZLPgwm21StzEevAazLvUF0=\""
+          "Value": "\"lrJc52zl1+2qf6yUL7FHRZuA1L7ZR7RiP32xQ63BXsE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 14:03:55 GMT"
+          "Value": "Sun, 02 Feb 2025 18:41:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -484,12 +484,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-U0QNhD4uBhJ7ScGl6Q1x/ZLPgwm21StzEevAazLvUF0="
+          "Value": "sha256-lrJc52zl1+2qf6yUL7FHRZuA1L7ZR7RiP32xQ63BXsE="
         }
       ]
     },
     {
-      "Route": "StyleSheet.zsgxx0ffs5.css",
+      "Route": "StyleSheet.ev0g547zpy.css",
       "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_17_Tag_Helpers\\CRUDExample\\wwwroot\\StyleSheet.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -499,7 +499,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5061"
+          "Value": "5507"
         },
         {
           "Name": "Content-Type",
@@ -507,11 +507,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U0QNhD4uBhJ7ScGl6Q1x/ZLPgwm21StzEevAazLvUF0=\""
+          "Value": "\"lrJc52zl1+2qf6yUL7FHRZuA1L7ZR7RiP32xQ63BXsE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 14:03:55 GMT"
+          "Value": "Sun, 02 Feb 2025 18:41:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -521,7 +521,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zsgxx0ffs5"
+          "Value": "ev0g547zpy"
         },
         {
           "Name": "label",
@@ -529,7 +529,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-U0QNhD4uBhJ7ScGl6Q1x/ZLPgwm21StzEevAazLvUF0="
+          "Value": "sha256-lrJc52zl1+2qf6yUL7FHRZuA1L7ZR7RiP32xQ63BXsE="
         }
       ]
     }

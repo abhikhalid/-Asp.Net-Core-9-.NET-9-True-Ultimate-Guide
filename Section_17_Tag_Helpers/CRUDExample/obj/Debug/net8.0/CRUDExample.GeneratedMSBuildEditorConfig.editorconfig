@@ -24,6 +24,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ASSIGNMENT/Practice/DOT NET CORE/-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide/Section_17_Tag_Helpers/CRUDExample/Views/Persons/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ASSIGNMENT/Practice/DOT NET CORE/-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide/Section_17_Tag_Helpers/CRUDExample/Views/Persons/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
