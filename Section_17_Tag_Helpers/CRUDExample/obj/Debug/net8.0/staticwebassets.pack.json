@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\StyleSheet.css"
     },
     {
+      "Id": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_17_Tag_Helpers\\CRUDExample\\wwwroot\\jquery.min.js",
+      "PackagePath": "staticwebassets\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_17_Tag_Helpers\\CRUDExample\\wwwroot\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_17_Tag_Helpers\\CRUDExample\\wwwroot\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_17_Tag_Helpers\\CRUDExample\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CRUDExample.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

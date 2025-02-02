@@ -11,7 +11,7 @@
     <div class="container">
         <div class="navbar">
             <div class="navbar-brand">
-               CRUD Demo
+               <img src="~/logo.png" width="55px" asp-append-version="true"/>
             </div>
             <ul>
                 <li>
@@ -26,7 +26,7 @@
 
     </div>
 
-    false means, in case if any view does not supply this scripts then it will not throw an error
+    @* false means, in case if any view does not supply this scripts then it will not throw an error *@
     @RenderSection("scripts", false);
 </body>
 </html>
