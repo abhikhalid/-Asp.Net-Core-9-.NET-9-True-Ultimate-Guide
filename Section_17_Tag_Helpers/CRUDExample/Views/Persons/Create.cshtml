@@ -1,4 +1,6 @@
-﻿@{
+﻿@model PersonAddRequest //we are writing it so that, in the 'asp-for' tag we get suggestion from visual studio.
+
+@{
     ViewBag.Title = "Create Person";
 }
 
@@ -20,7 +22,8 @@
                 @* make sure the name property value match the Model Class Property name, so that model binding works *@
                 @* but id is not related with form submission, it is realted with label 'for' *@
                 @* but submission perspective, name is important, for display perspective, id and label is important *@
-                <input type="text" id="PersonName" name="PersonName" class="form-input" />
+                @* go to browser and see the output in the page source *@
+                <input asp-for="PersonName" class="form-input" />
             </div>
         </div>
 
@@ -32,7 +35,7 @@
 
             <div class="flex-1">
                 @* make sure the name property value match the Model Class Property name, so that model binding works *@
-                <input type="email" id="Email" name="Email" class="form-input" />
+                <input asp-for="Email" type="email" class="form-input" />
             </div>
         </div>
 
@@ -44,7 +47,7 @@
 
             <div class="flex-1">
                 @* make sure the name property value match the Model Class Property name, so that model binding works *@
-                <input type="date" id="DateOfBirth" name="DateOfBirth" class="form-input" />
+                <input asp-for="DateOfBirth" type="date" class="form-input" />
             </div>
         </div>
 
@@ -56,14 +59,15 @@
 
             <div class="flex-1">
                 @* make sure the name property value match the Model Class Property name, so that model binding works *@
-                <input type="radio" id="Male" name="Gender" value="Male" class="ml" />
-                <label for="Male">Male</label>
+                @{
+                    string[] genders = (string[])Enum.GetNames(typeof(GenderOptions));
 
-                <input type="radio" id="Female" name="Gender" value="Female" class="ml" />
-                <label for="Female">Female</label>
-
-                <input type="radio" id="Other" name="Gender" value="Other" />
-                <label for="Other">Other</label>
+                    @foreach (string gender in genders)
+                    {
+                        <input asp-for="Gender" type="radio" value="@gender" class="ml" />
+                        <label for="@gender">@gender</label>
+                    }
+                }
             </div>
         </div>
 
@@ -74,7 +78,7 @@
             </div>
 
             <div class="flex-1">
-                <select name="CountryID" id="CountryID" class="form-input">
+                <select asp-for="CountryID" class="form-input">
                     <option value="">Please Select</option>
                     @foreach (CountryResponse country in ViewBag.Countries)
                     {
@@ -93,7 +97,7 @@
 
             <div class="flex-1">
                 @* make sure the name property value match the Model Class Property name, so that model binding works *@
-                <textarea id="Address" name="Address" class="form-input"></textarea>
+                <textarea asp-for="Address" class="form-input"></textarea>
             </div>
         </div>
 
@@ -103,7 +107,7 @@
             </div>
 
             <div class="flex-1">
-                <input type="checkbox" name="ReceiveNewsLetters" id="ReceiveNewsLetters" value="true" />
+                <input type="checkbox" asp-for="ReceiveNewsLetters" value="true" />
                 <label for="ReceiveNewsLetters" class="form-label">Receive News Letters</label>
             </div>
         </div>
