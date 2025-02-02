@@ -47,7 +47,7 @@ namespace CRUDExample.Controllers
         }
 
         /// <summary>
-        /// Executes when the user clicks on "Create Person" hyperlink (while opening the create view)
+        /// Executes when the user clicks on "Create Person" hyperlink from ("/") route(while opening the create view)
         /// </summary>
         [Route("persons/create")]
         [HttpGet]
@@ -55,7 +55,27 @@ namespace CRUDExample.Controllers
         {
             List<CountryResponse> countries = _countriesService.GetAllCountries();
             ViewBag.Countries = countries;
+
             return View();
         }
+
+        [HttpPost] //when user clicks on Submit button this method gets executed
+        [Route("persons/create")]
+        public IActionResult Create(PersonAddRequest personAddRequest)
+        {
+            if (!ModelState.IsValid) //before executing this controller method, model validation gets executed
+            {
+                List<CountryResponse> countries = _countriesService.GetAllCountries();
+                ViewBag.Countries = countries;
+
+                ViewBag.Errros =  ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+                return View();
+            }
+
+            PersonResponse personResponse = _personsService.AddPerson(personAddRequest);
+            return RedirectToAction("Index","Persons");
+        }
+
+
     }
 }
