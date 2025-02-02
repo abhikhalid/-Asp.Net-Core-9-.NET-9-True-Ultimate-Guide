@@ -9,10 +9,12 @@ namespace CRUDExample.Controllers
     {
         //private fields
         private readonly IPersonsService _personsService;
+        private readonly ICountriesService _countriesService;
 
-        public PersonsController(IPersonsService personsService)
+        public PersonsController(IPersonsService personsService, ICountriesService countriesService)
         {
             _personsService = personsService;
+            _countriesService = countriesService;
         }
 
 
@@ -42,6 +44,18 @@ namespace CRUDExample.Controllers
             ViewBag.CurrentSortOrder = sortOrder.ToString();
 
             return View(sortedPersons); //Views/Persons/Index.cshtml
+        }
+
+        /// <summary>
+        /// Executes when the user clicks on "Create Person" hyperlink (while opening the create view)
+        /// </summary>
+        [Route("persons/create")]
+        [HttpGet]
+        public IActionResult Create()
+        {
+            List<CountryResponse> countries = _countriesService.GetAllCountries();
+            ViewBag.Countries = countries;
+            return View();
         }
     }
 }
