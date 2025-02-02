@@ -168,7 +168,7 @@ namespace Services
 
         public List<PersonResponse> GetAllPersons()
         {
-           return _persons.Select(person => person.ToPersonResponse()).ToList();
+           return _persons.Select(person => ConvertPersonToPersonResponse(person)).ToList();
         }
 
         public PersonResponse? GetPersonByPersonId(Guid? personID)

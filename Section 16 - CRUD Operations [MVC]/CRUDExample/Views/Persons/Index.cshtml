@@ -45,34 +45,53 @@
     <table class="table w-100 mt">
         <thead>
             <tr>
-                @if (ViewBag.CurrentSortBy == nameof(PersonResponse.PersonName) && ViewBag.CurrentSortOrder == SortOrderOptions.ASC.ToString())
-                {
-                    <th>
-                        <a href="~/persons/index?searchBy=@ViewBag.CurrentSearchBy&searchString=@ViewBag.CurrentSearchString&sortBy=@nameof(PersonResponse.PersonName)&sortOrder=@nameof(SortOrderOptions.DESC)">Person Name</a>
-                        <i class="fa-solid fa-sort-up" />
-                    </th>
-                }
-                else if (ViewBag.CurrentSortBy == nameof(PersonResponse.PersonName) && ViewBag.CurrentSortOrder == SortOrderOptions.DESC.ToString())
-                {
-                    <th>
-                        <a href="~/persons/index?searchBy=@ViewBag.CurrentSearchBy&searchString=@ViewBag.CurrentSearchString&sortBy=@nameof(PersonResponse.PersonName)&sortOrder=@nameof(SortOrderOptions.ASC)">Person Name</a>
-                        <i class="fa-solid fa-sort-down" />
-                    </th>
-                }
-                else
-                {
-                    <th>
-                        <a href="~/persons/index?searchBy=@ViewBag.CurrentSearchBy&searchString=@ViewBag.CurrentSearchString&sortBy=@nameof(PersonResponse.PersonName)&sortOrder=@nameof(SortOrderOptions.ASC)">Person Name</a>
-                    </th>
-                }
+                @await Html.PartialAsync("_GridColumnHeader", new 
+                  ViewDataDictionary(ViewData){
+                {"ColumnName", nameof(PersonResponse.PersonName)}, //sort by
+                {"DisplayName", "Person Name"} // Column Name Showing to the UI
+                })
 
-                <th>Email</th>
-                <th>Date of Birth</th>
-                <th>Age</th>
-                <th>Gender</th>
-                <th>Country</th>
-                <th>Address</th>
-                <th>Receive News Letters</th>
+                @await Html.PartialAsync("_GridColumnHeader", new
+                         ViewDataDictionary(ViewData){
+                {"ColumnName", nameof(PersonResponse.Email)}, //sort by
+                {"DisplayName", "Email"} // Column Name Showing to the UI
+                }) 
+                
+                @await Html.PartialAsync("_GridColumnHeader", new
+                         ViewDataDictionary(ViewData){
+                {"ColumnName", nameof(PersonResponse.DateOfBirth)}, //sort by
+                {"DisplayName", "Date of Birth"} // Column Name Showing to the UI
+                })
+                
+                @await Html.PartialAsync("_GridColumnHeader", new
+                         ViewDataDictionary(ViewData){
+                {"ColumnName", nameof(PersonResponse.Age)}, //sort by
+                {"DisplayName", "Age"} // Column Name Showing to the UI
+                })  
+                
+                @await Html.PartialAsync("_GridColumnHeader", new
+                         ViewDataDictionary(ViewData){
+                {"ColumnName", nameof(PersonResponse.Gender)}, //sort by
+                {"DisplayName", "Gender"} // Column Name Showing to the UI
+                })
+                
+                @await Html.PartialAsync("_GridColumnHeader", new
+                         ViewDataDictionary(ViewData){
+                {"ColumnName", nameof(PersonResponse.Country)}, //sort by
+                {"DisplayName", "Country"} // Column Name Showing to the UI
+                })
+                
+                @await Html.PartialAsync("_GridColumnHeader", new
+                         ViewDataDictionary(ViewData){
+                {"ColumnName", nameof(PersonResponse.Address)}, //sort by
+                {"DisplayName", "Address"} // Column Name Showing to the UI
+                })
+                
+                @await Html.PartialAsync("_GridColumnHeader", new
+                         ViewDataDictionary(ViewData){
+                {"ColumnName", nameof(PersonResponse.ReceiveNewsLetters)}, //sort by
+                {"DisplayName", "Receive News Letters"} // Column Name Showing to the UI
+                })
             </tr>
         </thead>
 
@@ -80,14 +99,14 @@
             @foreach (PersonResponse person in Model)
             {
                 <tr>
-                    <td>@person.PersonName</td>
-                    <td>@person.Email</td>
-                    <td>@person.DateOfBirth?.ToString("dd MMM yyyy")</td>
-                    <td>@person.Age</td>
-                    <td>@person.Gender</td>
-                    <td>@person.Country</td>
-                    <td>@person.Address</td>
-                    <td>@person.ReceiveNewsLetters</td>
+                    <td style="width:15%">@person.PersonName</td>
+                    <td style="width:20%">@person.Email</td>
+                    <td style="width:13%">@person.DateOfBirth?.ToString("dd MMM yyyy")</td>
+                    <td style="width:9%">@person.Age</td>
+                    <td style="width:9%">@person.Gender</td>
+                    <td style="width:10%">@person.Country</td>
+                    <td style="width:10%">@person.Address</td>
+                    <td style="width:20%">@person.ReceiveNewsLetters</td>
                 </tr>
             }
         </tbody>
