@@ -5,7 +5,7 @@ using ServiceContracts.Enums;
 
 namespace CRUDExample.Controllers
 {
-    [Route("persons")]
+    [Route("[controller]")]
     public class PersonsController : Controller
     {
         //private fields
@@ -19,8 +19,8 @@ namespace CRUDExample.Controllers
         }
 
 
-        [Route("index")]
-        //[Route("[action]")]
+        //[Route("index")]
+        [Route("[action]")]
         [Route("/")]
         public IActionResult Index(string searchBy, string? searchString, string sortBy= nameof(PersonResponse.PersonName),SortOrderOptions sortOrder = SortOrderOptions.ASC)
         {
@@ -51,8 +51,8 @@ namespace CRUDExample.Controllers
         /// <summary>
         /// Executes when the user clicks on "Create Person" hyperlink from ("/") route(while opening the create view)
         /// </summary>
-        [Route("create")]
-        //[Route("[action]")]
+        //[Route("create")]
+        [Route("[action]")]
         [HttpGet]
         public IActionResult Create()
         {
@@ -63,8 +63,8 @@ namespace CRUDExample.Controllers
         }
 
         [HttpPost] //when user clicks on Submit button this method gets executed
-        [Route("create")]
-        //[Route("[action]")]
+        //[Route("create")]
+        [Route("[action]")]
         public IActionResult Create(PersonAddRequest personAddRequest)
         {
             if (!ModelState.IsValid) //before executing this controller method, model validation gets executed
