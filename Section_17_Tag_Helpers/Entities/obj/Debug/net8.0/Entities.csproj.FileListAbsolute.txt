@@ -1,0 +1,36 @@
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\Entities\bin\Debug\net8.0\Entities.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\Entities\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\Entities\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\Entities\obj\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\Entities\obj\Debug\net8.0\refint\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\Entities\obj\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\Entities\obj\Debug\net8.0\ref\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\Entities\bin\Debug\net8.0\Entities.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\Entities\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\Entities\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\Entities\obj\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\Entities\obj\Debug\net8.0\refint\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\Entities\obj\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\Entities\obj\Debug\net8.0\ref\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\Entities\bin\Debug\net8.0\Entities.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\Entities\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\Entities\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\Entities\obj\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\Entities\obj\Debug\net8.0\refint\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\Entities\obj\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\Entities\obj\Debug\net8.0\ref\Entities.dll
