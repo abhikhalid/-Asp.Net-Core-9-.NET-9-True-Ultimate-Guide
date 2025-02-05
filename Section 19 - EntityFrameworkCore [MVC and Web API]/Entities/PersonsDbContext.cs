@@ -9,6 +9,10 @@ namespace Entities
         public DbSet<Country> Countries { get; set; }
         public DbSet<Person> Persons { get; set; }
 
+        public PersonsDbContext(DbContextOptions options) : base(options) { 
+            
+        }
+
         //we have to bind these Dbsets to corresponding table
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

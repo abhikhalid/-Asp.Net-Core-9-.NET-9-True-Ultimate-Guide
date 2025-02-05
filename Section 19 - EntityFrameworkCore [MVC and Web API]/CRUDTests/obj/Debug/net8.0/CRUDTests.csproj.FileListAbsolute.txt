@@ -314,9 +314,9 @@ D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\S
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDTests\obj\Debug\net8.0\CRUDTests.genruntimeconfig.cache
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDTests\obj\Debug\net8.0\ref\CRUDTests.dll
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\CoverletSourceRootsMapping_CRUDTests
-D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\testhost.exe
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\testhost.dll
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\xunit.abstractions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\testhost.exe
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\CRUDTests.deps.json
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\CRUDTests.runtimeconfig.json
@@ -458,3 +458,10 @@ D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\S
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\obj\Debug\net8.0\CRUDTests.pdb
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\obj\Debug\net8.0\CRUDTests.genruntimeconfig.cache
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\obj\Debug\net8.0\ref\CRUDTests.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\Azure.Core.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\Azure.Identity.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\System.Memory.Data.dll
