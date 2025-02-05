@@ -11,8 +11,14 @@ builder.Services.AddSingleton<ICountriesService, CountriesService>();
 builder.Services.AddSingleton<IPersonsService, PersonsService>();
 
 builder.Services.AddDbContext<PersonsDbContext>(options =>
-    options.UseSqlServer() //means, hey asp dot net core, we are trying to use asp dot net core for database connection
-);
+{
+    //means, hey asp dot net core, we are trying to use asp dot net core for database connection
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
+//Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=PersonsDatabase;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False
+
+//Integrated Security=True (means, we are using windows authentication for sql server. that means you do not need separate user id and password)
 
 var app = builder.Build();
 
