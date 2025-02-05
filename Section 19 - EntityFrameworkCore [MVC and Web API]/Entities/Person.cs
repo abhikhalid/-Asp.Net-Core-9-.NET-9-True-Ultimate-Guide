@@ -33,5 +33,7 @@ namespace Entities
 
         //data type: bit (no need to mention any other data type)
         public bool ReciveNewsLetters { get; set; }
+
+        public string? TIN { get; set;}
     }
 }
