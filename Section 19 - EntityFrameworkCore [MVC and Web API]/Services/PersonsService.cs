@@ -11,137 +11,14 @@ namespace Services
     public class PersonsService : IPersonsService
     {
         //private field
-        private readonly List<Person> _persons;
+        private readonly PersonsDbContext _db;
         private readonly ICountriesService _countriesService;
 
         //constructor
-        public PersonsService(bool initialize = true)
+        public PersonsService(PersonsDbContext personsDbContext, ICountriesService countriesService)
         {
-            _persons = new List<Person>();
-            _countriesService = new CountriesService();
-
-            if (initialize)
-            {
-               _persons.Add(new Person()
-                {
-                    PersonID = Guid.Parse("F594D20E-8CF8-4887-8CBF-8CC0925F4A9A"),
-                    PersonName = "Khalid",
-                    Email = "jjorgensen0@wisc.edu",
-                    DateOfBirth = DateTime.Parse("12/8/2024"),
-                    Gender = "Male",
-                    ReciveNewsLetters = true,
-                    Address = "Dhaka",
-                    CountryID = Guid.Parse("9C0CAB52-4CA3-4F38-A2B8-1255D8BFD232")
-                });
-                
-                _persons.Add(new Person()
-                {
-                    PersonID = Guid.Parse("4FC86808-AC69-4F14-8002-465665D3EC02"),
-                    PersonName = "Mahmud",
-                    Email = "cupstell1@ibm.com",
-                    DateOfBirth = DateTime.Parse("3/22/2024"),
-                    Gender = "Female",
-                    ReciveNewsLetters = false,
-                    Address = "Dhaka",
-                    CountryID = Guid.Parse("9C0CAB52-4CA3-4F38-A2B8-1255D8BFD232")
-                }); 
-                
-                _persons.Add(new Person()
-                {
-                    PersonID = Guid.Parse("7C5540CE-CFE8-44F9-98EC-D1706B9C07FB"),
-                    PersonName = "Khan",
-                    Email = "jgoade2@sciencedaily.com",
-                    DateOfBirth = DateTime.Parse("10/28/2024"),
-                    Gender = "Male",
-                    ReciveNewsLetters = false,
-                    Address = "Dhaka",
-                    CountryID = Guid.Parse("9C0CAB52-4CA3-4F38-A2B8-1255D8BFD232")
-                });
-                
-                _persons.Add(new Person()
-                {
-                    PersonID = Guid.Parse("BAFADA56-1069-4FB6-B58F-C8586D074078"),
-                    PersonName = "Abhi",
-                    Email = "jgoade2@sciencedaily.com",
-                    DateOfBirth = DateTime.Parse("10/28/2024"),
-                    Gender = "Male",
-                    ReciveNewsLetters = false,
-                    Address = "Dhaka",
-                    CountryID = Guid.Parse("9C0CAB52-4CA3-4F38-A2B8-1255D8BFD232")
-                }); 
-                
-                _persons.Add(new Person()
-                {
-                    PersonID = Guid.Parse("71064E7E-F41F-4AEF-B342-4F87460C6B7B"),
-                    PersonName = "Israr",
-                    Email = "jgoade2@sciencedaily.com",
-                    DateOfBirth = DateTime.Parse("10/28/2024"),
-                    Gender = "Male",
-                    ReciveNewsLetters = false,
-                    Address = "Dhaka",
-                    CountryID = Guid.Parse("D7E9512D-2845-4728-8E54-1AA478141FF4")
-                });
-                
-                _persons.Add(new Person()
-                {
-                    PersonID = Guid.Parse("27BFA180-EF71-4DC1-B120-EA61DABDACB4"),
-                    PersonName = "Chowdhury",
-                    Email = "jgoade2@sciencedaily.com",
-                    DateOfBirth = DateTime.Parse("10/28/2024"),
-                    Gender = "Male",
-                    ReciveNewsLetters = false,
-                    Address = "Dhaka",
-                    CountryID = Guid.Parse("D7E9512D-2845-4728-8E54-1AA478141FF4")
-                }); 
-                
-                _persons.Add(new Person()
-                {
-                    PersonID = Guid.Parse("A45B55E9-EC6F-4548-A4B8-ECD382405FB4"),
-                    PersonName = "Prianka",
-                    Email = "jgoade2@sciencedaily.com",
-                    DateOfBirth = DateTime.Parse("10/28/2024"),
-                    Gender = "Male",
-                    ReciveNewsLetters = false,
-                    Address = "Dhaka",
-                    CountryID = Guid.Parse("526922C9-4B81-42D6-A417-8A2D2F5F6482")
-                });
-                
-                _persons.Add(new Person()
-                {
-                    PersonID = Guid.Parse("76CA5315-9697-4E16-B93E-2AE65F529D3C"),
-                    PersonName = "Saif",
-                    Email = "jgoade2@sciencedaily.com",
-                    DateOfBirth = DateTime.Parse("10/28/2024"),
-                    Gender = "Male",
-                    ReciveNewsLetters = false,
-                    Address = "Dhaka",
-                    CountryID = Guid.Parse("9D7ECC1B-F7AD-4754-9951-F303D9DE83A7")
-                }); 
-                
-                _persons.Add(new Person()
-                {
-                    PersonID = Guid.Parse("E5009D2C-E94B-4A1E-940B-EF69A51C1FF6"),
-                    PersonName = "Suvo",
-                    Email = "jgoade2@sciencedaily.com",
-                    DateOfBirth = DateTime.Parse("10/28/2024"),
-                    Gender = "Male",
-                    ReciveNewsLetters = false,
-                    Address = "Dhaka",
-                    CountryID = Guid.Parse("9D7ECC1B-F7AD-4754-9951-F303D9DE83A7")
-                });
-                
-                _persons.Add(new Person()
-                {
-                    PersonID = Guid.Parse("32BD53DB-5DE7-44E2-A918-6C0E0F5A5431"),
-                    PersonName = "Bakshi",
-                    Email = "jgoade2@sciencedaily.com",
-                    DateOfBirth = DateTime.Parse("10/28/2024"),
-                    Gender = "Male",
-                    Address = "Dhaka",
-                    ReciveNewsLetters = false,
-                    CountryID = Guid.Parse("554C00E8-1114-4F3E-99C8-8D895DACE4E1")
-                });
-            }
+            _db = personsDbContext;
+            _countriesService = countriesService;
         }
 
         private PersonResponse ConvertPersonToPersonResponse(Person person)
@@ -169,7 +46,9 @@ namespace Services
             person.PersonID = Guid.NewGuid();
 
             //add person object to persons list
-            _persons.Add(person);
+            _db.Persons.Add(person);
+
+            _db.SaveChanges();
 
             //Convert the Person object into PersonResponse type
             return ConvertPersonToPersonResponse(person);
@@ -177,14 +56,18 @@ namespace Services
 
         public List<PersonResponse> GetAllPersons()
         {
-           return _persons.Select(person => ConvertPersonToPersonResponse(person)).ToList();
+            //it is not possible to call your own method in the link to entites expression
+           //return _db.Persons.Select(person => ConvertPersonToPersonResponse(person)).ToList();
+
+           return _db.Persons.ToList() //SELECT * from Persons
+                    .Select(person => ConvertPersonToPersonResponse(person)).ToList();
         }
 
         public PersonResponse? GetPersonByPersonId(Guid? personID)
         {
             if (personID == null) return null;
 
-            Person? person = _persons.FirstOrDefault(temp => temp.PersonID == personID);
+            Person? person = _db.Persons.FirstOrDefault(temp => temp.PersonID == personID);
 
             if(person == null) return null;
 
@@ -313,7 +196,7 @@ namespace Services
             ValidationHelper.ModelValidation(personUpdateRequest);
 
             //get matching person object to update
-            Person? matchingPerson =  _persons.FirstOrDefault(temp => temp.PersonID == personUpdateRequest.PersonID);
+            Person? matchingPerson =  _db.Persons.FirstOrDefault(temp => temp.PersonID == personUpdateRequest.PersonID);
 
             if(matchingPerson == null)
             {
@@ -329,6 +212,8 @@ namespace Services
             matchingPerson.Address = personUpdateRequest.Address;
             matchingPerson.ReciveNewsLetters = personUpdateRequest.ReceiveNewsLetters;
 
+            _db.SaveChanges();
+
             return matchingPerson.ToPersonResponse();
         }
 
@@ -336,12 +221,13 @@ namespace Services
         {
             if (personID == null) throw new ArgumentNullException(nameof(personID));
 
-            Person? person =  _persons.FirstOrDefault(temp => temp.PersonID == personID);
+            Person? person =  _db.Persons.FirstOrDefault(temp => temp.PersonID == personID);
 
             if (person == null) return false;
 
-            _persons.RemoveAll(temp => temp.PersonID == personID);
-            
+            _db.Persons.Remove(_db.Persons.First(temp => temp.PersonID == personID));
+            _db.SaveChanges();
+
             return true;
         }
     }
