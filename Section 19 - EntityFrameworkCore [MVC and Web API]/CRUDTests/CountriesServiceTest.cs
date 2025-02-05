@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Services;
 using ServiceContracts.DTO;
+using Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace CRUDTests
 {
@@ -16,7 +18,7 @@ namespace CRUDTests
         public CountriesServiceTest()
         {
             //we don't want to create mock data for test.
-            _countriesService = new CountriesService(false);
+            _countriesService = new CountriesService(new PersonsDbContext(new DbContextOptionsBuilder<PersonsDbContext>().Options));
         }
 
         #region AddCountry

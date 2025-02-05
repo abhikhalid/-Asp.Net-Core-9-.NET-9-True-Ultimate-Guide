@@ -59,7 +59,10 @@ namespace Services
             //it is not possible to call your own method in the link to entites expression
            //return _db.Persons.Select(person => ConvertPersonToPersonResponse(person)).ToList();
 
-           return _db.Persons.ToList() //SELECT * from Persons
+           //return _db.Persons.ToList() //SELECT * from Persons
+           //         .Select(person => ConvertPersonToPersonResponse(person)).ToList();
+
+           return _db.sp_GetAllPersons()
                     .Select(person => ConvertPersonToPersonResponse(person)).ToList();
         }
 
