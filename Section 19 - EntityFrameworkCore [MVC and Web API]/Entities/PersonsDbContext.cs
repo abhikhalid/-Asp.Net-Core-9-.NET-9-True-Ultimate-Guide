@@ -51,6 +51,12 @@ namespace Entities
                 modelBuilder.Entity<Person>().HasData(pesron);
             }
 
+
+            //Fluent API
+            modelBuilder.Entity<Person>().Property(temp => temp.TIN)
+                .HasColumnName("TaxIdentificationNumber") //instad of TIN, this will be the name of the database table column
+                .HasColumnType("varchar(8)")
+                 .HasDefaultValue("ABC12345");
         }
 
         public List<Person> sp_GetAllPersons()
