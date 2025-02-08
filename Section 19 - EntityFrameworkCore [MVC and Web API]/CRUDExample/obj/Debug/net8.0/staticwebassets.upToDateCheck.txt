@@ -2,4 +2,5 @@ wwwroot\jquery.min.js
 wwwroot\jquery.validate.min.js
 wwwroot\jquery.validate.unobtrusive.min.js
 wwwroot\logo.png
+wwwroot\Rotativa\wkhtmltopdf.exe
 wwwroot\StyleSheet.css

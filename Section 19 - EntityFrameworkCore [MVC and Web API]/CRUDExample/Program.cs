@@ -31,5 +31,6 @@ app.UseStaticFiles();
 app.UseRouting();
 app.MapControllers();
 
+Rotativa.AspNetCore.RotativaConfiguration.Setup("wwwroot",wkhtmltopdfRelativePath:"Rotativa");
 
 app.Run();
