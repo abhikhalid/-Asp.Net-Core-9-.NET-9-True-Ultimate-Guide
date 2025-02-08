@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Entities.Migrations
 {
     [DbContext(typeof(PersonsDbContext))]
-    [Migration("20250205175126_Update_GetAllPersonStoreProcedure")]
-    partial class UpdateGetAllPersonStoreProcedure
+    [Migration("20250208071408_update_sp")]
+    partial class updatesp
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -98,7 +98,10 @@ namespace Entities.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("TIN")
-                        .HasColumnType("nvarchar(max)");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("varchar(8)")
+                        .HasDefaultValue("ABC12345")
+                        .HasColumnName("TaxIdentificationNumber");
 
                     b.HasKey("PersonID");
 

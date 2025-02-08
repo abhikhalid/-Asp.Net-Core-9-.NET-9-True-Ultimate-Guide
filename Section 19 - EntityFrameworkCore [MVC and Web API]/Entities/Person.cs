@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities
 {
@@ -35,5 +36,8 @@ namespace Entities
         public bool ReciveNewsLetters { get; set; }
 
         public string? TIN { get; set;}
+
+        [ForeignKey("CountryID")] //It will take up the realtionship automatically, so it internally applies the joins to load the corresponding related data from the other table.
+        public virtual Country? Country { get; set; } //virtual so child class can override that. not mandatory.
     }
 }

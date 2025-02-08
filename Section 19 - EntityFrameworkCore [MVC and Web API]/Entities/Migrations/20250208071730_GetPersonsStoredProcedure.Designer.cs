@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Entities.Migrations
 {
     [DbContext(typeof(PersonsDbContext))]
-    [Migration("20250205153450_GetPersons_StoredProcedure")]
+    [Migration("20250208071730_GetPersonsStoredProcedure")]
     partial class GetPersonsStoredProcedure
     {
         /// <inheritdoc />
@@ -96,6 +96,12 @@ namespace Entities.Migrations
 
                     b.Property<bool>("ReciveNewsLetters")
                         .HasColumnType("bit");
+
+                    b.Property<string>("TIN")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("varchar(8)")
+                        .HasDefaultValue("ABC12345")
+                        .HasColumnName("TaxIdentificationNumber");
 
                     b.HasKey("PersonID");
 

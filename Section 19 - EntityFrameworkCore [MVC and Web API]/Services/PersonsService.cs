@@ -1,4 +1,5 @@
 ﻿using Entities;
+using Microsoft.EntityFrameworkCore;
 using ServiceContracts;
 using ServiceContracts.DTO;
 using ServiceContracts.Enums;
@@ -21,17 +22,12 @@ namespace Services
             _countriesService = countriesService;
         }
 
-        private PersonResponse ConvertPersonToPersonResponse(Person person)
-        {
-            PersonResponse personResponse = person.ToPersonResponse();
-            personResponse.Country = _countriesService.GetCountryByCountryID(person.CountryID)?.CountryName;
-            return personResponse;
-        }
+       
 
         public PersonResponse AddPerson(PersonAddRequest? personAddRequest)
         {
             //check if PersonAddRequest is not null
-            if(personAddRequest == null)
+            if (personAddRequest == null)
             {
                 throw new ArgumentNullException(nameof(personAddRequest));
             }
@@ -52,28 +48,27 @@ namespace Services
             _db.SaveChanges();
 
             //Convert the Person object into PersonResponse type
-            return ConvertPersonToPersonResponse(person);
+            return person.ToPersonResponse();
         }
 
         public List<PersonResponse> GetAllPersons()
         {
             //it is not possible to call your own method in the link to entites expression
-           //return _db.Persons.Select(person => ConvertPersonToPersonResponse(person)).ToList();
+            //return _db.Persons.Select(person => ConvertPersonToPersonResponse(person)).ToList();
 
-           //return _db.Persons.ToList() //SELECT * from Persons
-           //         .Select(person => ConvertPersonToPersonResponse(person)).ToList();
-
-           return _db.sp_GetAllPersons()
-                    .Select(person => ConvertPersonToPersonResponse(person)).ToList();
+            var persons = _db.Persons.Include("Country").ToList();
+            return persons
+                      .Select(person => person.ToPersonResponse()).ToList();
         }
 
         public PersonResponse? GetPersonByPersonId(Guid? personID)
         {
             if (personID == null) return null;
 
-            Person? person = _db.Persons.FirstOrDefault(temp => temp.PersonID == personID);
+            Person? person = _db.Persons.Include("Country")
+                                        .FirstOrDefault(temp => temp.PersonID == personID);
 
-            if(person == null) return null;
+            if (person == null) return null;
 
             return person.ToPersonResponse();
         }
@@ -101,8 +96,8 @@ namespace Services
                     matchingPersons = allPersons.Where(temp => (temp.DateOfBirth != null) ?
                         temp.DateOfBirth.Value.ToString("dd MMMM yyyy").Contains(searchString,
                         StringComparison.OrdinalIgnoreCase) : true).ToList();
-                    break; 
-                
+                    break;
+
                 case nameof(PersonResponse.Gender):
                     matchingPersons = allPersons.Where(temp => (!string.IsNullOrEmpty(temp.Gender) ?
                         temp.Gender.Contains(searchString,
@@ -200,13 +195,13 @@ namespace Services
             ValidationHelper.ModelValidation(personUpdateRequest);
 
             //get matching person object to update
-            Person? matchingPerson =  _db.Persons.FirstOrDefault(temp => temp.PersonID == personUpdateRequest.PersonID);
+            Person? matchingPerson = _db.Persons.FirstOrDefault(temp => temp.PersonID == personUpdateRequest.PersonID);
 
-            if(matchingPerson == null)
+            if (matchingPerson == null)
             {
                 throw new ArgumentException("Given Person Id does not exist");
             }
-            
+
             //update all deatails
             matchingPerson.PersonName = personUpdateRequest.PersonName;
             matchingPerson.Email = personUpdateRequest.Email;
@@ -225,7 +220,7 @@ namespace Services
         {
             if (personID == null) throw new ArgumentNullException(nameof(personID));
 
-            Person? person =  _db.Persons.FirstOrDefault(temp => temp.PersonID == personID);
+            Person? person = _db.Persons.FirstOrDefault(temp => temp.PersonID == personID);
 
             if (person == null) return false;
 
