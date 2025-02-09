@@ -466,3 +466,15 @@ D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\S
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\System.Memory.Data.dll
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\CsvHelper.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\EPPlus.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\EPPlus.Interfaces.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDTests\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
