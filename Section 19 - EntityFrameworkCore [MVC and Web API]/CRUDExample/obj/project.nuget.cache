@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XxYfGkuZWdw=",
+  "dgSpecHash": "9Z1BrUo3xLQ=",
   "success": true,
   "projectFilePath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 19 - EntityFrameworkCore [MVC and Web API]\\CRUDExample\\CRUDExample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kmahmud‎\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\kmahmud‎\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\kmahmud‎\\.nuget\\packages\\csvhelper\\27.2.1\\csvhelper.27.2.1.nupkg.sha512",
     "C:\\Users\\kmahmud‎\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\kmahmud‎\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.0.1\\microsoft.aspnetcore.antiforgery.2.0.1.nupkg.sha512",
     "C:\\Users\\kmahmud‎\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.0.1\\microsoft.aspnetcore.authentication.abstractions.2.0.1.nupkg.sha512",
