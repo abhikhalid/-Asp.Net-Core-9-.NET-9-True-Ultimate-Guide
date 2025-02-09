@@ -207,3 +207,4 @@ D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\S
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Rotativa.AspNetCore.dll
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.MvcApplicationPartsAssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CsvHelper.dll
