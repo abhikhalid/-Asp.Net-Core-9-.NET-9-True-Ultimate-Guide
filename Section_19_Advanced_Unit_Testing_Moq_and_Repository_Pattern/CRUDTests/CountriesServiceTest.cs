@@ -8,6 +8,8 @@ using Services;
 using ServiceContracts.DTO;
 using Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using EntityFrameworkCoreMock;
 
 namespace CRUDTests
 {
@@ -17,8 +19,27 @@ namespace CRUDTests
 
         public CountriesServiceTest()
         {
-            //we don't want to create mock data for test.
-            _countriesService = new CountriesService(new PersonsDbContext(new DbContextOptionsBuilder<PersonsDbContext>().Options));
+            //if we do this, this will interact with a real SQL server which is not a best practice.
+
+            //var dbContextOptions = new ApplicationDbContext(new DbContextOptionsBuilder<ApplicationDbContext>().Options);
+            //_countriesService = new CountriesService(dbContextOptions);
+            
+            //so, we require an alternative implementation of the DB context. That is 'DB context mock'.
+            //instead of you create the original object of persons's DbContext, let the mock create an object for the same class.
+           
+            //but first, instead of using a real SQL server database. we are going to use an empty collection as the data source. 
+
+            var countriesInitialData = new List<Country>() { }; // I want the countries table by default.
+           
+            DbContextMock<ApplicationDbContext> dbContextMock = new 
+                DbContextMock<ApplicationDbContext>(new DbContextOptionsBuilder<ApplicationDbContext>().Options);
+
+            ApplicationDbContext dbContext = dbContextMock.Object; //hey dbContextMock, give me an instance of ApplicationDbContext
+            //now, we have to mock dbSets
+            dbContextMock.CreateDbSetMock(temp => temp.Countries,countriesInitialData);
+
+
+            _countriesService = new CountriesService(dbContext);
         }
 
         #region AddCountry

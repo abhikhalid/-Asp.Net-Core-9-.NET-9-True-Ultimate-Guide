@@ -10,7 +10,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ICountriesService, CountriesService>();
 builder.Services.AddScoped<IPersonsService, PersonsService>();
 
-builder.Services.AddDbContext<PersonsDbContext>(options =>
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     //means, hey asp dot net core, we are trying to use asp dot net core for database connection
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
