@@ -9,6 +9,7 @@ using Xunit.Sdk;
 using Entities;
 using Microsoft.EntityFrameworkCore;
 using EntityFrameworkCoreMock;
+using AutoFixture;
 
 namespace CRUDTests
 {
@@ -18,6 +19,7 @@ namespace CRUDTests
         private readonly IPersonsService _personsService;
         private readonly ICountriesService _countriesService;
         private readonly ITestOutputHelper _testOutputHelper;
+        private readonly IFixture _fixture;
 
         //constructor
         public PersonsServiceTest(ITestOutputHelper testOutputHelper)
@@ -41,6 +43,7 @@ namespace CRUDTests
             _countriesService = new CountriesService(dbContext);
             _personsService = new PersonsService(dbContext, _countriesService);
             _testOutputHelper = testOutputHelper;
+            _fixture = new Fixture();
         }
 
         #region AddPerson
@@ -82,16 +85,23 @@ namespace CRUDTests
         public async Task AddPerson_ProperPersonDetails()
         {
             //Arrange
-            PersonAddRequest? personAddRequest = new PersonAddRequest()
-            {
-                PersonName = "Person Name...",
-                Email = "person@example.com",
-                Address = "sample address",
-                CountryID = Guid.NewGuid(),
-                Gender = GenderOptions.Male,
-                DateOfBirth = DateTime.Parse("2000-01-01"),
-                ReceiveNewsLetters = true,
-            };
+            //PersonAddRequest? personAddRequest = new PersonAddRequest()
+            //{
+            //    PersonName = "Person Name...",
+            //    Email = "person@example.com",
+            //    Address = "sample address",
+            //    CountryID = Guid.NewGuid(),
+            //    Gender = GenderOptions.Male,
+            //    DateOfBirth = DateTime.Parse("2000-01-01"),
+            //    ReceiveNewsLetters = true,
+            //};
+
+            //create method sets the object immediately.
+            //PersonAddRequest? personAddRequest = _fixture.Create<PersonAddRequest>();
+
+            PersonAddRequest? personAddRequest = _fixture.Build<PersonAddRequest>()
+                                                         .With(temp => temp.Email,"someone@example.com")
+                                                         .Create();
 
             //Act
             PersonResponse person_response_from_add = await _personsService.AddPerson(personAddRequest);
