@@ -389,10 +389,11 @@ namespace CRUDTests
             }
 
             //Assert
-            foreach (PersonResponse person_response_from_add in person_response_list_from_add)
-            {
-                Assert.Contains(person_response_from_add, person_list_from_search);
-            }
+            //foreach (PersonResponse person_response_from_add in person_response_list_from_add)
+            //{
+            //    Assert.Contains(person_response_from_add, person_list_from_search);
+            //}
+            person_list_from_search.Should().BeEquivalentTo(person_response_list_from_add);
         }
         //at your practice time, you can avoid the code repetition here. 
 
@@ -484,16 +485,18 @@ namespace CRUDTests
             List<PersonResponse> persons_list_from_search = await _personsService.GetFilteredPersons(nameof(Person.PersonName), "ma");
 
             //Assert
-            foreach (PersonResponse person_response_from_add in person_response_list_from_add)
-            {
-                if (person_response_from_add.PersonName != null)
-                {
-                    if (person_response_from_add.PersonName.Contains("ma", StringComparison.OrdinalIgnoreCase))
-                    {
-                        Assert.Contains(person_response_from_add, persons_list_from_search);
-                    }
-                }
-            }
+            //foreach (PersonResponse person_response_from_add in person_response_list_from_add)
+            //{
+            //    if (person_response_from_add.PersonName != null)
+            //    {
+            //        if (person_response_from_add.PersonName.Contains("ma", StringComparison.OrdinalIgnoreCase))
+            //        {
+            //            Assert.Contains(person_response_from_add, persons_list_from_search);
+            //        }
+            //    }
+            //}
+
+            persons_list_from_search.Should().OnlyContain(temp => temp.PersonName.Contains("ma", StringComparison.OrdinalIgnoreCase));
         }
 
         #endregion
@@ -586,13 +589,15 @@ namespace CRUDTests
                 _testOutputHelper.WriteLine(person_response_from_get.ToString());
             }
 
-            person_response_list_from_add = person_response_list_from_add.OrderByDescending(temp => temp.PersonName).ToList();
+            //person_response_list_from_add = person_response_list_from_add.OrderByDescending(temp => temp.PersonName).ToList();
 
             //Assert
-            for (int i = 0; i < person_response_list_from_add.Count; i++)
-            {
-                Assert.Equal(person_response_list_from_add[i], persons_list_from_sort[i]);
-            }
+            //for (int i = 0; i < person_response_list_from_add.Count; i++)
+            //{
+            //    Assert.Equal(person_response_list_from_add[i], persons_list_from_sort[i]);
+            //}
+
+            persons_list_from_sort.Should().BeInDescendingOrder(temp =>  temp.PersonName);
 
         }
         #endregion
@@ -606,11 +611,20 @@ namespace CRUDTests
             PersonUpdateRequest? person_update_request = null;
 
             //Assert
-            await Assert.ThrowsAsync<ArgumentNullException>(async () =>
+            //await Assert.ThrowsAsync<ArgumentNullException>(async () =>
+            //{
+            //    //Act
+            //    await _personsService.UpdatePerson(person_update_request);
+            //});
+
+            Func<Task> action = async () =>
             {
-                //Act
+                
                 await _personsService.UpdatePerson(person_update_request);
-            });
+            };
+
+            //Assert
+            await action.Should().ThrowAsync<ArgumentNullException>();
         }
 
         //When we supply invalid person id, it should throw ArgumentException
@@ -623,12 +637,21 @@ namespace CRUDTests
                 PersonID = Guid.NewGuid()
             };
 
+            ////Assert
+            //await Assert.ThrowsAsync<ArgumentException>(async () =>
+            //{
+            //    //Act
+            //    await _personsService.UpdatePerson(person_update_request);
+            //});
+
             //Assert
-            await Assert.ThrowsAsync<ArgumentException>(async () =>
+            Func<Task> action =  async () =>
             {
                 //Act
                 await _personsService.UpdatePerson(person_update_request);
-            });
+            };
+
+            await action.Should().ThrowAsync<ArgumentException>();
         }
 
         //when PersonName is null, it should throw ArgumentException
@@ -662,10 +685,16 @@ namespace CRUDTests
             person_update_request.PersonName = null;
 
             //Assert
-            await Assert.ThrowsAsync<ArgumentException>(async () =>
+            //await Assert.ThrowsAsync<ArgumentException>(async () =>
+            //{
+            //    await _personsService.UpdatePerson(person_update_request);
+            //});
+            Func<Task> action = async () =>
             {
                 await _personsService.UpdatePerson(person_update_request);
-            });
+            };
+
+            await action.Should().ThrowAsync<ArgumentException>();
         }
 
         // First add a new person and try to update the person name and email
@@ -708,7 +737,8 @@ namespace CRUDTests
                 person_response_from_update.PersonID);
 
             //Assert
-            Assert.Equal(person_response_from_get, person_response_from_update);
+            //Assert.Equal(person_response_from_get, person_response_from_update);
+            person_response_from_update.Should().Be(person_response_from_get);
         }
 
         #endregion
@@ -748,7 +778,8 @@ namespace CRUDTests
             bool isDeleted = await _personsService.DeletePerson(person_response_from_add.PersonID);
 
             //Assert
-            Assert.True(isDeleted);
+            //Assert.True(isDeleted);
+            isDeleted.Should().BeTrue();
         }
 
         //When you supply an invalid PersonID, it should return false
@@ -759,7 +790,8 @@ namespace CRUDTests
             bool isDeleted = await _personsService.DeletePerson(Guid.NewGuid());
 
             //Assert
-            Assert.False(isDeleted);
+            //Assert.False(isDeleted);
+            isDeleted.Should().BeFalse();
         }
         #endregion
     }

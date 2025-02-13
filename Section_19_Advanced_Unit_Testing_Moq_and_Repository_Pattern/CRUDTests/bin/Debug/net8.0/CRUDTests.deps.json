@@ -11,6 +11,7 @@
           "AutoFixture": "4.17.0",
           "Entities": "1.0.0",
           "EntityFrameworkCoreMock.Moq": "2.4.0",
+          "FluentAssertions": "6.7.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "Moq": "4.18.1",
           "ServiceContracts": "1.0.0",
@@ -158,6 +159,17 @@
           "lib/netstandard1.1/Fare.dll": {
             "assemblyVersion": "2.1.0.0",
             "fileVersion": "2.1.1.0"
+          }
+        }
+      },
+      "FluentAssertions/6.7.0": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "5.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "assemblyVersion": "6.7.0.0",
+            "fileVersion": "6.7.0.0"
           }
         }
       },
@@ -1966,6 +1978,13 @@
       "sha512": "sha512-HaI8puqA66YU7/9cK4Sgbs1taUTP1Ssa4QT2PIzqJ7GvAbN1QgkjbRsjH+FSbMh1MJdvS0CIwQNLtFT+KF6KpA==",
       "path": "fare/2.1.1",
       "hashPath": "fare.2.1.1.nupkg.sha512"
+    },
+    "FluentAssertions/6.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PWbow/R3MnYDP8UW7zh/w80rGb+1NufGoNJeuzouTo2bqpvwNTFxbDwF6XWfFZ5IuquL2225Um+qSyZ8jVsT+w==",
+      "path": "fluentassertions/6.7.0",
+      "hashPath": "fluentassertions.6.7.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Http/2.2.0": {
       "type": "package",
