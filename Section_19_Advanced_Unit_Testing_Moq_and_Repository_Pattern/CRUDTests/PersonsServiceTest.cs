@@ -10,6 +10,7 @@ using Entities;
 using Microsoft.EntityFrameworkCore;
 using EntityFrameworkCoreMock;
 using AutoFixture;
+using FluentAssertions;
 
 namespace CRUDTests
 {
@@ -55,10 +56,17 @@ namespace CRUDTests
             PersonAddRequest? personAddRequest = null;
 
             //Act
-            await Assert.ThrowsAsync<ArgumentNullException>(async () =>
+            //await Assert.ThrowsAsync<ArgumentNullException>(async () =>
+            //{
+            //    await _personsService.AddPerson(personAddRequest);
+            //});
+
+            Func<Task> action = async () =>
             {
                 await _personsService.AddPerson(personAddRequest);
-            });
+            };
+
+            await action.Should().ThrowAsync<ArgumentNullException>();
         }
 
         //When we supply null value as PersonName, it should throw ArgumetException
@@ -76,10 +84,16 @@ namespace CRUDTests
                                                  .Create();
 
             //Act
-            await Assert.ThrowsAsync<ArgumentException>(async () =>
+            //await Assert.ThrowsAsync<ArgumentException>(async () =>
+            //{
+            //    await _personsService.AddPerson(personAddRequest);
+            //});
+            Func<Task> action = async () =>
             {
                 await _personsService.AddPerson(personAddRequest);
-            });
+            };
+
+            await action.Should().ThrowAsync<ArgumentException>();
         }
 
 
@@ -112,8 +126,11 @@ namespace CRUDTests
             List<PersonResponse> persons_list = await _personsService.GetAllPersons();
 
             //Assert
-            Assert.True(person_response_from_add.PersonID != Guid.Empty);
-            Assert.Contains(person_response_from_add, persons_list);
+            //Assert.True(person_response_from_add.PersonID != Guid.Empty);
+            person_response_from_add.PersonID.Should().NotBe(Guid.Empty);
+            //Assert.Contains(person_response_from_add, persons_list);
+            //actual should be first
+            persons_list.Should().Contain(person_response_from_add);
         }
         #endregion
 
@@ -129,7 +146,8 @@ namespace CRUDTests
             PersonResponse? person_response_from_get = await _personsService.GetPersonByPersonId(personID);
 
             //Assert
-            Assert.Null(person_response_from_get);
+            //Assert.Null(person_response_from_get);
+            person_response_from_get.Should().BeNull();
         }
 
         //If we supply a valid person id, it should return the valid person details as PersonResponse object
@@ -165,7 +183,8 @@ namespace CRUDTests
 
             PersonResponse? person_response_from_get = await _personsService.GetPersonByPersonId(person_response_from_add.PersonID);
             //Assert
-            Assert.Equal(person_response_from_add, person_response_from_get);
+            //Assert.Equal(person_response_from_add, person_response_from_get);
+            person_response_from_get.Should().Be(person_response_from_add);
         }
         #endregion
 
@@ -177,7 +196,8 @@ namespace CRUDTests
             List<PersonResponse> person_from_get = await _personsService.GetAllPersons();
 
             //Assert
-            Assert.Empty(person_from_get);
+            //Assert.Empty(person_from_get);
+            person_from_get.Should().BeEmpty();
         }
 
         //First, we will add few persons, and then when we call GetPersons(), it should return the same persons that were added.
@@ -236,7 +256,7 @@ namespace CRUDTests
                                                 .With(temp => temp.Email, "sdfdf@sample.com")
                                                 .Create();
 
-            List <PersonAddRequest> person_requests = new List<PersonAddRequest>()
+            List<PersonAddRequest> person_requests = new List<PersonAddRequest>()
             {
                 person_request_1,
                 person_request_2,
@@ -271,10 +291,12 @@ namespace CRUDTests
             }
 
             //Assert
-            foreach (PersonResponse person_response_from_add in person_response_list_from_add)
-            {
-                Assert.Contains(person_response_from_add, person_list_from_get);
-            }
+            //foreach (PersonResponse person_response_from_add in person_response_list_from_add)
+            //{
+            //    Assert.Contains(person_response_from_add, person_list_from_get);
+            //}
+
+            person_list_from_get.Should().BeEquivalentTo(person_response_list_from_add);
         }
         #endregion
 
@@ -287,8 +309,8 @@ namespace CRUDTests
             //CountryAddRequest country_request_1 = new CountryAddRequest() { CountryName = "USA" };
             //CountryAddRequest country_request_2 = new CountryAddRequest() { CountryName = "Canada" };
 
-            CountryAddRequest country_request_1 =_fixture.Create<CountryAddRequest>();
-            CountryAddRequest country_request_2 =_fixture.Create<CountryAddRequest>();
+            CountryAddRequest country_request_1 = _fixture.Create<CountryAddRequest>();
+            CountryAddRequest country_request_2 = _fixture.Create<CountryAddRequest>();
 
             CountryResponse country_response_1 = await _countriesService.AddCountry(country_request_1);
             CountryResponse country_response_2 = await _countriesService.AddCountry(country_request_2);
@@ -332,7 +354,7 @@ namespace CRUDTests
 
             PersonAddRequest person_request_3 = _fixture.Build<PersonAddRequest>().With(temp => temp.Email, "khalid@gmail.com").Create();
 
-            List <PersonAddRequest> person_requests = new List<PersonAddRequest>()
+            List<PersonAddRequest> person_requests = new List<PersonAddRequest>()
             {
                 person_request_1,
                 person_request_2,
@@ -401,7 +423,7 @@ namespace CRUDTests
             PersonAddRequest person_request_1 = _fixture.Build<PersonAddRequest>()
                                                 .With(temp => temp.PersonName, "Rahman")
                                                 .With(temp => temp.Email, "smith@example.com")
-                                                .With(temp => temp.CountryID, country_response_1.CountryID) 
+                                                .With(temp => temp.CountryID, country_response_1.CountryID)
                                                 .Create();
 
             //PersonAddRequest person_request_2 = new PersonAddRequest()
@@ -432,7 +454,7 @@ namespace CRUDTests
             //};
 
             PersonAddRequest person_request_3 = _fixture.Build<PersonAddRequest>()
-                                                 .With(temp => temp.CountryID,country_response_1.CountryID)
+                                                 .With(temp => temp.CountryID, country_response_1.CountryID)
                                                 .With(temp => temp.Email, "smith@example.com").Create();
 
             List<PersonAddRequest> person_requests = new List<PersonAddRequest>()
@@ -501,7 +523,7 @@ namespace CRUDTests
             //    DateOfBirth = DateTime.Parse("2002-05-06"),
             //    ReceiveNewsLetters = true,
             //};
-            PersonAddRequest person_request_1 = _fixture.Build<PersonAddRequest>().With(temp => temp.CountryID, country_response_1.CountryID).With(temp => temp.Email,"abc@gmail.com").Create();
+            PersonAddRequest person_request_1 = _fixture.Build<PersonAddRequest>().With(temp => temp.CountryID, country_response_1.CountryID).With(temp => temp.Email, "abc@gmail.com").Create();
 
             //PersonAddRequest person_request_2 = new PersonAddRequest()
             //{
@@ -529,7 +551,7 @@ namespace CRUDTests
 
             PersonAddRequest person_request_3 = _fixture.Build<PersonAddRequest>().With(temp => temp.CountryID, country_response_2.CountryID).With(temp => temp.Email, "smith@example.com").Create();
 
-            List <PersonAddRequest> person_requests = new List<PersonAddRequest>()
+            List<PersonAddRequest> person_requests = new List<PersonAddRequest>()
             {
                 person_request_1,
                 person_request_2,
@@ -632,7 +654,7 @@ namespace CRUDTests
             //    Address = "Dhaka",
             //    Gender = GenderOptions.Male
             //};
-            PersonAddRequest person_add_request = _fixture.Build<PersonAddRequest>().With(temp => temp.Email,"khalid@gmail.com").Create();
+            PersonAddRequest person_add_request = _fixture.Build<PersonAddRequest>().With(temp => temp.Email, "khalid@gmail.com").Create();
 
             PersonResponse person_response_from_add = await _personsService.AddPerson(person_add_request);
 
@@ -671,7 +693,7 @@ namespace CRUDTests
             //    ReceiveNewsLetters = true,
             //};
 
-            PersonAddRequest person_add_request = _fixture.Build<PersonAddRequest>().With(temp => temp.Email,"abc@gmail.com").Create();
+            PersonAddRequest person_add_request = _fixture.Build<PersonAddRequest>().With(temp => temp.Email, "abc@gmail.com").Create();
 
             PersonResponse person_response_from_add = await _personsService.AddPerson(person_add_request);
 
@@ -718,7 +740,7 @@ namespace CRUDTests
             //    ReceiveNewsLetters = true,
             //};
 
-            PersonAddRequest person_add_request = _fixture.Build<PersonAddRequest>().With(temp => temp.Email,"asdf@gmail.com").Create();
+            PersonAddRequest person_add_request = _fixture.Build<PersonAddRequest>().With(temp => temp.Email, "asdf@gmail.com").Create();
 
             PersonResponse person_response_from_add = await _personsService.AddPerson(person_add_request);
 
