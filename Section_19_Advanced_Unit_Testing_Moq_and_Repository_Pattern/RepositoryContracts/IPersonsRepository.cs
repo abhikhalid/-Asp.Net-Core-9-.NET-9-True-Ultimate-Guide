@@ -11,7 +11,7 @@ namespace RepositoryContracts
     /// <summary>
     /// Represents data access logic for managing Person entity
     /// </summary>
-    internal interface IPersonsRepository
+    public interface IPersonsRepository
     {
         /// <summary>
         /// Adds a person object to the data store
@@ -31,7 +31,7 @@ namespace RepositoryContracts
         /// </summary>
         /// <param name="personID">PersonID (guid) to search</param>
         /// <returns>A person object or null</returns>
-        Task<List<Person>> GetPersonByPersonID(Guid personID);
+        Task<Person?> GetPersonByPersonID(Guid personID);
 
         /// <summary>
         /// Returns all person objects based on the given expression

@@ -111,6 +111,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\Entities\\Entities.csproj"
+              },
               "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\RepositoryContracts\\RepositoryContracts.csproj": {
                 "projectPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\RepositoryContracts\\RepositoryContracts.csproj"
               }
