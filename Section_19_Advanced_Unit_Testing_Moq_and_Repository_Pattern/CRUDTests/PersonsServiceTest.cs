@@ -42,7 +42,7 @@ namespace CRUDTests
 
 
             _countriesService = new CountriesService(null); //just for time being, to satisfy the compiler
-            _personsService = new PersonsService(dbContext, _countriesService);
+            _personsService = new PersonsService(null); //just for time being, to satisfy the compiler
             _testOutputHelper = testOutputHelper;
             _fixture = new Fixture();
         }

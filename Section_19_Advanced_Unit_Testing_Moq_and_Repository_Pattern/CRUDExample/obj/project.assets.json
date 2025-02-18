@@ -3763,6 +3763,20 @@
           "bin/placeholder/Entities.dll": {}
         }
       },
+      "Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "RepositoryContracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repositories.dll": {}
+        }
+      },
       "RepositoryContracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -10549,6 +10563,11 @@
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
     },
+    "Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Repositories/Repositories.csproj",
+      "msbuildProject": "../Repositories/Repositories.csproj"
+    },
     "RepositoryContracts/1.0.0": {
       "type": "project",
       "path": "../RepositoryContracts/RepositoryContracts.csproj",
@@ -10570,6 +10589,8 @@
       "CsvHelper >= 27.2.1",
       "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
+      "Repositories >= 1.0.0",
+      "RepositoryContracts >= 1.0.0",
       "Rotativa.AspNetCore >= 1.2.0",
       "ServiceContracts >= 1.0.0",
       "Services >= 1.0.0"
@@ -10610,6 +10631,12 @@
           "projectReferences": {
             "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\Entities\\Entities.csproj": {
               "projectPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\Entities\\Entities.csproj"
+            },
+            "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\Repositories\\Repositories.csproj": {
+              "projectPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\Repositories\\Repositories.csproj"
+            },
+            "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\RepositoryContracts\\RepositoryContracts.csproj": {
+              "projectPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\RepositoryContracts\\RepositoryContracts.csproj"
             },
             "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\ServiceContracts\\ServiceContracts.csproj": {
               "projectPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\ServiceContracts\\ServiceContracts.csproj"
