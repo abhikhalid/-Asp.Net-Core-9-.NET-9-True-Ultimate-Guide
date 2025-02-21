@@ -11,6 +11,8 @@ using Microsoft.EntityFrameworkCore;
 using EntityFrameworkCoreMock;
 using AutoFixture;
 using FluentAssertions;
+using RepositoryContracts;
+using Moq;
 
 namespace CRUDTests
 {
@@ -19,6 +21,10 @@ namespace CRUDTests
         // private fields
         private readonly IPersonsService _personsService;
         private readonly ICountriesService _countriesService;
+
+        private readonly Mock<IPersonsRepository> _personRepositoryMock;
+        private readonly IPersonsRepository _personsRepository;
+
         private readonly ITestOutputHelper _testOutputHelper;
         private readonly IFixture _fixture;
 
@@ -40,11 +46,13 @@ namespace CRUDTests
             dbContextMock.CreateDbSetMock(temp => temp.Countries, countriesInitialData);
             dbContextMock.CreateDbSetMock(temp => temp.Persons, personsInitialData);
 
-
-            _countriesService = new CountriesService(null); //just for time being, to satisfy the compiler
-            _personsService = new PersonsService(null); //just for time being, to satisfy the compiler
             _testOutputHelper = testOutputHelper;
             _fixture = new Fixture();
+
+            _personRepositoryMock = new Mock<IPersonsRepository>();
+            _personsRepository = _personRepositoryMock.Object;
+            _countriesService = new CountriesService(null); 
+            _personsService = new PersonsService(_personsRepository); 
         }
 
         #region AddPerson
@@ -100,7 +108,7 @@ namespace CRUDTests
         //When we supply proper person details, it should insert the person into the persons list and it should return an object of PersonResponse,
         //which includes with the newly genarated person id
         [Fact]
-        public async Task AddPerson_ProperPersonDetails()
+        public async Task AddPerson_FullPersonDetails_ToBeSuccessful()
         {
             //Arrange
             //PersonAddRequest? personAddRequest = new PersonAddRequest()
@@ -121,16 +129,22 @@ namespace CRUDTests
                                                          .With(temp => temp.Email, "someone@example.com")
                                                          .Create();
 
-            //Act
-            PersonResponse person_response_from_add = await _personsService.AddPerson(personAddRequest);
-            List<PersonResponse> persons_list = await _personsService.GetAllPersons();
+            Person person = personAddRequest.ToPerson();
+            PersonResponse person_respose_expected = person.ToPersonResponse();
 
+            //If we supply any argument value to the AddPerson method, it should return the same return value
+            //_personRepositoryMock.Setup(temp => temp.AddPerson(It.IsAny<Person>())).ReturnsAsync(new Person());
+            _personRepositoryMock.Setup(temp => temp.AddPerson(It.IsAny<Person>())).ReturnsAsync(person);
+
+            //Act
+
+            //we should not call or test more than one method in unit test case. so comment it
+            //List<PersonResponse> persons_list = await _personsService.GetAllPersons();
+            PersonResponse person_response_from_add = await _personsService.AddPerson(personAddRequest);
+            person_respose_expected.PersonID = person_response_from_add.PersonID;
             //Assert
-            //Assert.True(person_response_from_add.PersonID != Guid.Empty);
             person_response_from_add.PersonID.Should().NotBe(Guid.Empty);
-            //Assert.Contains(person_response_from_add, persons_list);
-            //actual should be first
-            persons_list.Should().Contain(person_response_from_add);
+            person_response_from_add.Should().Be(person_respose_expected);
         }
         #endregion
 
