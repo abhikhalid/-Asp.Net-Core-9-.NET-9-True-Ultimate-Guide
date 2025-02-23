@@ -48,11 +48,11 @@ app.UseStaticFiles();
 app.UseRouting();
 app.MapControllers();
 
-app.Logger.LogDebug("debug-message");
-app.Logger.LogInformation("information-message");
-app.Logger.LogWarning("warning-message");
-app.Logger.LogError("error-message");
-app.Logger.LogCritical("critical-message");
+//app.Logger.LogDebug("debug-message");
+//app.Logger.LogInformation("information-message");
+//app.Logger.LogWarning("warning-message");
+//app.Logger.LogError("error-message");
+//app.Logger.LogCritical("critical-message");
 
 if (!builder.Environment.IsEnvironment("Test"))
 {

@@ -1,8 +1,8 @@
 {
-  "CRUDExample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\CRUDExample",
-  "Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\Entities",
-  "Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\Repositories",
-  "RepositoryContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\RepositoryContracts",
-  "ServiceContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\ServiceContracts",
-  "Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\\Services"
+  "CRUDExample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample",
+  "Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\Entities",
+  "Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\Repositories",
+  "RepositoryContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\RepositoryContracts",
+  "ServiceContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\ServiceContracts",
+  "Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\Services"
 }
