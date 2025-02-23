@@ -1,5 +1,6 @@
 using Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Repositories;
 using RepositoryContracts;
 using ServiceContracts;
@@ -26,6 +27,10 @@ builder.Services.AddScoped<IPersonsService, PersonsService>();
 
 builder.Services.AddScoped<IPersonsRepository, PersonsRepository>();
 builder.Services.AddScoped<ICountriesRepository, CountriesRepository>();
+builder.Services.AddHttpLogging(options =>
+{
+    options.LoggingFields = Microsoft.AspNetCore.HttpLogging.HttpLoggingFields.All;
+});
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
@@ -44,6 +49,8 @@ if (builder.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
+
+
 app.UseStaticFiles();
 app.UseRouting();
 app.MapControllers();
@@ -59,6 +66,7 @@ if (!builder.Environment.IsEnvironment("Test"))
     Rotativa.AspNetCore.RotativaConfiguration.Setup("wwwroot", wkhtmltopdfRelativePath: "Rotativa");
 }
 
+app.UseHttpLogging();
 app.Run();
 
 public partial class Program //make the auto-generated Program accessible programmatically
