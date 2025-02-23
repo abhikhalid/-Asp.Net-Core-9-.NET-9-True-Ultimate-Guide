@@ -1,0 +1,319 @@
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\bin\Debug\net8.0\appsettings.Development.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\bin\Debug\net8.0\appsettings.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CRUDExample.staticwebassets.runtime.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CRUDExample.staticwebassets.endpoints.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CRUDExample.exe
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CRUDExample.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CRUDExample.runtimeconfig.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CRUDExample.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.MvcApplicationPartsAssemblyInfo.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\scopedcss\bundle\CRUDExample.styles.css
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets.build.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets.development.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.CRUDExample.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.CRUDExample.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.build.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\refint\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.genruntimeconfig.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\CRUDExample\obj\Debug\net8.0\ref\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\appsettings.Development.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\appsettings.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\CRUDExample.staticwebassets.endpoints.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\CRUDExample.staticwebassets.runtime.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\CRUDExample.exe
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\CRUDExample.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\CRUDExample.runtimeconfig.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\CRUDExample.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\Services.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\bin\Debug\net8.0\Services.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\CRUDExample.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\CRUDExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\CRUDExample.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\CRUDExample.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\CRUDExample.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\CRUDExample.MvcApplicationPartsAssemblyInfo.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\CRUDExample.RazorAssemblyInfo.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\CRUDExample.RazorAssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\CRUDExample.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\scopedcss\bundle\CRUDExample.styles.css
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\staticwebassets.build.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\staticwebassets.development.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.CRUDExample.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.CRUDExample.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.build.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\CRUDExam.61951AF1.Up2Date
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\refint\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\CRUDExample.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\CRUDExample.genruntimeconfig.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\CRUDExample\obj\Debug\net8.0\ref\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\appsettings.Development.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\appsettings.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\CRUDExample.staticwebassets.endpoints.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\CRUDExample.staticwebassets.runtime.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\CRUDExample.exe
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\CRUDExample.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\CRUDExample.runtimeconfig.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\CRUDExample.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\Services.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\bin\Debug\net8.0\Services.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\CRUDExample.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\CRUDExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\CRUDExample.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\CRUDExample.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\CRUDExample.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\CRUDExample.MvcApplicationPartsAssemblyInfo.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\CRUDExample.RazorAssemblyInfo.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\CRUDExample.RazorAssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\CRUDExample.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\scopedcss\bundle\CRUDExample.styles.css
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\staticwebassets.build.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\staticwebassets.development.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.CRUDExample.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.CRUDExample.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.build.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\CRUDExam.61951AF1.Up2Date
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\refint\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\CRUDExample.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\CRUDExample.genruntimeconfig.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\CRUDExample\obj\Debug\net8.0\ref\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\appsettings.Development.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\appsettings.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\countries.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\persons.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CRUDExample.staticwebassets.runtime.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CRUDExample.staticwebassets.endpoints.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CRUDExample.exe
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CRUDExample.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CRUDExample.runtimeconfig.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CRUDExample.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Humanizer.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\System.CodeDom.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Services.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Services.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.MvcApplicationPartsAssemblyInfo.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.RazorAssemblyInfo.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.RazorAssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\scopedcss\bundle\CRUDExample.styles.css
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets.build.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets.development.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.CRUDExample.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.CRUDExample.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.build.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExam.61951AF1.Up2Date
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\refint\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.genruntimeconfig.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\ref\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Azure.Core.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Azure.Identity.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\System.Memory.Data.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Rotativa.AspNetCore.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\obj\Debug\net8.0\CRUDExample.MvcApplicationPartsAssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\CsvHelper.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\EPPlus.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\EPPlus.Interfaces.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\CRUDExample\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\appsettings.Development.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\appsettings.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\countries.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\persons.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\CRUDExample.staticwebassets.endpoints.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\CRUDExample.staticwebassets.runtime.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\CRUDExample.exe
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\CRUDExample.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\CRUDExample.runtimeconfig.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\CRUDExample.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Azure.Core.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Azure.Identity.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\CsvHelper.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\EPPlus.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\EPPlus.Interfaces.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Humanizer.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Rotativa.AspNetCore.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\System.CodeDom.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\System.Memory.Data.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Services.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Services.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\CRUDExample.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\CRUDExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\CRUDExample.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\CRUDExample.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\CRUDExample.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\CRUDExample.MvcApplicationPartsAssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\CRUDExample.MvcApplicationPartsAssemblyInfo.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\CRUDExample.RazorAssemblyInfo.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\CRUDExample.RazorAssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\CRUDExample.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\scopedcss\bundle\CRUDExample.styles.css
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\staticwebassets.build.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\staticwebassets.development.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.CRUDExample.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.CRUDExample.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.build.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CRUDExample.props
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\CRUDExam.61951AF1.Up2Date
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\refint\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\CRUDExample.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\CRUDExample.genruntimeconfig.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\obj\Debug\net8.0\ref\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\RepositoryContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\RepositoryContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Repositories.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\CRUDExample\bin\Debug\net8.0\Repositories.pdb
