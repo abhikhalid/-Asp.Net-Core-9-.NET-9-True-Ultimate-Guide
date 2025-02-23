@@ -5,7 +5,19 @@ using RepositoryContracts;
 using ServiceContracts;
 using Services;
 
+
 var builder = WebApplication.CreateBuilder(args);
+
+//Logging
+builder.Host.ConfigureLogging(loggingProvider =>
+{
+    loggingProvider.ClearProviders();
+    loggingProvider.AddConsole();
+    //loggingProvider.AddDebug();
+    //loggingProvider.AddEventLog();
+});
+
+
 builder.Services.AddControllersWithViews();
 
 //add services into IoC container
