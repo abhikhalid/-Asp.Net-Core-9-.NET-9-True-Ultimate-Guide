@@ -21,7 +21,6 @@ namespace CRUDTests
     {
         // private fields
         private readonly IPersonsService _personsService;
-        private readonly ICountriesService _countriesService;
 
         private readonly Mock<IPersonsRepository> _personRepositoryMock;
         private readonly IPersonsRepository _personsRepository;
@@ -32,27 +31,11 @@ namespace CRUDTests
         //constructor
         public PersonsServiceTest(ITestOutputHelper testOutputHelper)
         {
-            //_countriesService = new CountriesService(new ApplicationDbContext(new DbContextOptionsBuilder<ApplicationDbContext>().Options));
-            //_personsService = new PersonsService(new ApplicationDbContext(new DbContextOptionsBuilder<ApplicationDbContext>().Options),_countriesService);
-            //_testOutputHelper = testOutputHelper;
-
-            var countriesInitialData = new List<Country>() { }; // I want the countries table by default.
-            var personsInitialData = new List<Person>() { }; // I want the countries table by default.
-
-            DbContextMock<ApplicationDbContext> dbContextMock = new
-                DbContextMock<ApplicationDbContext>(new DbContextOptionsBuilder<ApplicationDbContext>().Options);
-
-            ApplicationDbContext dbContext = dbContextMock.Object; //hey dbContextMock, give me an instance of ApplicationDbContext
-            //now, we have to mock dbSets
-            dbContextMock.CreateDbSetMock(temp => temp.Countries, countriesInitialData);
-            dbContextMock.CreateDbSetMock(temp => temp.Persons, personsInitialData);
-
             _testOutputHelper = testOutputHelper;
             _fixture = new Fixture();
 
             _personRepositoryMock = new Mock<IPersonsRepository>();
             _personsRepository = _personRepositoryMock.Object;
-            _countriesService = new CountriesService(null); 
             _personsService = new PersonsService(_personsRepository); 
         }
 
