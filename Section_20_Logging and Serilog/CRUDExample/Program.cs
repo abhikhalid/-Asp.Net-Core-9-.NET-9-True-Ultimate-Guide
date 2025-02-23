@@ -27,9 +27,10 @@ builder.Services.AddScoped<IPersonsService, PersonsService>();
 
 builder.Services.AddScoped<IPersonsRepository, PersonsRepository>();
 builder.Services.AddScoped<ICountriesRepository, CountriesRepository>();
+
 builder.Services.AddHttpLogging(options =>
 {
-    options.LoggingFields = Microsoft.AspNetCore.HttpLogging.HttpLoggingFields.All;
+    options.LoggingFields = Microsoft.AspNetCore.HttpLogging.HttpLoggingFields.RequestProperties | Microsoft.AspNetCore.HttpLogging.HttpLoggingFields.ResponsePropertiesAndHeaders;
 });
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
