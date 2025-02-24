@@ -5,18 +5,28 @@ using Repositories;
 using RepositoryContracts;
 using ServiceContracts;
 using Services;
+using Serilog;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
 //Logging
-builder.Host.ConfigureLogging(loggingProvider =>
-{
-    loggingProvider.ClearProviders();
-    loggingProvider.AddConsole();
-    //loggingProvider.AddDebug();
-    //loggingProvider.AddEventLog();
-});
+//builder.Host.ConfigureLogging(loggingProvider =>
+//{
+//    loggingProvider.ClearProviders();
+//    loggingProvider.AddConsole();
+//    //loggingProvider.AddDebug();
+//    //loggingProvider.AddEventLog();
+//});
+
+//replace existing logging mechanism with serilog
+builder.Host.UseSerilog((HostBuilderContext context, IServiceProvider services,
+   LoggerConfiguration loggerConfiguration) =>
+ {
+     loggerConfiguration
+     .ReadFrom.Configuration(context.Configuration) // means, reading the configuration from appSettings.json
+     .ReadFrom.Services(services); // this statemenet makes our service collection available to Siri log. As a part of that, any serilog sync can access the services of our application.
+ });
 
 
 builder.Services.AddControllersWithViews();
@@ -70,7 +80,7 @@ if (!builder.Environment.IsEnvironment("Test"))
 app.UseHttpLogging();
 app.Run();
 
-public partial class Program //make the auto-generated Program accessible programmatically
+public partial class Program  //make the auto-generated Program accessible programmatically
 {
 
 }

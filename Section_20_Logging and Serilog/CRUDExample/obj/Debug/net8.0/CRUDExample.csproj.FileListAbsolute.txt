@@ -422,3 +422,12 @@ D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\S
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\obj\Debug\net8.0\CRUDExample.pdb
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\obj\Debug\net8.0\CRUDExample.genruntimeconfig.cache
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\obj\Debug\net8.0\ref\CRUDExample.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\bin\Debug\net8.0\Serilog.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\bin\Debug\net8.0\Serilog.Sinks.File.dll
