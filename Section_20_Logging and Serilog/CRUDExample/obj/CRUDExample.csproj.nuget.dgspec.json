@@ -92,6 +92,10 @@
             "Serilog.Sinks.MSSqlServer": {
               "target": "Package",
               "version": "[5.7.1, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.1.0, )"
             }
           },
           "imports": [

@@ -17,6 +17,7 @@
           "Serilog": "2.11.0",
           "Serilog.AspNetCore": "6.0.1",
           "Serilog.Sinks.MSSqlServer": "5.7.1",
+          "Serilog.Sinks.Seq": "5.1.0",
           "ServiceContracts": "1.0.0",
           "Services": "1.0.0"
         },
@@ -1222,6 +1223,20 @@
           "lib/netstandard2.0/Serilog.Sinks.PeriodicBatching.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Seq/5.1.0": {
+        "dependencies": {
+          "Serilog": "2.11.0",
+          "Serilog.Formatting.Compact": "1.1.0",
+          "Serilog.Sinks.File": "5.0.0",
+          "Serilog.Sinks.PeriodicBatching": "2.3.0"
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Seq.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
           }
         }
       },
@@ -3226,6 +3241,13 @@
       "sha512": "sha512-UYKSjTMTlUY9T3OgzMmLDLD+z0qPfgvq/RvG0rKfyz+O+Zrjw3X/Xpv14J4WMcGVsOjUaR+k8n2MdmqVpJtI6A==",
       "path": "serilog.sinks.periodicbatching/2.3.0",
       "hashPath": "serilog.sinks.periodicbatching.2.3.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.Seq/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VZbcBAB3rnQe5dq21aYvxpdLQs6dLQE4pZAtrhYb1TODaTCzf/BVDRaxi5MyQOW1vNVMNjT+iDUkgwxfeFI4qA==",
+      "path": "serilog.sinks.seq/5.1.0",
+      "hashPath": "serilog.sinks.seq.5.1.0.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

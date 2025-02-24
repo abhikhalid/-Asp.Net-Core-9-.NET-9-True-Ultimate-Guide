@@ -435,3 +435,4 @@ D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\S
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\bin\Debug\net8.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\bin\Debug\net8.0\Serilog.Sinks.MSSqlServer.dll
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample\bin\Debug\net8.0\Serilog.Sinks.Seq.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1TMIUfgvvkk=",
+  "dgSpecHash": "V5FsN5IUIXg=",
   "success": true,
   "projectFilePath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\CRUDExample.csproj",
   "expectedPackageFiles": [
@@ -138,6 +138,7 @@
     "C:\\Users\\kmahmud‎\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\kmahmud‎\\.nuget\\packages\\serilog.sinks.mssqlserver\\5.7.1\\serilog.sinks.mssqlserver.5.7.1.nupkg.sha512",
     "C:\\Users\\kmahmud‎\\.nuget\\packages\\serilog.sinks.periodicbatching\\2.3.0\\serilog.sinks.periodicbatching.2.3.0.nupkg.sha512",
+    "C:\\Users\\kmahmud‎\\.nuget\\packages\\serilog.sinks.seq\\5.1.0\\serilog.sinks.seq.5.1.0.nupkg.sha512",
     "C:\\Users\\kmahmud‎\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\kmahmud‎\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\kmahmud‎\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
