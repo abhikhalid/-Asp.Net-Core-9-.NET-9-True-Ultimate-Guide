@@ -296,6 +296,10 @@
             "Serilog.Extensions.Hosting": {
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "SerilogTimings": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             }
           },
           "imports": [

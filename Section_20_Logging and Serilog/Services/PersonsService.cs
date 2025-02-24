@@ -6,6 +6,7 @@ using Microsoft.Extensions.Logging;
 using OfficeOpenXml;
 using RepositoryContracts;
 using Serilog;
+using SerilogTimings;
 using ServiceContracts;
 using ServiceContracts.DTO;
 using ServiceContracts.Enums;
@@ -28,7 +29,7 @@ namespace Services
         {
             _personsRepository = personsRepository;
             _logger = logger;
-            _diagnosticContext = diagnosticContext;            
+            _diagnosticContext = diagnosticContext;
         }
 
         public async Task<PersonResponse> AddPerson(PersonAddRequest? personAddRequest)
@@ -78,33 +79,40 @@ namespace Services
         {
             _logger.LogInformation("GetFilteredPersons of PersonService");
 
-            List<Person> persons = searchBy switch {
+            List<Person> persons;
 
-                nameof(PersonResponse.PersonName) =>
-                    await _personsRepository.GetFilteredPersons(temp => temp.PersonName.Contains(searchString)),
+            using (Operation.Time("Time for Filtered Persons from Database"))
+            {
 
-                nameof(PersonResponse.Email) =>
-                    await _personsRepository.GetFilteredPersons(temp =>  temp.Email.Contains(searchString)),
+                persons = searchBy switch
+                {
 
-                nameof(PersonResponse.DateOfBirth) =>
-                    await _personsRepository.GetFilteredPersons(temp =>
-                        temp.DateOfBirth.Value.ToString("dd MMMM yyyy").Contains(searchString)),
+                    nameof(PersonResponse.PersonName) =>
+                        await _personsRepository.GetFilteredPersons(temp => temp.PersonName.Contains(searchString)),
 
-                nameof(PersonResponse.Gender) =>
-                    await _personsRepository.GetFilteredPersons(temp =>
-                        temp.Gender.Contains(searchString)),
+                    nameof(PersonResponse.Email) =>
+                        await _personsRepository.GetFilteredPersons(temp => temp.Email.Contains(searchString)),
 
-                nameof(PersonResponse.CountryID) =>
-                    await _personsRepository.GetFilteredPersons(temp =>
-                        temp.Country.CountryName.Contains(searchString)),
+                    nameof(PersonResponse.DateOfBirth) =>
+                        await _personsRepository.GetFilteredPersons(temp =>
+                            temp.DateOfBirth.Value.ToString("dd MMMM yyyy").Contains(searchString)),
 
-                nameof(PersonResponse.Address) =>
-                    await _personsRepository.GetFilteredPersons(temp =>
-                        temp.Address.Contains(searchString)),
+                    nameof(PersonResponse.Gender) =>
+                        await _personsRepository.GetFilteredPersons(temp =>
+                            temp.Gender.Contains(searchString)),
 
-                _ =>
-                   await _personsRepository.GetAllPersons()
-            };
+                    nameof(PersonResponse.CountryID) =>
+                        await _personsRepository.GetFilteredPersons(temp =>
+                            temp.Country.CountryName.Contains(searchString)),
+
+                    nameof(PersonResponse.Address) =>
+                        await _personsRepository.GetFilteredPersons(temp =>
+                            temp.Address.Contains(searchString)),
+
+                    _ =>
+                       await _personsRepository.GetAllPersons()
+                };
+            } // end of "using block" of serilog timings
 
             _diagnosticContext.Set("Persons", persons);
 
@@ -230,7 +238,7 @@ namespace Services
             StreamWriter streamWriter = new StreamWriter(memoryStream);
 
             CsvConfiguration csvConfiguration = new CsvConfiguration(CultureInfo.InvariantCulture);
-            CsvWriter csvWriter = new CsvWriter(streamWriter,csvConfiguration);
+            CsvWriter csvWriter = new CsvWriter(streamWriter, csvConfiguration);
 
             //PersonName,Email,DateOfBirth,Age,Gender,Country,Address,ReceiveNewsLetters
             csvWriter.WriteField(nameof(PersonResponse.PersonName));
@@ -305,7 +313,7 @@ namespace Services
 
                     if (person.DateOfBirth.HasValue)
                     {
-                        worksheet.Cells[row,3].Value = person.DateOfBirth.Value.ToString("yyyy-MM-dd");
+                        worksheet.Cells[row, 3].Value = person.DateOfBirth.Value.ToString("yyyy-MM-dd");
                     }
                     worksheet.Cells[row, 4].Value = person.Age;
                     worksheet.Cells[row, 5].Value = person.Gender;
@@ -320,7 +328,7 @@ namespace Services
 
                 await excelPackage.SaveAsync();
 
-                memoryStream.Position  = 0;
+                memoryStream.Position = 0;
                 return memoryStream;
             }
         }
