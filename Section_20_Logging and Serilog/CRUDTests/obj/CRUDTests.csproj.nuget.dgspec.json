@@ -613,6 +613,10 @@
             "EPPlus": {
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [

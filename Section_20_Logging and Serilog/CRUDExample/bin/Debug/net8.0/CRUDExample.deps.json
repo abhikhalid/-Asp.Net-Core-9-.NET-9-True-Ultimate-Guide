@@ -2287,6 +2287,7 @@
           "EPPlus": "6.0.6",
           "Entities": "1.0.0",
           "RepositoryContracts": "1.0.0",
+          "Serilog.Extensions.Hosting": "5.0.1",
           "ServiceContracts": "1.0.0"
         },
         "runtime": {

@@ -39,5 +39,11 @@ namespace Entities
 
         [ForeignKey("CountryID")] //It will take up the realtionship automatically, so it internally applies the joins to load the corresponding related data from the other table.
         public virtual Country? Country { get; set; } //virtual so child class can override that. not mandatory.
+
+        public override string ToString()
+        {
+            return $"Person ID: {PersonID}, Person Name: {PersonName}, Email: {Email}, Date of Birth: {DateOfBirth?.ToString("MM/dd/yyyy")} " +
+                $"Gender : {Gender}, Country ID: {CountryID}, Country: {Country?.CountryName}, Address: {Address}, Receive News Letters: {ReciveNewsLetters}";
+        }
     }
 }
