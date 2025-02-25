@@ -32,7 +32,7 @@ namespace Services
             _diagnosticContext = diagnosticContext;
         }
 
-        public async Task<List<PersonResponse>> GetAllPersons()
+        public virtual async Task<List<PersonResponse>> GetAllPersons()
         {
             _logger.LogInformation("GetAllPersons of PersonService");
 
@@ -41,7 +41,7 @@ namespace Services
                       .Select(person => person.ToPersonResponse()).ToList();
         }
 
-        public async Task<PersonResponse?> GetPersonByPersonId(Guid? personID)
+        public virtual async Task<PersonResponse?> GetPersonByPersonId(Guid? personID)
         {
             if (personID == null) return null;
 
@@ -52,7 +52,7 @@ namespace Services
             return person.ToPersonResponse();
         }
 
-        public async Task<List<PersonResponse>> GetFilteredPersons(string searchBy, string? searchString)
+        public virtual async Task<List<PersonResponse>> GetFilteredPersons(string searchBy, string? searchString)
         {
             _logger.LogInformation("GetFilteredPersons of PersonService");
 
@@ -96,7 +96,7 @@ namespace Services
             return persons.Select(person => person.ToPersonResponse()).ToList();
         }
 
-        public async Task<MemoryStream> GetPersonsCSV()
+        public virtual async Task<MemoryStream> GetPersonsCSV()
         {
             MemoryStream memoryStream = new MemoryStream();
             //StreamWriter writes the content into MemoryStream
@@ -145,7 +145,7 @@ namespace Services
             return memoryStream;
         }
 
-        public async Task<MemoryStream> GetPersonsExcel()
+        public virtual async Task<MemoryStream> GetPersonsExcel()
         {
             MemoryStream memoryStream = new MemoryStream();
 

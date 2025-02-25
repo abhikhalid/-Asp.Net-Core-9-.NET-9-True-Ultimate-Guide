@@ -36,7 +36,8 @@ builder.Services.AddScoped<ICountriesGetterService, CountriesGetterService>();
 builder.Services.AddScoped<ICountriesAdderService, CountriesAdderService>();
 builder.Services.AddScoped<ICountriesUploaderService,CountriesUploaderService>();
 
-builder.Services.AddScoped<IPersonsGetterService,PersonsGetterServiceWithFewExcelFields>();
+//builder.Services.AddScoped<IPersonsGetterService,PersonsGetterServiceWithFewExcelFields>();
+builder.Services.AddScoped<IPersonsGetterService,PersonsGetterServiceChild>();
 builder.Services.AddScoped<PersonsGetterService, PersonsGetterService>();
 
 
