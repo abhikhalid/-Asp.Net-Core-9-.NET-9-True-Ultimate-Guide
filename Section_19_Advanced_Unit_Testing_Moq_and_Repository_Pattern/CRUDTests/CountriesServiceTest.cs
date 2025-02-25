@@ -17,7 +17,7 @@ namespace CRUDTests
 {
     public class CountriesServiceTest
     {
-        private readonly ICountriesService _countriesService;
+        private readonly ICountriesAdderService _countriesAdderService;
         private readonly IFixture _fixture;
 
         public CountriesServiceTest()
@@ -42,7 +42,7 @@ namespace CRUDTests
             dbContextMock.CreateDbSetMock(temp => temp.Countries,countriesInitialData);
 
 
-            _countriesService = new CountriesService(null);
+            _countriesAdderService = new CountriesAdderService(null);
             _fixture = new Fixture();
         }
 
@@ -200,10 +200,10 @@ namespace CRUDTests
 
             foreach(CountryAddRequest country_request in country_request_list)
             {
-                countries_list_from_add_country.Add(await _countriesService.AddCountry(country_request));
+                countries_list_from_add_country.Add(await _countriesAdderService.AddCountry(country_request));
             }
 
-            List<CountryResponse> actualCountryResponseList = await _countriesService.GetAllCountries();
+            List<CountryResponse> actualCountryResponseList = await _countriesGetterService.GetAllCountries();
 
             //read each element from countries_list_from_add_country
             //foreach(CountryResponse expected_country in countries_list_from_add_country)
