@@ -36,7 +36,10 @@ builder.Services.AddScoped<ICountriesGetterService, CountriesGetterService>();
 builder.Services.AddScoped<ICountriesAdderService, CountriesAdderService>();
 builder.Services.AddScoped<ICountriesUploaderService,CountriesUploaderService>();
 
-builder.Services.AddScoped<IPersonsGetterService, PersonsGetterService>();
+builder.Services.AddScoped<IPersonsGetterService,PersonsGetterServiceWithFewExcelFields>();
+builder.Services.AddScoped<PersonsGetterService, PersonsGetterService>();
+
+
 builder.Services.AddScoped<IPersonsAdderService, PersonsAdderService>();
 builder.Services.AddScoped<IPersonsDeleterService, PersonsDeleterService>();
 builder.Services.AddScoped<IPersonsSorterService, PersonsSorterService>();
