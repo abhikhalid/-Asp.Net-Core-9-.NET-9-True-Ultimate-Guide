@@ -10,6 +10,7 @@
         "tags": [
           "Cities"
         ],
+        "summary": "To get list of cities (including city Id and city name) from 'cities' table.",
         "responses": {
           "200": {
             "description": "Success",
