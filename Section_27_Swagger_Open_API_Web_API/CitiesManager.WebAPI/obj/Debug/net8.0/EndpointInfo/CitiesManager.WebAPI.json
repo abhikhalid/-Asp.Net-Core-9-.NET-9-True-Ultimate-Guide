@@ -1,37 +1,21 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "CitiesManager.WebAPI",
+    "title": "Cities Web API",
     "version": "1.0"
   },
   "paths": {
-    "/api/Cities": {
+    "/api/v1/Cities": {
       "get": {
         "tags": [
           "Cities"
         ],
-        "summary": "To get list of cities (including city Id and city name) from 'cities' table.",
+        "summary": "To get list of cities (including city ID and city name) from 'cities' table",
         "responses": {
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/City"
-                  }
-                }
-              },
               "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/City"
-                  }
-                }
-              },
-              "text/json": {
                 "schema": {
                   "type": "array",
                   "items": {
@@ -54,11 +38,6 @@
                 "$ref": "#/components/schemas/City"
               }
             },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/City"
-              }
-            },
             "application/*+json": {
               "schema": {
                 "$ref": "#/components/schemas/City"
@@ -70,17 +49,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/City"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/City"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/City"
                 }
@@ -90,7 +59,7 @@
         }
       }
     },
-    "/api/Cities/{cityID}": {
+    "/api/v1/Cities/{cityID}": {
       "get": {
         "tags": [
           "Cities"
@@ -111,17 +80,7 @@
           "200": {
             "description": "Success",
             "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/City"
-                }
-              },
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/City"
-                }
-              },
-              "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/City"
                 }
@@ -129,16 +88,14 @@
             }
           }
         }
-      }
-    },
-    "/api/Cities/{cityId}": {
+      },
       "put": {
         "tags": [
           "Cities"
         ],
         "parameters": [
           {
-            "name": "cityId",
+            "name": "cityID",
             "in": "path",
             "required": true,
             "style": "simple",
@@ -151,11 +108,6 @@
         "requestBody": {
           "content": {
             "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/City"
-              }
-            },
-            "text/json": {
               "schema": {
                 "$ref": "#/components/schemas/City"
               }
@@ -174,7 +126,7 @@
         }
       }
     },
-    "/api/Cities/{id}": {
+    "/api/v1/Cities/{id}": {
       "delete": {
         "tags": [
           "Cities"
@@ -194,35 +146,6 @@
         "responses": {
           "200": {
             "description": "Success"
-          }
-        }
-      }
-    },
-    "/api/Test": {
-      "get": {
-        "tags": [
-          "Test"
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "string"
-                }
-              }
-            }
           }
         }
       }

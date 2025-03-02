@@ -843,3 +843,8 @@ D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\S
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_27_Swagger_Open_API_Web_API\CitiesManager.WebAPI\api.xml\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_27_Swagger_Open_API_Web_API\CitiesManager.WebAPI\api.xml\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_27_Swagger_Open_API_Web_API\CitiesManager.WebAPI\bin\Debug\net8.0\api.xml
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_27_Swagger_Open_API_Web_API\CitiesManager.WebAPI\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_27_Swagger_Open_API_Web_API\CitiesManager.WebAPI\bin\Debug\net8.0\Asp.Versioning.Http.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_27_Swagger_Open_API_Web_API\CitiesManager.WebAPI\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_27_Swagger_Open_API_Web_API\CitiesManager.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_27_Swagger_Open_API_Web_API\CitiesManager.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
