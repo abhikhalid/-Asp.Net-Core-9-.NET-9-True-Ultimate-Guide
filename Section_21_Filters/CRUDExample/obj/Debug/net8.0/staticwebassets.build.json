@@ -1,0 +1,640 @@
+{
+  "Version": 1,
+  "Hash": "w+j7R1S/sm/pp56XgD7euLRjq/EOcy6d7QaDDuzp0ZE=",
+  "Source": "CRUDExample",
+  "BasePath": "_content/CRUDExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CRUDExample\\wwwroot",
+      "Source": "CRUDExample",
+      "ContentRoot": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\",
+      "BasePath": "_content/CRUDExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\jquery.min.js",
+      "SourceId": "CRUDExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\",
+      "BasePath": "_content/CRUDExample",
+      "RelativePath": "jquery.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ehgnz7f14e",
+      "Integrity": "zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery.min.js"
+    },
+    {
+      "Identity": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\jquery.validate.min.js",
+      "SourceId": "CRUDExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\",
+      "BasePath": "_content/CRUDExample",
+      "RelativePath": "jquery.validate.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9xennu59i4",
+      "Integrity": "sxUVUQTdesX9Z/MoT6Xpsfws/9SC9ZfmzCtVfaNb05s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery.validate.min.js"
+    },
+    {
+      "Identity": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "CRUDExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\",
+      "BasePath": "_content/CRUDExample",
+      "RelativePath": "jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d171zkdrjx",
+      "Integrity": "H8OdhvNWpxCHXd9Osw8R7yOsWj9CQKGDMlujYVBsYMw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Identity": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\logo.png",
+      "SourceId": "CRUDExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\",
+      "BasePath": "_content/CRUDExample",
+      "RelativePath": "logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qyl749h62t",
+      "Integrity": "Dr14De4ZMlG48jQzLvKiTqUs0G94qD5Vl8PHFmd1u0s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo.png"
+    },
+    {
+      "Identity": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "SourceId": "CRUDExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\",
+      "BasePath": "_content/CRUDExample",
+      "RelativePath": "Rotativa/wkhtmltopdf#[.{fingerprint}]?.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cuquy3615b",
+      "Integrity": "ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltopdf.exe"
+    },
+    {
+      "Identity": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\StyleSheet.css",
+      "SourceId": "CRUDExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\",
+      "BasePath": "_content/CRUDExample",
+      "RelativePath": "StyleSheet#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ev0g547zpy",
+      "Integrity": "lrJc52zl1+2qf6yUL7FHRZuA1L7ZR7RiP32xQ63BXsE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "jquery.min.ehgnz7f14e.js",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 06:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ehgnz7f14e"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs="
+        }
+      ]
+    },
+    {
+      "Route": "jquery.min.js",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 06:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs="
+        }
+      ]
+    },
+    {
+      "Route": "jquery.validate.min.9xennu59i4.js",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\jquery.validate.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sxUVUQTdesX9Z/MoT6Xpsfws/9SC9ZfmzCtVfaNb05s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 06:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9xennu59i4"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery.validate.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sxUVUQTdesX9Z/MoT6Xpsfws/9SC9ZfmzCtVfaNb05s="
+        }
+      ]
+    },
+    {
+      "Route": "jquery.validate.min.js",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\jquery.validate.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sxUVUQTdesX9Z/MoT6Xpsfws/9SC9ZfmzCtVfaNb05s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 06:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sxUVUQTdesX9Z/MoT6Xpsfws/9SC9ZfmzCtVfaNb05s="
+        }
+      ]
+    },
+    {
+      "Route": "jquery.validate.unobtrusive.min.d171zkdrjx.js",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\jquery.validate.unobtrusive.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H8OdhvNWpxCHXd9Osw8R7yOsWj9CQKGDMlujYVBsYMw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 06:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d171zkdrjx"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery.validate.unobtrusive.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H8OdhvNWpxCHXd9Osw8R7yOsWj9CQKGDMlujYVBsYMw="
+        }
+      ]
+    },
+    {
+      "Route": "jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\jquery.validate.unobtrusive.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H8OdhvNWpxCHXd9Osw8R7yOsWj9CQKGDMlujYVBsYMw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 06:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H8OdhvNWpxCHXd9Osw8R7yOsWj9CQKGDMlujYVBsYMw="
+        }
+      ]
+    },
+    {
+      "Route": "logo.png",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dr14De4ZMlG48jQzLvKiTqUs0G94qD5Vl8PHFmd1u0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 06:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dr14De4ZMlG48jQzLvKiTqUs0G94qD5Vl8PHFmd1u0s="
+        }
+      ]
+    },
+    {
+      "Route": "logo.qyl749h62t.png",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dr14De4ZMlG48jQzLvKiTqUs0G94qD5Vl8PHFmd1u0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 06:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qyl749h62t"
+        },
+        {
+          "Name": "label",
+          "Value": "logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dr14De4ZMlG48jQzLvKiTqUs0G94qD5Vl8PHFmd1u0s="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltopdf.cuquy3615b.exe",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41563648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 11 Jun 2020 00:24:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cuquy3615b"
+        },
+        {
+          "Name": "label",
+          "Value": "Rotativa/wkhtmltopdf.exe"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltopdf.exe",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41563648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 11 Jun 2020 00:24:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag="
+        }
+      ]
+    },
+    {
+      "Route": "StyleSheet.css",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lrJc52zl1+2qf6yUL7FHRZuA1L7ZR7RiP32xQ63BXsE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 06:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lrJc52zl1+2qf6yUL7FHRZuA1L7ZR7RiP32xQ63BXsE="
+        }
+      ]
+    },
+    {
+      "Route": "StyleSheet.ev0g547zpy.css",
+      "AssetFile": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_20_Logging and Serilog\\CRUDExample\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lrJc52zl1+2qf6yUL7FHRZuA1L7ZR7RiP32xQ63BXsE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 06:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ev0g547zpy"
+        },
+        {
+          "Name": "label",
+          "Value": "StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lrJc52zl1+2qf6yUL7FHRZuA1L7ZR7RiP32xQ63BXsE="
+        }
+      ]
+    }
+  ]
+}
