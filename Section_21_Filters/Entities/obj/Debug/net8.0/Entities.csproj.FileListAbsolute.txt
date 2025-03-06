@@ -79,3 +79,18 @@ D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\S
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Entities\obj\Debug\net8.0\Entities.pdb
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Entities\obj\Debug\net8.0\Entities.genruntimeconfig.cache
 D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Entities\obj\Debug\net8.0\ref\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\bin\Debug\net8.0\Entities.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\bin\Debug\net8.0\Entities.runtimeconfig.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\obj\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\obj\Debug\net8.0\refint\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\obj\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\obj\Debug\net8.0\Entities.genruntimeconfig.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Entities\obj\Debug\net8.0\ref\Entities.dll
