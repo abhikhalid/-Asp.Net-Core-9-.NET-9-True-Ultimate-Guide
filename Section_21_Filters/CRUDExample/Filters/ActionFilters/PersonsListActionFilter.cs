@@ -17,7 +17,7 @@ namespace CRUDExample.Filters.ActionFilters
         //To do: add before logic here
         public void OnActionExecuted(ActionExecutedContext context)
         {
-            _logger.LogInformation("PersonsListActionFilter.OnActionExecuted method");
+            _logger.LogInformation("{FilterName}.{MethodName} method", nameof(PersonsListActionFilter), nameof(OnActionExecuted));
 
             PersonsController personsController = (PersonsController)context.Controller;
 
@@ -62,7 +62,7 @@ namespace CRUDExample.Filters.ActionFilters
         {
             context.HttpContext.Items["arguments"] = context.ActionArguments;
 
-            _logger.LogInformation("PersonsListActionFilter.OnActionExecuting method");
+            _logger.LogInformation("{FilterName}.{MethodName} method",nameof(PersonsListActionFilter), nameof(OnActionExecuting));
 
             if (context.ActionArguments.ContainsKey("searchBy"))
             {
