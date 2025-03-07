@@ -6,6 +6,7 @@ using RepositoryContracts;
 using ServiceContracts;
 using Services;
 using Serilog;
+using CRUDExample.Filters.ActionFilters;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,8 +29,15 @@ builder.Host.UseSerilog((HostBuilderContext context, IServiceProvider services,
      .ReadFrom.Services(services); // this statemenet makes our service collection available to Siri log. As a part of that, any serilog sync can access the services of our application.
  });
 
+//it adds controllers and views as services
+builder.Services.AddControllersWithViews(options =>
+{
+    //options.Filters.Add<ResponseHeaderActionFilter>(); // but you can supply parameter in this way
 
-builder.Services.AddControllersWithViews();
+    var logger = builder.Services.BuildServiceProvider().GetRequiredService<ILogger<ResponseHeaderActionFilter>>();
+
+    options.Filters.Add(new ResponseHeaderActionFilter(logger,"My-Key-From-Global","My-Value-From-Global"));
+});
 
 //add services into IoC container
 builder.Services.AddScoped<ICountriesGetterService, CountriesGetterService>();
