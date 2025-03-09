@@ -2,30 +2,30 @@
 
 namespace CRUDExample.Filters.ActionFilters
 {
-    public class ResponseHeaderActionFilter : IActionFilter
+    public class ResponseHeaderActionFilter : IAsyncActionFilter, IOrderedFilter
     {
         private ILogger<ResponseHeaderActionFilter> _logger;
-        private readonly string Key;
+        private readonly string _key;
         private readonly string Value;
 
-        public ResponseHeaderActionFilter(ILogger<ResponseHeaderActionFilter> logger, string key, string value)
+        public int Order { get; set; }
+
+        public ResponseHeaderActionFilter(ILogger<ResponseHeaderActionFilter> logger, string key, string value, int order)
         {
             this._logger = logger;
-            this.Key = key;
+            this._key = key;
             this.Value = value;
+            Order = order;
         }
 
-        //before
-        public void OnActionExecuting(ActionExecutingContext context)
+        public async Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
         {
-            _logger.LogInformation("{FilterName}.{MethodName} method",nameof(ResponseHeaderActionFilter), nameof(OnActionExecuting));
-        }
+            _logger.LogInformation("{FilterName}.{MethodName} method - before", nameof(ResponseHeaderActionFilter), nameof(OnActionExecutionAsync));
 
-        //after
-        public void OnActionExecuted(ActionExecutedContext context)
-        {
-            _logger.LogInformation("{FilterName}.{MethodName} method", nameof(ResponseHeaderActionFilter), nameof(OnActionExecuted));
-            context.HttpContext.Response.Headers[Key] = Value;
+            await next(); // call the next subsequent filter which is added in the chain. If there is no subseqent filter, it will call the action method.  
+
+            _logger.LogInformation("{FilterName}.{MethodName} method - after", nameof(ResponseHeaderActionFilter), nameof(OnActionExecutionAsync));
+            context.HttpContext.Response.Headers[_key] = Value;
         }
     }
 }

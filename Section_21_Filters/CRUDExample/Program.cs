@@ -32,11 +32,11 @@ builder.Host.UseSerilog((HostBuilderContext context, IServiceProvider services,
 //it adds controllers and views as services
 builder.Services.AddControllersWithViews(options =>
 {
-    //options.Filters.Add<ResponseHeaderActionFilter>(); // but you can supply parameter in this way
+    //options.Filters.Add<ResponseHeaderActionFilter>(5); // we can also pass Order as a parameter in this way, then we do not need to implement 'IOrderedFilter' interface. This would only work if our filter does not have any parameter. 
 
     var logger = builder.Services.BuildServiceProvider().GetRequiredService<ILogger<ResponseHeaderActionFilter>>();
 
-    options.Filters.Add(new ResponseHeaderActionFilter(logger,"My-Key-From-Global","My-Value-From-Global"));
+    options.Filters.Add(new ResponseHeaderActionFilter(logger,"My-_key-From-Global","My-Value-From-Global",2));
 });
 
 //add services into IoC container
