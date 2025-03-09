@@ -9,7 +9,7 @@ using ServiceContracts.Enums;
 namespace CRUDExample.Controllers
 {
     [Route("[controller]")]
-    [TypeFilter(typeof(ResponseHeaderActionFilter), Arguments = new object[] { "My-_key-From-Controller", "My-Value-From-Controller",3}, Order = 3)]
+    [TypeFilter(typeof(ResponseHeaderActionFilter), Arguments = new object[] { "My-_key-From-Controller", "My-Value-From-Controller", 3 }, Order = 3)]
     public class PersonsController : Controller
     {
         //private fields
@@ -23,7 +23,7 @@ namespace CRUDExample.Controllers
         private readonly ICountriesGetterService _countriesGetterService;
         private readonly ILogger<PersonsController> _logger;
 
-        public PersonsController(IPersonsGetterService personsGetterService, IPersonsAdderService personsAdderService, IPersonsSorterService personsSorterService, IPersonsUpdaterService personsUpdaterService, IPersonsDeleterService personsDeleterService , ICountriesGetterService countriesGetterService, ILogger<PersonsController> logger)
+        public PersonsController(IPersonsGetterService personsGetterService, IPersonsAdderService personsAdderService, IPersonsSorterService personsSorterService, IPersonsUpdaterService personsUpdaterService, IPersonsDeleterService personsDeleterService, ICountriesGetterService countriesGetterService, ILogger<PersonsController> logger)
         {
             _personsGetterService = personsGetterService;
             _personsAdderService = personsAdderService;
@@ -39,8 +39,8 @@ namespace CRUDExample.Controllers
         [Route("[action]")]
         [Route("/")]
         [TypeFilter(typeof(PersonsListActionFilter), Order = 4)] // 4 as per the presentation
-        [TypeFilter(typeof(ResponseHeaderActionFilter), Arguments = new object[] { "My-_key-From-Action", "My-Value-From-Action", 1}, Order = 1)]
-        public async Task<IActionResult> Index(string searchBy, string? searchString, string sortBy= nameof(PersonResponse.PersonName),SortOrderOptions sortOrder = SortOrderOptions.ASC)
+        [TypeFilter(typeof(ResponseHeaderActionFilter), Arguments = new object[] { "My-_key-From-Action", "My-Value-From-Action", 1 }, Order = 1)]
+        public async Task<IActionResult> Index(string searchBy, string? searchString, string sortBy = nameof(PersonResponse.PersonName), SortOrderOptions sortOrder = SortOrderOptions.ASC)
         {
             _logger.LogInformation("Index action method of PersonsController");
             _logger.LogDebug($"searchBy: {searchBy}, searchString: {searchString}, sortBy: {sortBy}, sortOrder: {sortOrder}");
@@ -57,12 +57,12 @@ namespace CRUDExample.Controllers
             //};
 
 
-            List<PersonResponse> persons = await _personsGetterService.GetFilteredPersons(searchBy,searchString);
+            List<PersonResponse> persons = await _personsGetterService.GetFilteredPersons(searchBy, searchString);
             //ViewBag.CurrentSearchBy = searchBy;
             //ViewBag.CurrentSearchString = searchString;
 
             //Sort
-            List<PersonResponse> sortedPersons = await _personsSorterService.GetSortedPersons(persons,sortBy,sortOrder);
+            List<PersonResponse> sortedPersons = await _personsSorterService.GetSortedPersons(persons, sortBy, sortOrder);
             //ViewBag.CurrentSortBy = sortBy; 
             //ViewBag.CurrentSortOrder = sortOrder.ToString();
 
@@ -75,7 +75,7 @@ namespace CRUDExample.Controllers
         //[Route("create")]
         [Route("[action]")]
         [HttpGet]
-        [TypeFilter(typeof(ResponseHeaderActionFilter), Arguments = new object[] { "my-_key", "my-value" })]
+        [TypeFilter(typeof(ResponseHeaderActionFilter), Arguments = new object[] { "my-key", "my-value", 4 })]
         public async Task<IActionResult> Create()
         {
             List<CountryResponse> countries = await _countriesGetterService.GetAllCountries();
@@ -94,19 +94,24 @@ namespace CRUDExample.Controllers
         [HttpPost] //when user clicks on Submit button this method gets executed
         //[Route("create")]
         [Route("[action]")]
-        public async Task<IActionResult> Create(PersonAddRequest personAddRequest)
+        [TypeFilter(typeof(PersonCreateAndEditPostActionFilter))]
+        public async Task<IActionResult> Create(PersonAddRequest personRequest)
         {
-            if (!ModelState.IsValid) //before executing this controller method, model validation gets executed
-            {
-                List<CountryResponse> countries = await _countriesGetterService.GetAllCountries();
-                ViewBag.Countries = countries;
+            //if (!ModelState.IsValid) //before executing this controller method, model validation gets executed
+            //{
+            //    List<CountryResponse> countries = await _countriesGetterService.GetAllCountries();
+            //    ViewBag.Countries = countries.Select(temp => new SelectListItem()
+            //    {
+            //        Text = temp.CountryName,
+            //        Value = temp.CountryID.ToString(),
+            //    });
 
-                ViewBag.Errros =  ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
-                return View(personAddRequest);
-            }
+            //    ViewBag.Errros = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+            //    return View(personRequest);
+            //}
 
-            PersonResponse personResponse = await _personsAdderService.AddPerson(personAddRequest);
-            return RedirectToAction("Index","Persons");
+            PersonResponse personResponse = await _personsAdderService.AddPerson(personRequest);
+            return RedirectToAction("Index", "Persons");
         }
 
         //for loading edit view
@@ -120,7 +125,7 @@ namespace CRUDExample.Controllers
             {
                 return RedirectToAction("Index"); // redirect to 'Index' action method
             }
-            
+
             PersonUpdateRequest personUpdateRequest = personResponse.ToPersonUpdateRequest();
 
             List<CountryResponse> countries = await _countriesGetterService.GetAllCountries();
@@ -136,29 +141,30 @@ namespace CRUDExample.Controllers
         //on clicking the submit button from edit page
         [HttpPost]
         [Route("[action]/{personID}")]
-        public async Task<IActionResult> Edit(PersonUpdateRequest personUpdateRequest)
+        [TypeFilter(typeof(PersonCreateAndEditPostActionFilter))]
+        public async Task<IActionResult> Edit(PersonUpdateRequest personRequest)
         {
-            PersonResponse? personResponse = await _personsGetterService.GetPersonByPersonId(personUpdateRequest.PersonID);
+            PersonResponse? personResponse = await _personsGetterService.GetPersonByPersonId(personRequest.PersonID);
 
             if (personResponse == null)
             {
                 return RedirectToAction("Index");
             }
 
-            if (ModelState.IsValid)
-            {
-                PersonResponse updatedPerson = await _personsUpdaterService.UpdatePerson(personUpdateRequest);
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                List<CountryResponse> countries = await _countriesGetterService.GetAllCountries();
-                ViewBag.Countries = countries.Select(temp =>
-                new SelectListItem() { Text = temp.CountryName, Value = temp.CountryID.ToString() });
+            //if (ModelState.IsValid)
+            //{
+            PersonResponse updatedPerson = await _personsUpdaterService.UpdatePerson(personRequest);
+            return RedirectToAction("Index");
+            //}
+            //else
+            //{
+            //    List<CountryResponse> countries = await _countriesGetterService.GetAllCountries();
+            //    ViewBag.Countries = countries.Select(temp =>
+            //    new SelectListItem() { Text = temp.CountryName, Value = temp.CountryID.ToString() });
 
-                ViewBag.Errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
-                return View(personResponse.ToPersonUpdateRequest());
-            }
+            //    ViewBag.Errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+            //    return View(personResponse.ToPersonUpdateRequest());
+            //}
         }
 
 
@@ -191,7 +197,7 @@ namespace CRUDExample.Controllers
         public async Task<IActionResult> PersonsPDF()
         {
             //Get list of persons
-            List<PersonResponse> persons =  await _personsGetterService.GetAllPersons();
+            List<PersonResponse> persons = await _personsGetterService.GetAllPersons();
 
             //Return view as pdf
 
@@ -213,18 +219,18 @@ namespace CRUDExample.Controllers
         [Route("PersonsCSV")]
         public async Task<IActionResult> PersonsCSV()
         {
-           MemoryStream memoryStream = await _personsGetterService.GetPersonsCSV();
-           
-           return File(memoryStream,"application/octet-stream","persons.csv");
-        } 
-        
-        
+            MemoryStream memoryStream = await _personsGetterService.GetPersonsCSV();
+
+            return File(memoryStream, "application/octet-stream", "persons.csv");
+        }
+
+
         [Route("PersonsExcel")]
         public async Task<IActionResult> PersonsExcel()
         {
-           MemoryStream memoryStream = await _personsGetterService.GetPersonsExcel();
-           
-           return File(memoryStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "persons.xlsx");
+            MemoryStream memoryStream = await _personsGetterService.GetPersonsExcel();
+
+            return File(memoryStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "persons.xlsx");
         }
     }
 }
