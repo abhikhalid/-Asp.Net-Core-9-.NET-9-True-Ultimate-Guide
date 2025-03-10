@@ -1,4 +1,5 @@
 ﻿using CRUDExample.Filters.ActionFilters;
+using CRUDExample.Filters.ResourcesFilter;
 using CRUDExample.Filters.ResultFilters;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -97,6 +98,8 @@ namespace CRUDExample.Controllers
         //[Route("create")]
         [Route("[action]")]
         [TypeFilter(typeof(PersonCreateAndEditPostActionFilter))]
+        //[TypeFilter(typeof(FeatureDisabledResourceFilter))]
+        [TypeFilter(typeof(FeatureDisabledResourceFilter), Arguments = new object[] {false})]
         public async Task<IActionResult> Create(PersonAddRequest personRequest)
         {
             //if (!ModelState.IsValid) //before executing this controller method, model validation gets executed
