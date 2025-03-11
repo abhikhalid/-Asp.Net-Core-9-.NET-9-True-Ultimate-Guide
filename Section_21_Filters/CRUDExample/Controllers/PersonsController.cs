@@ -1,4 +1,5 @@
-﻿using CRUDExample.Filters.ActionFilters;
+﻿using CRUDExample.Filters;
+using CRUDExample.Filters.ActionFilters;
 using CRUDExample.Filters.AuthorizationFilter;
 using CRUDExample.Filters.ExceptionFilters;
 using CRUDExample.Filters.ResourcesFilter;
@@ -15,6 +16,7 @@ namespace CRUDExample.Controllers
     [Route("[controller]")]
     [TypeFilter(typeof(ResponseHeaderActionFilter), Arguments = new object[] { "My-_key-From-Controller", "My-Value-From-Controller", 3 }, Order = 3)]
     [TypeFilter(typeof(HandleExceptionFilter))]
+    [TypeFilter(typeof(PersonsAlwaysRunResultFilter))]
     public class PersonsController : Controller
     {
         //private fields
@@ -46,6 +48,7 @@ namespace CRUDExample.Controllers
         [TypeFilter(typeof(PersonsListActionFilter), Order = 4)] // 4 as per the presentation
         [TypeFilter(typeof(ResponseHeaderActionFilter), Arguments = new object[] { "My-_key-From-Action", "My-Value-From-Action", 1 }, Order = 1)]
         [TypeFilter(typeof(PersonsListResultFilter))]
+        [SkipFilter]
         public async Task<IActionResult> Index(string searchBy, string? searchString, string sortBy = nameof(PersonResponse.PersonName), SortOrderOptions sortOrder = SortOrderOptions.ASC)
         {
             _logger.LogInformation("Index action method of PersonsController");
@@ -125,7 +128,7 @@ namespace CRUDExample.Controllers
         //for loading edit view
         [HttpGet]
         [Route("[action]/{personID}")] //Eg: /persons/edit/1
-        [TypeFilter(typeof(TokenAuthorizationFilter))]
+        //[TypeFilter(typeof(TokenAuthorizationFilter))]
         public async Task<IActionResult> Edit(Guid personID)
         {
             PersonResponse? personResponse = await _personsGetterService.GetPersonByPersonId(personID);
@@ -152,6 +155,7 @@ namespace CRUDExample.Controllers
         [Route("[action]/{personID}")]
         [TypeFilter(typeof(PersonCreateAndEditPostActionFilter))]
         [TypeFilter(typeof(TokenAuthorizationFilter))]
+        //[TypeFilter(typeof(PersonsAlwaysRunResultFilter))]
         public async Task<IActionResult> Edit(PersonUpdateRequest personRequest)
         {
             PersonResponse? personResponse = await _personsGetterService.GetPersonByPersonId(personRequest.PersonID);
