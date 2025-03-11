@@ -9,10 +9,12 @@ namespace CRUDExample.Filters.ActionFilters
     public class PersonCreateAndEditPostActionFilter : IAsyncActionFilter
     {
         private readonly ICountriesGetterService _countriesGetterService;
+        private readonly ILogger<PersonCreateAndEditPostActionFilter> _logger;
 
-        public PersonCreateAndEditPostActionFilter(ICountriesGetterService countriesGetterService)
+        public PersonCreateAndEditPostActionFilter(ICountriesGetterService countriesGetterService, ILogger<PersonCreateAndEditPostActionFilter> logger)
         {
             _countriesGetterService = countriesGetterService;
+            _logger = logger;
         }
 
         public async Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
@@ -42,6 +44,8 @@ namespace CRUDExample.Filters.ActionFilters
             }    
             //await next();
             //TO DO: after logic
+
+            _logger.LogInformation("In after logic of PersonsCreateAndEdit Action filter");           
         }
     }
 }
