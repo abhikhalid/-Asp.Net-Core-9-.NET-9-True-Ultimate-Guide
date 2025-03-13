@@ -29,6 +29,9 @@ builder.Host.UseSerilog((HostBuilderContext context, IServiceProvider services,
      .ReadFrom.Services(services); // this statemenet makes our service collection available to Siri log. As a part of that, any serilog sync can access the services of our application.
  });
 
+
+builder.Services.AddTransient<ResponseHeaderActionFilter>();
+
 //it adds controllers and views as services
 builder.Services.AddControllersWithViews(options =>
 {
@@ -36,7 +39,12 @@ builder.Services.AddControllersWithViews(options =>
 
     var logger = builder.Services.BuildServiceProvider().GetRequiredService<ILogger<ResponseHeaderActionFilter>>();
 
-    options.Filters.Add(new ResponseHeaderActionFilter(logger,"My-_key-From-Global","My-Value-From-Global",2));
+    options.Filters.Add(new ResponseHeaderActionFilter(logger)
+    {
+        Key = "My-_key-From-Global",
+        Value = "My-Value-From-Global",
+        Order = 2
+    });
 });
 
 //add services into IoC container
