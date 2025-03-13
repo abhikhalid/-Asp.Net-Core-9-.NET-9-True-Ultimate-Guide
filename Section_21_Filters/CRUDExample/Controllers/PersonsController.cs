@@ -45,7 +45,7 @@ namespace CRUDExample.Controllers
         //[Route("index")]
         [Route("[action]")]
         [Route("/")]
-        [TypeFilter(typeof(PersonsListActionFilter), Order = 4)] // 4 as per the presentation
+        [ServiceFilter(typeof(PersonsListActionFilter), Order = 4)] // 4 as per the presentation
         [TypeFilter(typeof(ResponseHeaderActionFilter), Arguments = new object[] { "My-_key-From-Action", "My-Value-From-Action", 1 }, Order = 1)]
         [TypeFilter(typeof(PersonsListResultFilter))]
         [SkipFilter]
