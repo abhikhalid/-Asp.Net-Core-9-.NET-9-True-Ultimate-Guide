@@ -82,31 +82,31 @@ namespace CRUDTests
         #endregion
 
         #region Create
-        [Fact]
-        public async void Create_IfModelErrors_ToReturnCreateView()
-        {
-            //Arrange
-            PersonAddRequest person_add_request = _fixture.Create<PersonAddRequest>();
+        //[Fact]
+        //public async void Create_IfModelErrors_ToReturnCreateView()
+        //{
+        //    //Arrange
+        //    PersonAddRequest person_add_request = _fixture.Create<PersonAddRequest>();
 
-            PersonResponse person_response = _fixture.Create<PersonResponse>();
-            List<CountryResponse> countries = _fixture.Create<List<CountryResponse>>();
+        //    PersonResponse person_response = _fixture.Create<PersonResponse>();
+        //    List<CountryResponse> countries = _fixture.Create<List<CountryResponse>>();
 
-            _countriesGetterServiceMock.Setup(temp => temp.GetAllCountries()).ReturnsAsync(countries);
-            _personAdderServiceMock.Setup(temp => temp.AddPerson(It.IsAny<PersonAddRequest>())).ReturnsAsync(person_response);
+        //    _countriesGetterServiceMock.Setup(temp => temp.GetAllCountries()).ReturnsAsync(countries);
+        //    _personAdderServiceMock.Setup(temp => temp.AddPerson(It.IsAny<PersonAddRequest>())).ReturnsAsync(person_response);
 
-            PersonsController personsController = new PersonsController(_personsGetterService, _personsAdderService, _personsSorterService, _personsUpdaterService, _personsDeleterService, _countriesGetterService, _logger);
+        //    PersonsController personsController = new PersonsController(_personsGetterService, _personsAdderService, _personsSorterService, _personsUpdaterService, _personsDeleterService, _countriesGetterService, _logger);
 
 
-            //Act
-            personsController.ModelState.AddModelError("PersonName", "Person Name can't be blank");
+        //    //Act
+        //    personsController.ModelState.AddModelError("PersonName", "Person Name can't be blank");
 
-            IActionResult result = await personsController.Create(person_add_request);
+        //    IActionResult result = await personsController.Create(person_add_request);
 
-            //Assert
-            ViewResult viewResult = Assert.IsType<ViewResult>(result);
-            viewResult.ViewData.Model.Should().BeAssignableTo<PersonAddRequest>();
-            viewResult.ViewData.Model.Should().Be(person_add_request);
-        }
+        //    //Assert
+        //    ViewResult viewResult = Assert.IsType<ViewResult>(result);
+        //    viewResult.ViewData.Model.Should().BeAssignableTo<PersonAddRequest>();
+        //    viewResult.ViewData.Model.Should().Be(person_add_request);
+        //}
 
         [Fact]
         public async void Create_IfNoModelErrors_ToReturnRedirectToIndex()

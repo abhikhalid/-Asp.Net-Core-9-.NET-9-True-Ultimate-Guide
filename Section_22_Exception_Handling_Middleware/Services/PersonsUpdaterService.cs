@@ -1,6 +1,7 @@
 ﻿using CsvHelper;
 using CsvHelper.Configuration;
 using Entities;
+using Exceptions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using OfficeOpenXml;
@@ -47,7 +48,8 @@ namespace Services
 
             if (matchingPerson == null)
             {
-                throw new ArgumentException("Given Person Id does not exist");
+                //throw new ArgumentException("Given Person Id does not exist");
+                throw new InvalidPersonIDException("Given Person Id does not exist");
             }
 
             matchingPerson.PersonName = personUpdateRequest.PersonName;

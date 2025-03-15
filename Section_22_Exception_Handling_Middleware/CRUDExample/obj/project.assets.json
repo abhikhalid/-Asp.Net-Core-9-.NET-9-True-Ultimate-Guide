@@ -4250,6 +4250,16 @@
           "bin/placeholder/Entities.dll": {}
         }
       },
+      "Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Exceptions.dll": {}
+        }
+      },
       "Repositories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4298,6 +4308,7 @@
           "CsvHelper": "27.2.1",
           "EPPlus": "6.0.6",
           "Entities": "1.0.0",
+          "Exceptions": "1.0.0",
           "RepositoryContracts": "1.0.0",
           "Serilog.Extensions.Hosting": "5.0.1",
           "SerilogTimings": "3.0.1",
@@ -11634,6 +11645,11 @@
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
     },
+    "Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../Exceptions/Exceptions.csproj",
+      "msbuildProject": "../Exceptions/Exceptions.csproj"
+    },
     "Repositories/1.0.0": {
       "type": "project",
       "path": "../Repositories/Repositories.csproj",
@@ -11659,6 +11675,7 @@
     "net8.0": [
       "CsvHelper >= 27.2.1",
       "Entities >= 1.0.0",
+      "Exceptions >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Repositories >= 1.0.0",
       "RepositoryContracts >= 1.0.0",
@@ -11706,6 +11723,9 @@
           "projectReferences": {
             "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\Entities\\Entities.csproj": {
               "projectPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\Entities\\Entities.csproj"
+            },
+            "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\Exceptions\\Exceptions.csproj": {
+              "projectPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\Exceptions\\Exceptions.csproj"
             },
             "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\Repositories\\Repositories.csproj": {
               "projectPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\Repositories\\Repositories.csproj"

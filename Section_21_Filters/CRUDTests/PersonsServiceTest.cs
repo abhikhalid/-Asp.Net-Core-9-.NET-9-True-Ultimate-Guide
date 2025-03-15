@@ -50,7 +50,7 @@ namespace CRUDTests
             _personsAdderService = new PersonsAdderService(_personsRepository, loggerMock.Object, diagonsticContextMock.Object);
             _personsDeleterService = new PersonsDeleterService(_personsRepository, loggerMock.Object, diagonsticContextMock.Object);
             _personsSorterService = new PersonsSorterService(_personsRepository, loggerMock.Object, diagonsticContextMock.Object);
-            _personsUpdaterService = new PersonsUpdaterService(_personsRepository, loggerMock.Object, diagonsticContextMock.Object); 
+            _personsUpdaterService = new PersonsUpdaterService(_personsRepository, loggerMock.Object, diagonsticContextMock.Object);
         }
 
         #region AddPerson
@@ -183,14 +183,14 @@ namespace CRUDTests
 
             //Act
             PersonResponse? person_response_from_get = await _personsGetterService.GetPersonByPersonId(person.PersonID);
-            
+
             //Assert
             person_response_from_get.Should().Be(person_response_expected);
         }
         #endregion
 
         #region GetAllPersons
-        
+
         //The GetAllPersons() should return an empty list by default
         [Fact]
         public async Task GetAllPersons_ToBeEmptyList()
@@ -215,52 +215,45 @@ namespace CRUDTests
             //Arrange
             List<Person> persons = new List<Person>() {
                 _fixture.Build<Person>()
-                .With(temp => temp.Email, "email@sample.com")
+                .With(temp => temp.Email, "someone_1@example.com")
                 .With(temp => temp.Country, null as Country)
                 .Create(),
 
                 _fixture.Build<Person>()
-                .With(temp => temp.Email, "dfsdf@sample.com")
+                .With(temp => temp.Email, "someone_2@example.com")
                 .With(temp => temp.Country, null as Country)
                 .Create(),
 
                 _fixture.Build<Person>()
-                .With(temp => temp.Email, "sdfdf@sample.com")
+                .With(temp => temp.Email, "someone_3@example.com")
                 .With(temp => temp.Country, null as Country)
-                .Create(),
-            };
-
+                .Create()
+               };
 
             List<PersonResponse> person_response_list_expected = persons.Select(temp => temp.ToPersonResponse()).ToList();
 
+
             //print person_response_list_from_add
             _testOutputHelper.WriteLine("Expected:");
-
             foreach (PersonResponse person_response_from_add in person_response_list_expected)
             {
                 _testOutputHelper.WriteLine(person_response_from_add.ToString());
             }
 
-            //Act
-            List<PersonResponse> person_list_from_get = await _personsGetterService.GetAllPersons();
-
-            //print person_list_from_get
-            _testOutputHelper.WriteLine("Actual:");
-
-            foreach (PersonResponse person_from_get in person_list_from_get)
-            {
-                _testOutputHelper.WriteLine(person_from_get.ToString());
-            }
-
             _personRepositoryMock.Setup(temp => temp.GetAllPersons()).ReturnsAsync(persons);
 
-            //Assert
-            //foreach (PersonResponse person_response_from_add in person_response_list_from_add)
-            //{
-            //    Assert.Contains(person_response_from_add, person_list_from_get);
-            //}
+            //Act
+            List<PersonResponse> persons_list_from_get = await _personsGetterService.GetAllPersons();
 
-            person_list_from_get.Should().BeEquivalentTo(person_response_list_expected);
+            //print persons_list_from_get
+            _testOutputHelper.WriteLine("Actual:");
+            foreach (PersonResponse person_response_from_get in persons_list_from_get)
+            {
+                _testOutputHelper.WriteLine(person_response_from_get.ToString());
+            }
+
+            //Assert
+            persons_list_from_get.Should().BeEquivalentTo(person_response_list_expected);
         }
         #endregion
 
@@ -286,7 +279,7 @@ namespace CRUDTests
                 .With(temp => temp.Country, null as Country)
                 .Create(),
             };
-            
+
             List<PersonResponse> person_response_list_expected = persons.Select(temp => temp.ToPersonResponse()).ToList();
 
             //print person_response_list_from_add
@@ -429,7 +422,7 @@ namespace CRUDTests
             //    Assert.Equal(person_response_list_from_add[i], persons_list_from_sort[i]);
             //}
 
-            persons_list_from_sort.Should().BeInDescendingOrder(temp =>  temp.PersonName);
+            persons_list_from_sort.Should().BeInDescendingOrder(temp => temp.PersonName);
 
         }
         #endregion
@@ -451,7 +444,7 @@ namespace CRUDTests
 
             Func<Task> action = async () =>
             {
-                
+
                 await _personsUpdaterService.UpdatePerson(person_update_request);
             };
 
@@ -477,7 +470,7 @@ namespace CRUDTests
             //});
 
             //Assert
-            Func<Task> action =  async () =>
+            Func<Task> action = async () =>
             {
                 //Act
                 await _personsUpdaterService.UpdatePerson(person_update_request);
@@ -531,7 +524,7 @@ namespace CRUDTests
 
             _personRepositoryMock.Setup(temp => temp.UpdatePerson(It.IsAny<Person>())).ReturnsAsync(person);
             _personRepositoryMock.Setup(temp => temp.GetPersonByPersonID(It.IsAny<Guid>())).ReturnsAsync(person);
-            
+
             //Act
             PersonResponse person_response_from_update = await _personsUpdaterService.UpdatePerson(person_update_request);
 

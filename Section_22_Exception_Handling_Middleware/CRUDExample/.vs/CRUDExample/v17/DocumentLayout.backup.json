@@ -3,16 +3,14 @@
   "WorkspaceRootPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\CRUDExample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D6B0214-8511-42D9-AD22-28E50614AE2D}|CRUDExample.csproj|d:\\assignment\\practice\\dot net core\\-asp.net-core-9-.net-9-true-ultimate-guide\\section_22_exception_handling_middleware\\crudexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7D6B0214-8511-42D9-AD22-28E50614AE2D}|CRUDExample.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7D6B0214-8511-42D9-AD22-28E50614AE2D}|CRUDExample.csproj|d:\\assignment\\practice\\dot net core\\-asp.net-core-9-.net-9-true-ultimate-guide\\section_22_exception_handling_middleware\\crudexample\\controllers\\personscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D6B0214-8511-42D9-AD22-28E50614AE2D}|CRUDExample.csproj|solutionrelative:controllers\\personscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D6B0214-8511-42D9-AD22-28E50614AE2D}|CRUDExample.csproj|d:\\assignment\\practice\\dot net core\\-asp.net-core-9-.net-9-true-ultimate-guide\\section_22_exception_handling_middleware\\crudexample\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D6B0214-8511-42D9-AD22-28E50614AE2D}|CRUDExample.csproj|solutionrelative:middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F70C392-1C94-4CA0-B960-B4EAF7E97FD3}|..\\Services\\Services.csproj|d:\\assignment\\practice\\dot net core\\-asp.net-core-9-.net-9-true-ultimate-guide\\section_22_exception_handling_middleware\\services\\personsupdaterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D6B0214-8511-42D9-AD22-28E50614AE2D}|CRUDExample.csproj|d:\\assignment\\practice\\dot net core\\-asp.net-core-9-.net-9-true-ultimate-guide\\section_22_exception_handling_middleware\\crudexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D6B0214-8511-42D9-AD22-28E50614AE2D}|CRUDExample.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{127A0F2A-E4EA-4D0D-A2ED-F473197601D0}|..\\Exceptions\\Exceptions.csproj|d:\\assignment\\practice\\dot net core\\-asp.net-core-9-.net-9-true-ultimate-guide\\section_22_exception_handling_middleware\\exceptions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +25,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\CRUDExample\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\CRUDExample\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-15T19:08:43.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\CRUDExample\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\CRUDExample\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAACoAAAApAAAAAAAAAA==",
+              "Title": "PersonsController.cs",
+              "DocumentMoniker": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\CRUDExample\\Controllers\\PersonsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PersonsController.cs",
+              "ToolTip": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\CRUDExample\\Controllers\\PersonsController.cs",
+              "RelativeToolTip": "Controllers\\PersonsController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAmwIYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T18:48:30.054Z",
+              "WhenOpened": "2025-03-15T19:35:39.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ExceptionHandlingMiddleware.cs",
-              "DocumentMoniker": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\CRUDExample\\Middleware\\ExceptionHandlingMiddleware.cs",
-              "RelativeDocumentMoniker": "Middleware\\ExceptionHandlingMiddleware.cs",
-              "ToolTip": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\CRUDExample\\Middleware\\ExceptionHandlingMiddleware.cs",
-              "RelativeToolTip": "Middleware\\ExceptionHandlingMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA1AAAAAAAAAA==",
+              "Title": "PersonsUpdaterService.cs",
+              "DocumentMoniker": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\Services\\PersonsUpdaterService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\PersonsUpdaterService.cs",
+              "ToolTip": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\Services\\PersonsUpdaterService.cs",
+              "RelativeToolTip": "..\\Services\\PersonsUpdaterService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAACoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T18:45:15.048Z",
+              "WhenOpened": "2025-03-15T19:31:50.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\Exceptions\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Exceptions\\Class1.cs",
+              "ToolTip": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_22_Exception_Handling_Middleware\\Exceptions\\Class1.cs",
+              "RelativeToolTip": "..\\Exceptions\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T19:26:54.887Z",
               "EditorCaption": ""
             }
           ]

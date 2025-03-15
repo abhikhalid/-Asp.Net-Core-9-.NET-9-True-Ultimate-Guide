@@ -130,7 +130,7 @@ namespace CRUDExample.Controllers
         //for loading edit view
         [HttpGet]
         [Route("[action]/{personID}")] //Eg: /persons/edit/1
-        //[TypeFilter(typeof(TokenAuthorizationFilter))]
+        [TypeFilter(typeof(TokenAuthorizationFilter))]
         public async Task<IActionResult> Edit(Guid personID)
         {
             PersonResponse? personResponse = await _personsGetterService.GetPersonByPersonId(personID);
@@ -169,6 +169,10 @@ namespace CRUDExample.Controllers
 
             //if (ModelState.IsValid)
             //{
+
+            //let's add invalid person id intentionally
+            personRequest.PersonID = Guid.NewGuid();
+
             PersonResponse updatedPerson = await _personsUpdaterService.UpdatePerson(personRequest);
             return RedirectToAction("Index");
             //}
