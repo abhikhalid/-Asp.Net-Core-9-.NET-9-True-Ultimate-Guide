@@ -1,0 +1,115 @@
+2025-02-24 21:09:19.421 +06:00 [INF] User profile is available. Using 'C:\Users\kmahmud‎\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-24 21:09:19.559 +06:00 [INF] Now listening on: http://localhost:5195
+2025-02-24 21:09:19.608 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-24 21:09:19.609 +06:00 [INF] Hosting environment: Development
+2025-02-24 21:09:19.610 +06:00 [INF] Content root path: D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample
+2025-02-24 21:09:22.335 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5195/ - null null
+2025-02-24 21:09:22.456 +06:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2025-02-24 21:09:22.458 +06:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (CRUDExample)'
+2025-02-24 21:09:22.495 +06:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (CRUDExample).
+2025-02-24 21:09:22.646 +06:00 [INF] Index action method of PersonsController
+2025-02-24 21:09:22.674 +06:00 [INF] GetFilteredPersons of PersonService
+2025-02-24 21:09:22.675 +06:00 [INF] GetAllPersons of PersonsRepository
+2025-02-24 21:09:23.257 +06:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReciveNewsLetters], [p].[TaxIdentificationNumber], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2025-02-24 21:09:23.320 +06:00 [INF] GetSortedPersons of PersonService
+2025-02-24 21:09:23.331 +06:00 [INF] Executing ViewResult, running view Index.
+2025-02-24 21:09:23.477 +06:00 [INF] Executed ViewResult - view Index executed in 147.4487ms.
+2025-02-24 21:09:23.480 +06:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (CRUDExample) in 982.6546ms
+2025-02-24 21:09:23.481 +06:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (CRUDExample)'
+2025-02-24 21:09:23.483 +06:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 24 Feb 2025 15:09:22 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2025-02-24 21:09:23.485 +06:00 [INF] HTTP GET / responded 200 in 1058.2142 ms
+2025-02-24 21:09:23.492 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5195/ - 200 null text/html; charset=utf-8 1173.6218ms
+2025-02-24 21:09:23.550 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5195/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-24 21:09:23.557 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5195/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 6.417ms
+2025-02-24 21:09:23.581 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5195/_vs/browserLink - null null
+2025-02-24 21:09:23.651 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.7303ms
+2025-02-24 21:15:21.828 +06:00 [INF] User profile is available. Using 'C:\Users\kmahmud‎\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-24 21:15:21.977 +06:00 [INF] Now listening on: http://localhost:5195
+2025-02-24 21:15:22.000 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-24 21:15:22.001 +06:00 [INF] Hosting environment: Development
+2025-02-24 21:15:22.002 +06:00 [INF] Content root path: D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample
+2025-02-24 21:15:22.589 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5195/ - null null
+2025-02-24 21:15:22.659 +06:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2025-02-24 21:15:22.662 +06:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (CRUDExample)'
+2025-02-24 21:15:22.712 +06:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (CRUDExample).
+2025-02-24 21:15:22.850 +06:00 [INF] Index action method of PersonsController
+2025-02-24 21:15:22.892 +06:00 [INF] GetFilteredPersons of PersonService
+2025-02-24 21:15:22.894 +06:00 [INF] GetAllPersons of PersonsRepository
+2025-02-24 21:15:24.811 +06:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReciveNewsLetters], [p].[TaxIdentificationNumber], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2025-02-24 21:15:24.908 +06:00 [INF] GetSortedPersons of PersonService
+2025-02-24 21:15:24.923 +06:00 [INF] Executing ViewResult, running view Index.
+2025-02-24 21:15:25.171 +06:00 [INF] Executed ViewResult - view Index executed in 250.3568ms.
+2025-02-24 21:15:25.175 +06:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (CRUDExample) in 2461.3546ms
+2025-02-24 21:15:25.177 +06:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (CRUDExample)'
+2025-02-24 21:15:25.179 +06:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 24 Feb 2025 15:15:24 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2025-02-24 21:15:25.183 +06:00 [INF] HTTP GET / responded 200 in 2547.0290 ms
+2025-02-24 21:15:25.198 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5195/ - 200 null text/html; charset=utf-8 2622.1421ms
+2025-02-24 21:15:25.239 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5195/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-24 21:15:25.244 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5195/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 5.406ms
+2025-02-24 21:15:25.258 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5195/_vs/browserLink - null null
+2025-02-24 21:15:25.296 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.6997ms
+2025-02-24 21:37:34.183 +06:00 [INF] User profile is available. Using 'C:\Users\kmahmud‎\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-24 21:37:36.660 +06:00 [INF] Now listening on: http://localhost:5195
+2025-02-24 21:37:36.712 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-24 21:37:36.713 +06:00 [INF] Hosting environment: Development
+2025-02-24 21:37:36.714 +06:00 [INF] Content root path: D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample
+2025-02-24 21:37:37.457 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5195/ - null null
+2025-02-24 21:37:37.670 +06:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2025-02-24 21:37:37.687 +06:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (CRUDExample)'
+2025-02-24 21:37:37.806 +06:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (CRUDExample).
+2025-02-24 21:37:38.141 +06:00 [INF] Index action method of PersonsController
+2025-02-24 21:37:38.210 +06:00 [INF] GetFilteredPersons of PersonService
+2025-02-24 21:37:38.215 +06:00 [INF] GetAllPersons of PersonsRepository
+2025-02-24 21:37:39.587 +06:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReciveNewsLetters], [p].[TaxIdentificationNumber], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2025-02-24 21:37:39.751 +06:00 [INF] Time for Filtered Persons from Database completed in 1536.0 ms
+2025-02-24 21:37:39.775 +06:00 [INF] GetSortedPersons of PersonService
+2025-02-24 21:37:39.798 +06:00 [INF] Executing ViewResult, running view Index.
+2025-02-24 21:37:40.085 +06:00 [INF] Executed ViewResult - view Index executed in 287.7972ms.
+2025-02-24 21:37:40.090 +06:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (CRUDExample) in 2280.7595ms
+2025-02-24 21:37:40.093 +06:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (CRUDExample)'
+2025-02-24 21:37:40.097 +06:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 24 Feb 2025 15:37:39 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2025-02-24 21:37:40.103 +06:00 [INF] HTTP GET / responded 200 in 2484.0577 ms
+2025-02-24 21:37:40.129 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5195/ - 200 null text/html; charset=utf-8 2683.3057ms
+2025-02-24 21:37:40.188 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5195/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-24 21:37:40.197 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5195/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 9.3787ms
+2025-02-24 21:37:40.271 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5195/_vs/browserLink - null null
+2025-02-24 21:37:40.414 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 143.1346ms

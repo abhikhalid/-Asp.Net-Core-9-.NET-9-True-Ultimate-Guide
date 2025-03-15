@@ -1,0 +1,112 @@
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\bin\Debug\net8.0\ServiceContracts.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\bin\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\bin\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceC.04662A29.Up2Date
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\refint\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 15 - xUnit [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ref\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\bin\Debug\net8.0\ServiceContracts.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\bin\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\bin\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\obj\Debug\net8.0\ServiceC.04662A29.Up2Date
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\obj\Debug\net8.0\refint\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 16 - CRUD Operations [MVC]\ServiceContracts\obj\Debug\net8.0\ref\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\bin\Debug\net8.0\ServiceContracts.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\bin\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\bin\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\obj\Debug\net8.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\obj\Debug\net8.0\ServiceContracts.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\obj\Debug\net8.0\ServiceC.04662A29.Up2Date
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\obj\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\obj\Debug\net8.0\refint\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\obj\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_17_Tag_Helpers\ServiceContracts\obj\Debug\net8.0\ref\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\bin\Debug\net8.0\ServiceContracts.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\bin\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\bin\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceC.04662A29.Up2Date
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\refint\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 19 - EntityFrameworkCore [MVC and Web API]\ServiceContracts\obj\Debug\net8.0\ref\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\bin\Debug\net8.0\ServiceContracts.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\bin\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\bin\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\obj\Debug\net8.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\obj\Debug\net8.0\ServiceContracts.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\obj\Debug\net8.0\ServiceC.04662A29.Up2Date
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\obj\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\obj\Debug\net8.0\refint\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\obj\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\ServiceContracts\obj\Debug\net8.0\ref\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\bin\Debug\net8.0\ServiceContracts.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\bin\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\bin\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\obj\Debug\net8.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\obj\Debug\net8.0\ServiceContracts.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\obj\Debug\net8.0\ServiceC.04662A29.Up2Date
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\obj\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\obj\Debug\net8.0\refint\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\obj\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\ServiceContracts\obj\Debug\net8.0\ref\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\bin\Debug\net8.0\ServiceContracts.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\bin\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\bin\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\obj\Debug\net8.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\obj\Debug\net8.0\ServiceContracts.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\obj\Debug\net8.0\ServiceContracts.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\obj\Debug\net8.0\ServiceContracts.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\obj\Debug\net8.0\ServiceC.04662A29.Up2Date
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\obj\Debug\net8.0\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\obj\Debug\net8.0\refint\ServiceContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\obj\Debug\net8.0\ServiceContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\ServiceContracts\obj\Debug\net8.0\ref\ServiceContracts.dll

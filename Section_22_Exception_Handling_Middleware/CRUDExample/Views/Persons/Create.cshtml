@@ -1,0 +1,173 @@
+﻿@model PersonAddRequest //we are writing it so that, in the 'asp-for' tag we get suggestion from visual studio.
+
+@{
+    ViewBag.Title = "Create Person";
+}
+
+@* <a href="~/persons/index" class="link-hover">Back to Persons List</a> *@
+<a asp-controller="Persons" asp-action="Index" class="link-hover">Back to Persons List</a>
+
+
+<div class="w-50">
+    @* <form action="~/persons/create" method="POST"> *@
+    <form asp-controller="Persons" asp-action="Create" method="POST">
+
+        @* PersonName *@
+        <div class="form-field flex">
+            <div class="w-25">
+                @* difference between for and asp-for is, it will give you compiler time error if you supply wrong value to the for. *@
+                <label asp-for="PersonName" class="form-label pt">Person Name</label>
+            </div>
+
+            <div class="flex-1">
+                @* make sure the name property value match the Model Class Property name, so that model binding works *@
+                @* but id is not related with form submission, it is realted with label 'for' *@
+                @* but submission perspective, name is important, for display perspective, id and label is important *@
+                @* go to browser and see the output in the page source *@
+                <input asp-for="PersonName" class="form-input" />
+                <span asp-validation-for="PersonName" class="text-red"></span>
+            </div>
+        </div>
+
+        @* Email*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Email" class="form-label pt">Email</label>
+            </div>
+
+            <div class="flex-1">
+                @* make sure the name property value match the Model Class Property name, so that model binding works *@
+                <input asp-for="Email" type="email" class="form-input" />
+                <span asp-validation-for="Email" class="text-red"></span>
+            </div>
+        </div>
+
+        @*DateOfBirth*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="DateOfBirth" class="form-label pt">Date Of Birth</label>
+            </div>
+
+            <div class="flex-1">
+                @* make sure the name property value match the Model Class Property name, so that model binding works *@
+                <input asp-for="DateOfBirth" type="date" class="form-input" />
+                <span asp-validation-for="DateOfBirth" class="text-red"></span>
+            </div>
+        </div>
+
+        @*Gender*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label class="form-label">Gender</label>
+                <span asp-validation-for="Gender" class="text-red"></span>
+            </div>
+
+            <div class="flex-1">
+                @* make sure the name property value match the Model Class Property name, so that model binding works *@
+                @{
+                    string[] genders = (string[])Enum.GetNames(typeof(GenderOptions));
+
+                    @foreach (string gender in genders)
+                    {
+                        <input asp-for="Gender" type="radio" value="@gender" class="ml" />
+                        <label asp-for="@gender">@gender</label>
+                    }
+                }
+            </div>
+        </div>
+
+        @*Country*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label class="form-label" asp-for="CountryID">Country</label>
+            </div>
+
+            <div class="flex-1">
+                <select asp-for="CountryID" class="form-input" asp-items="@ViewBag.Countries">
+                    <option value="">Please Select</option>
+                    @*     @foreach (CountryResponse country in ViewBag.Countries) *@
+                    @*     { *@
+                    @*         <option value="@country.CountryID">@country.CountryName</option> *@
+                    @*     } *@
+                </select>
+                <span asp-validation-for="CountryID" class="text-red"></span>
+            </div>
+        </div>
+
+        @*Address*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Address" class="form-label pt">Address</label>
+                <span asp-validation-for="Address" class="text-red"></span>
+            </div>
+
+            <div class="flex-1">
+                @* make sure the name property value match the Model Class Property name, so that model binding works *@
+                <textarea asp-for="Address" class="form-input"></textarea>
+            </div>
+        </div>
+
+        @*ReceiveNewsLetters*@
+        <div class="form-field flex">
+            <div class="w-25">
+            </div>
+
+            <div class="flex-1">
+                <input type="checkbox" asp-for="ReceiveNewsLetters" value="true" />
+                <label asp-for="ReceiveNewsLetters" class="form-label">Receive News Letters</label>
+                <span asp-validation-for="ReceiveNewsLetters" class="text-red"></span>
+            </div>
+        </div>
+
+        @*Submit*@
+        <div class="form-field flex">
+            <div class="w-25">
+            </div>
+
+            <div class="flex-1">
+                <button class="button button-green-back">Create</button>
+
+                <div asp-validation-summary="All" class="text-red"></div>
+
+                @if (ViewBag.Errros != null)
+                {
+                    <div class="text-red ml">
+                        <ul>
+                            @foreach (string error in ViewBag.Errros)
+                            {
+                                <li class="ml">@error</li>
+                            }
+                        </ul>
+                    </div>
+                }
+            </div>
+        </div>
+    </form>
+</div>
+
+@section scripts {
+    @* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" *@
+    @*         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" *@
+    @*         crossorigin="anonymous" *@
+    @*         referrerpolicy="no-referrer" *@
+    @*         asp-fallback-test="window.jQuery" *@
+    @*         asp-fallback-src="~/jquery.min.js"> *@
+    @* </script> *@
+
+
+    @* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.4/jquery.validate.min.js" *@
+    @*         integrity="sha512-FOhq9HThdn7ltbK8abmGn60A/EMtEzIzv1rvuh+DqzJtSGq8BRdEN0U+j0iKEIffiw/yEtVuladk6rsG4X6Uqg==" *@
+    @*         crossorigin="anonymous" *@
+    @*         referrerpolicy="no-referrer" *@
+    @*         asp-fallback-test="window.jQuery.validator" *@
+    @*         asp-fallback-src="~/jquery.validate.min.js"></script> *@
+
+
+    @* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js" *@
+    @*         integrity="sha512-o6XqxgrUsKmchwy9G5VRNWSSxTS4Urr4loO6/0hYdpWmFUfHqGzawGxeQGMDqYzxjY9sbktPbNlkIQJWagVZQg==" *@
+    @*         crossorigin="anonymous" *@
+    @*         referrerpolicy="no-referrer" *@
+    @*         asp-fallback-test="window.jQuery.validator.unobsrusive" *@
+    @*         asp-fallback-src="~/jquery.validate.unobtrusive.min.js"> *@
+    </script>
+}
