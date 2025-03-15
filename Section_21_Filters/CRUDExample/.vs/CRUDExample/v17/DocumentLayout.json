@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_21_Filters\\CRUDExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8639B1-0A11-4986-BDDE-25E357392B4D}|..\\CRUDTests\\CRUDTests.csproj|d:\\assignment\\practice\\dot net core\\-asp.net-core-9-.net-9-true-ultimate-guide\\section_21_filters\\crudtests\\personsservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8639B1-0A11-4986-BDDE-25E357392B4D}|..\\CRUDTests\\CRUDTests.csproj|d:\\assignment\\practice\\dot net core\\-asp.net-core-9-.net-9-true-ultimate-guide\\section_21_filters\\crudtests\\personscontrollerintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonsServiceTest.cs",
+              "DocumentMoniker": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_21_Filters\\CRUDTests\\PersonsServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\CRUDTests\\PersonsServiceTest.cs",
+              "ToolTip": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_21_Filters\\CRUDTests\\PersonsServiceTest.cs",
+              "RelativeToolTip": "..\\CRUDTests\\PersonsServiceTest.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAawPUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T17:39:29.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonsControllerIntegrationTest.cs",
+              "DocumentMoniker": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_21_Filters\\CRUDTests\\PersonsControllerIntegrationTest.cs",
+              "RelativeDocumentMoniker": "..\\CRUDTests\\PersonsControllerIntegrationTest.cs",
+              "ToolTip": "D:\\ASSIGNMENT\\Practice\\DOT NET CORE\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section_21_Filters\\CRUDTests\\PersonsControllerIntegrationTest.cs",
+              "RelativeToolTip": "..\\CRUDTests\\PersonsControllerIntegrationTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T17:36:46.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
