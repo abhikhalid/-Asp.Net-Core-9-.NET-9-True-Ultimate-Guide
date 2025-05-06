@@ -1,31 +1,31 @@
 {
   "Files": [
     {
-      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
       "PackagePath": "staticwebassets\\Rotativa\\wkhtmltopdf.exe"
     },
     {
-      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\StyleSheet.css",
+      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\StyleSheet.css",
       "PackagePath": "staticwebassets\\StyleSheet.css"
     },
     {
-      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\favicon.ico",
+      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\jquery.min.js",
+      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\jquery.min.js",
       "PackagePath": "staticwebassets\\jquery.min.js"
     },
     {
-      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\jquery.validate.min.js",
+      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\logo.png",
+      "Id": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\logo.png",
       "PackagePath": "staticwebassets\\logo.png"
     },
     {

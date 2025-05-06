@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContactsManager.ControllerTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+804e3525c529bb18d1ae9d60d5b2758d2add99b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1591e17d1570d5cfc5add740fe6dc69209f537d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContactsManager.ControllerTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContactsManager.ControllerTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

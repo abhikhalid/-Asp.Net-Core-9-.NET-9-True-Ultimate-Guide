@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m0k/JWQ9j8t1ir5nx3Pxy5U0U6WKRb+t5sPBw9vqmNU=",
+  "Hash": "IknXOQ6sgw4H0RwTypms21KXkGeetOrVqbr90UXuz6E=",
   "Source": "ContactsManager.UI",
   "BasePath": "_content/ContactsManager.UI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ContactsManager.UI\\wwwroot",
       "Source": "ContactsManager.UI",
-      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\favicon.ico",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\jquery.min.js",
+      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\jquery.min.js",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\jquery.validate.min.js",
+      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\jquery.validate.min.js",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\logo.png",
+      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\logo.png",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\logo.png"
     },
     {
-      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "Rotativa/wkhtmltopdf#[.{fingerprint}]?.exe",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltopdf.exe"
     },
     {
-      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\StyleSheet.css",
+      "Identity": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\StyleSheet.css",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "StyleSheet#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -167,7 +167,7 @@
   "Endpoints": [
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -212,7 +212,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -249,7 +249,7 @@
     },
     {
       "Route": "jquery.min.ehgnz7f14e.js",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\jquery.min.js",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -294,7 +294,7 @@
     },
     {
       "Route": "jquery.min.js",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\jquery.min.js",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -331,7 +331,7 @@
     },
     {
       "Route": "jquery.validate.min.9xennu59i4.js",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\jquery.validate.min.js",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -376,7 +376,7 @@
     },
     {
       "Route": "jquery.validate.min.js",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\jquery.validate.min.js",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -413,7 +413,7 @@
     },
     {
       "Route": "jquery.validate.unobtrusive.min.d171zkdrjx.js",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -458,7 +458,7 @@
     },
     {
       "Route": "jquery.validate.unobtrusive.min.js",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -495,7 +495,7 @@
     },
     {
       "Route": "logo.png",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\logo.png",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -532,7 +532,7 @@
     },
     {
       "Route": "logo.qyl749h62t.png",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\logo.png",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -577,7 +577,7 @@
     },
     {
       "Route": "Rotativa/wkhtmltopdf.cuquy3615b.exe",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -622,7 +622,7 @@
     },
     {
       "Route": "Rotativa/wkhtmltopdf.exe",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -659,7 +659,7 @@
     },
     {
       "Route": "StyleSheet.css",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\StyleSheet.css",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\StyleSheet.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -696,7 +696,7 @@
     },
     {
       "Route": "StyleSheet.ev0g547zpy.css",
-      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 24 - Clean Architecture\\Clean Architecture\\ContactsManager.UI\\wwwroot\\StyleSheet.css",
+      "AssetFile": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\wwwroot\\StyleSheet.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
