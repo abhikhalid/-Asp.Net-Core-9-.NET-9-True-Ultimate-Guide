@@ -1,0 +1,66 @@
+2025-02-25 18:43:25.461 +06:00 [INF] User profile is available. Using 'C:\Users\kmahmud‎\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-25 18:43:25.595 +06:00 [INF] Now listening on: http://localhost:5195
+2025-02-25 18:43:25.620 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 18:43:25.621 +06:00 [INF] Hosting environment: Development
+2025-02-25 18:43:25.622 +06:00 [INF] Content root path: D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\CRUDExample
+2025-02-25 18:43:28.022 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5195/ - null null
+2025-02-25 18:43:28.137 +06:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2025-02-25 18:43:28.138 +06:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (CRUDExample)'
+2025-02-25 18:43:28.183 +06:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (CRUDExample).
+2025-02-25 18:43:33.135 +06:00 [INF] Index action method of PersonsController
+2025-02-25 18:43:33.192 +06:00 [INF] GetFilteredPersons of PersonService
+2025-02-25 18:43:33.195 +06:00 [INF] GetAllPersons of PersonsRepository
+2025-02-25 18:43:34.465 +06:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReciveNewsLetters], [p].[TaxIdentificationNumber], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2025-02-25 18:43:34.587 +06:00 [INF] Time for Filtered Persons from Database completed in 1391.6 ms
+2025-02-25 18:43:34.616 +06:00 [INF] GetSortedPersons of PersonService
+2025-02-25 18:43:34.640 +06:00 [INF] Executing ViewResult, running view Index.
+2025-02-25 18:43:34.876 +06:00 [INF] Executed ViewResult - view Index executed in 240.8201ms.
+2025-02-25 18:43:34.883 +06:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (CRUDExample) in 6697.0843ms
+2025-02-25 18:43:34.885 +06:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (CRUDExample)'
+2025-02-25 18:43:34.889 +06:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 25 Feb 2025 12:43:34 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2025-02-25 18:43:34.894 +06:00 [INF] HTTP GET / responded 200 in 6772.6346 ms
+2025-02-25 18:43:34.908 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5195/ - 200 null text/html; charset=utf-8 6894.2044ms
+2025-02-25 18:43:34.927 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5195/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-25 18:43:34.933 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5195/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 5.9156ms
+2025-02-25 18:43:34.951 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5195/_vs/browserLink - null null
+2025-02-25 18:43:35.027 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.2345ms
+2025-02-25 18:43:37.721 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5195/Persons/PersonsExcel - null null
+2025-02-25 18:43:37.731 +06:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/PersonsExcel
+2025-02-25 18:43:37.732 +06:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.PersonsExcel (CRUDExample)'
+2025-02-25 18:43:37.738 +06:00 [INF] Route matched with {action = "PersonsExcel", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PersonsExcel() on controller CRUDExample.Controllers.PersonsController (CRUDExample).
+2025-02-25 18:43:41.383 +06:00 [INF] GetAllPersons of PersonService
+2025-02-25 18:43:41.386 +06:00 [INF] GetAllPersons of PersonsRepository
+2025-02-25 18:43:41.404 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReciveNewsLetters], [p].[TaxIdentificationNumber], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2025-02-25 18:43:41.753 +06:00 [INF] Executing FileStreamResult, sending file with download name 'persons.xlsx' ...
+2025-02-25 18:43:41.760 +06:00 [INF] Executed action CRUDExample.Controllers.PersonsController.PersonsExcel (CRUDExample) in 4020.6689ms
+2025-02-25 18:43:41.763 +06:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.PersonsExcel (CRUDExample)'
+2025-02-25 18:43:41.766 +06:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Date: Tue, 25 Feb 2025 12:43:41 GMT
+Server: Kestrel
+Content-Length: 3130
+Content-Disposition: attachment; filename=persons.xlsx; filename*=UTF-8''persons.xlsx
+2025-02-25 18:43:41.767 +06:00 [INF] HTTP GET /Persons/PersonsExcel responded 200 in 4038.1015 ms
+2025-02-25 18:43:41.771 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5195/Persons/PersonsExcel - 200 3130 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 4049.3262ms

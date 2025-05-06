@@ -1,0 +1,54 @@
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\bin\Debug\net8.0\RepositoryContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\bin\Debug\net8.0\RepositoryContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_19_Advanced_Unit_Testing_Moq_and_Repository_Pattern\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\bin\Debug\net8.0\RepositoryContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\bin\Debug\net8.0\RepositoryContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_20_Logging and Serilog\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\bin\Debug\net8.0\Entities.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\bin\Debug\net8.0\RepositoryContracts.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\bin\Debug\net8.0\Entities.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\bin\Debug\net8.0\RepositoryContracts.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\ASSIGNMENT\Practice\DOT NET CORE\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section_21_Filters\Repositories\obj\Debug\net8.0\ref\Repositories.dll

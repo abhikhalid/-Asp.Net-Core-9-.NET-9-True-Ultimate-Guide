@@ -1,0 +1,45 @@
+2025-05-05 23:10:32.744 +06:00 [INF] User profile is available. Using 'C:\Users\abhik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-05 23:10:32.813 +06:00 [INF] Creating key {5780b0e5-a924-47a8-8a07-b5b4b2f72625} with creation date 2025-05-05 17:10:32Z, activation date 2025-05-05 17:10:32Z, and expiration date 2025-08-03 17:10:32Z.
+2025-05-05 23:10:32.824 +06:00 [INF] Writing data to file 'C:\Users\abhik\AppData\Local\ASP.NET\DataProtection-Keys\key-5780b0e5-a924-47a8-8a07-b5b4b2f72625.xml'.
+2025-05-05 23:10:33.448 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost/Persons/Index - null null
+2025-05-05 23:10:33.474 +06:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Index
+2025-05-05 23:10:33.476 +06:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI)'
+2025-05-05 23:10:33.501 +06:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ContactsManager.Core.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManager.UI).
+2025-05-05 23:10:33.868 +06:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method - before
+2025-05-05 23:10:33.869 +06:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method - before
+2025-05-05 23:10:33.869 +06:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method - before
+2025-05-05 23:10:33.870 +06:00 [INF] PersonsListActionFilter.OnActionExecuting method
+2025-05-05 23:10:33.872 +06:00 [INF] Index action method of PersonsController
+2025-05-05 23:10:33.877 +06:00 [INF] GetFilteredPersons of PersonService
+2025-05-05 23:10:33.879 +06:00 [INF] GetAllPersons of PersonsRepository
+2025-05-05 23:10:34.608 +06:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=DatabaseForTesting 
+2025-05-05 23:10:34.761 +06:00 [INF] Time for Filtered Persons from Database completed in 882.6 ms
+2025-05-05 23:10:34.767 +06:00 [INF] GetSortedPersons of PersonService
+2025-05-05 23:10:34.788 +06:00 [INF] PersonsListActionFilter.OnActionExecuted method
+2025-05-05 23:10:34.811 +06:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method - after
+2025-05-05 23:10:34.811 +06:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method - after
+2025-05-05 23:10:34.812 +06:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method - after
+2025-05-05 23:10:34.814 +06:00 [INF] PersonsListResultFilter.OnResultExecutionAsync - before
+2025-05-05 23:10:34.824 +06:00 [INF] Executing ViewResult, running view Index.
+2025-05-05 23:10:34.985 +06:00 [INF] Executed ViewResult - view Index executed in 161.8429ms.
+2025-05-05 23:10:34.988 +06:00 [INF] PersonsListResultFilter.OnResultExecutionAsync - after
+2025-05-05 23:10:34.990 +06:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI) in 1488.4553ms
+2025-05-05 23:10:34.992 +06:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI)'
+2025-05-05 23:10:34.993 +06:00 [INF] Response:
+StatusCode: 200
+My-_key-From-Global: [Redacted]
+My-_key-From-Action: [Redacted]
+My-_key-From-Controller: [Redacted]
+Content-Type: text/html; charset=utf-8
+2025-05-05 23:10:34.993 +06:00 [ERR] System.InvalidOperationExceptionThe response headers cannot be modified because the response has already started.
+2025-05-05 23:10:34.995 +06:00 [ERR] HTTP GET /Persons/Index responded 500 in 1538.2588 ms
+System.InvalidOperationException: The status code cannot be set, the response has already started.
+   at Microsoft.AspNetCore.TestHost.ResponseFeature.set_StatusCode(Int32 value)
+   at CRUDExample.Middleware.ExceptionHandlingMiddleware.Invoke(HttpContext httpContext) in D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.UI\Middleware\ExceptionHandlingMiddleware.cs:line 41
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-05-05 23:10:35.012 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost/Persons/Index - 200 null text/html; charset=utf-8 1564.5756ms

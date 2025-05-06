@@ -1,0 +1,13 @@
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.Core\bin\Debug\net8.0\ContactsManager.Core.deps.json
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.Core\bin\Debug\net8.0\ContactsManager.Core.dll
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.Core\bin\Debug\net8.0\ContactsManager.Core.pdb
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.csproj.AssemblyReference.cache
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.AssemblyInfoInputs.cache
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.AssemblyInfo.cs
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.csproj.CoreCompileInputs.cache
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.sourcelink.json
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.dll
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.Core\obj\Debug\net8.0\refint\ContactsManager.Core.dll
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.pdb
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.Core\obj\Debug\net8.0\ref\ContactsManager.Core.dll

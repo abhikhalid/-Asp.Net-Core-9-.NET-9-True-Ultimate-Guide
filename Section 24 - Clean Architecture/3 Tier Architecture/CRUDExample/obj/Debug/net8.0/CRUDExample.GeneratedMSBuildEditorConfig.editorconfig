@@ -1,0 +1,61 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CRUDExample
+build_property.RootNamespace = CRUDExample
+build_property.ProjectDir = D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\CRUDExample\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\CRUDExample
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Coding/Development/Back-end/-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide/Section 24 - Clean Architecture/CRUDExample/Views/Countries/UploadFromExcel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXFVwbG9hZEZyb21FeGNlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Coding/Development/Back-end/-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide/Section 24 - Clean Architecture/CRUDExample/Views/Persons/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Coding/Development/Back-end/-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide/Section 24 - Clean Architecture/CRUDExample/Views/Persons/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Coding/Development/Back-end/-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide/Section 24 - Clean Architecture/CRUDExample/Views/Persons/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Coding/Development/Back-end/-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide/Section 24 - Clean Architecture/CRUDExample/Views/Persons/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Coding/Development/Back-end/-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide/Section 24 - Clean Architecture/CRUDExample/Views/Persons/PersonsPDF.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xQZXJzb25zUERGLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Coding/Development/Back-end/-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide/Section 24 - Clean Architecture/CRUDExample/Views/Shared/_GridColumnHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9HcmlkQ29sdW1uSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Coding/Development/Back-end/-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide/Section 24 - Clean Architecture/CRUDExample/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Coding/Development/Back-end/-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide/Section 24 - Clean Architecture/CRUDExample/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Coding/Development/Back-end/-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide/Section 24 - Clean Architecture/CRUDExample/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
