@@ -1,4 +1,5 @@
-﻿using ContactsManager.Core.Domain.IdentityEntities;
+﻿using System.Threading.Tasks;
+using ContactsManager.Core.Domain.IdentityEntities;
 using CRUDExample.Filters.ActionFilters;
 using Entities;
 using Microsoft.AspNetCore.Identity;
@@ -13,7 +14,7 @@ namespace CRUDExample.StartupExtensions
 {
     public static class ConfigureServiceExtension
     {
-        public static IServiceCollection ConfigureServices(this IServiceCollection services, IConfigurationManager configuration)
+        public static async Task<IServiceCollection> ConfigureServices(this IServiceCollection services, IConfigurationManager configuration)
         {
             services.AddTransient<ResponseHeaderActionFilter>();
 
@@ -63,7 +64,18 @@ namespace CRUDExample.StartupExtensions
 
             services.AddTransient<PersonsListActionFilter>();
             //Enable Identity in this project
-            services.AddIdentity<ApplicationUser, ApplicationRole>()
+            services.AddIdentity<ApplicationUser, ApplicationRole>
+                (
+                    options =>
+                    {
+                        options.Password.RequiredLength = 5;
+                        options.Password.RequireNonAlphanumeric = false;
+                        options.Password.RequireUppercase = false;
+                        options.Password.RequireLowercase = true;
+                        options.Password.RequireDigit = false;
+                        options.Password.RequiredUniqueChars = 3; //Eg; AB12AB = 4 unique characters
+                    }
+                )
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders() 
                 //add repository

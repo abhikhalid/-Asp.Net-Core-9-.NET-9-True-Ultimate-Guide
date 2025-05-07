@@ -107,25 +107,12 @@ D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Sectio
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.UI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.UI\bin\Debug\net8.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 24 - Clean Architecture\Clean Architecture\ContactsManager.UI\bin\Debug\net8.0\Serilog.Sinks.MSSqlServer.dll
-D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.csproj.AssemblyReference.cache
-D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.GeneratedMSBuildEditorConfig.editorconfig
-D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.AssemblyInfoInputs.cache
-D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.AssemblyInfo.cs
-D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.csproj.CoreCompileInputs.cache
-D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.MvcApplicationPartsAssemblyInfo.cs
-D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.MvcApplicationPartsAssemblyInfo.cache
-D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.RazorAssemblyInfo.cache
-D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.RazorAssemblyInfo.cs
-D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.sourcelink.json
-D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.dll
-D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\refint\ContactsManager.UI.dll
-D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.pdb
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\bin\Debug\net8.0\appsettings.Development.json
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\bin\Debug\net8.0\appsettings.json
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\bin\Debug\net8.0\countries.json
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\bin\Debug\net8.0\persons.json
-D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\bin\Debug\net8.0\ContactsManager.UI.staticwebassets.endpoints.json
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\bin\Debug\net8.0\ContactsManager.UI.staticwebassets.runtime.json
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\bin\Debug\net8.0\ContactsManager.UI.staticwebassets.endpoints.json
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\bin\Debug\net8.0\ContactsManager.UI.exe
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\bin\Debug\net8.0\ContactsManager.UI.deps.json
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\bin\Debug\net8.0\ContactsManager.UI.runtimeconfig.json
@@ -203,6 +190,16 @@ D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Sectio
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\bin\Debug\net8.0\ContactsManager.Infrastructure.dll
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\bin\Debug\net8.0\ContactsManager.Core.pdb
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\bin\Debug\net8.0\ContactsManager.Infrastructure.pdb
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.csproj.AssemblyReference.cache
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.AssemblyInfoInputs.cache
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.AssemblyInfo.cs
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.csproj.CoreCompileInputs.cache
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.MvcApplicationPartsAssemblyInfo.cs
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.MvcApplicationPartsAssemblyInfo.cache
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.RazorAssemblyInfo.cache
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.RazorAssemblyInfo.cs
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.sourcelink.json
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\scopedcss\bundle\ContactsManager.UI.styles.css
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\staticwebassets.build.json
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\staticwebassets.development.json
@@ -215,5 +212,8 @@ D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Sectio
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\Contacts.7B959ECC.Up2Date
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.dll
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\refint\ContactsManager.UI.dll
+D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.pdb
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ContactsManager.UI.genruntimeconfig.cache
 D:\Coding\Development\Back-end\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\Section 25 - Identity_Authorization_and_Security\ContactsManager.UI\obj\Debug\net8.0\ref\ContactsManager.UI.dll
