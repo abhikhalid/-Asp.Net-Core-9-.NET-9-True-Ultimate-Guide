@@ -1,6 +1,7 @@
 using Serilog;
-using CRUDExample.StartupExtensions;
+//using CRUDExample.StartupExtensions;
 using CRUDExample.Middleware;
+using CRUDExample;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -47,9 +48,18 @@ else
 
 app.UseStaticFiles();
 
-app.UseAuthentication();
-app.UseRouting();
-app.MapControllers();
+app.UseRouting(); //Identifying action method based on routing
+app.UseAuthentication(); //Reading Identity cookie
+//it adds the authorization middleware to the request pipeline. It checks whether the user is authorized to access the resource or not.
+// but how do you specify what action methods are allowed and what not? By default we will restrict access to all action methods.
+//But we will allow the action method of Account Controller to be accessed by anonymous users.
+
+//The fundamental difference between 'useAuthentication' and 'useAuthorization' is that authentication is about identifying the user, while authorization is,
+// useAuthetication is about checking whether the user is authenticated or not
+// useAuthorization is about checking whether the user is authorized to access the resource (particular action method) or not.
+app.UseAuthorization();
+
+app.MapControllers(); //Execute the filter pipeline (action + filters)
 
 //app.Logger.LogDebug("debug-message");
 //app.Logger.LogInformation("information-message");
