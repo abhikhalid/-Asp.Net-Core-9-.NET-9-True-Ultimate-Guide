@@ -2225,6 +2225,7 @@
           "EPPlus": "6.0.8",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.9",
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.0.1",
           "Serilog": "2.12.0",
           "Serilog.Extensions.Hosting": "5.0.1",
           "SerilogTimings": "3.0.1"
