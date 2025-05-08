@@ -1,4 +1,5 @@
-﻿using ContactsManager.Core.Domain.IdentityEntities;
+﻿using System.Reflection.Metadata;
+using ContactsManager.Core.Domain.IdentityEntities;
 using ContactsManager.Core.DTO;
 using CRUDExample.Controllers;
 using Microsoft.AspNetCore.Authorization;
@@ -103,6 +104,20 @@ namespace ContactsManager.UI.Controllers
         {
             await _signInManager.SignOutAsync(); //it removes the identity cookie
             return RedirectToAction(nameof(PersonsController.Index), "Persons");
+        }
+
+        public async Task<IActionResult> IsEmailAlreadyRegistered(string email)
+        {
+            ApplicationUser user = await _userManager.FindByEmailAsync(email);
+            
+            if(user == null)
+            {
+                return Json(true); //Valid
+            }
+            else
+            {
+                return Json(false); //Invalid
+            }
         }
     }
 }
