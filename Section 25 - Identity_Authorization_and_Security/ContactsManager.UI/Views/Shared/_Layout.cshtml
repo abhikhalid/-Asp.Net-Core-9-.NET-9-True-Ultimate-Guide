@@ -33,6 +33,14 @@
                                         @User.Identity?.Name
                                     </li>
 
+
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <li>
+                                            <a asp-controller="Home" asp-action="Index" asp-area="Admin">Admin Home</a>
+                                        </li>
+                                    }
+
                                     <li>
                                         <a asp-controller="Account" asp-action="Logout">Logout</a>
                                     </li>

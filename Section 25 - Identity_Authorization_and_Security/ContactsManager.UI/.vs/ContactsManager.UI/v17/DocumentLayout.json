@@ -3,21 +3,24 @@
   "WorkspaceRootPath": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FAFB5F3C-DD3B-4847-A524-80F51BFE37A1}|ContactsManager.UI.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 25 - identity_authorization_and_security\\contactsmanager.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAFB5F3C-DD3B-4847-A524-80F51BFE37A1}|ContactsManager.UI.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAFB5F3C-DD3B-4847-A524-80F51BFE37A1}|ContactsManager.UI.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 25 - identity_authorization_and_security\\contactsmanager.ui\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAFB5F3C-DD3B-4847-A524-80F51BFE37A1}|ContactsManager.UI.csproj|solutionrelative:areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAFB5F3C-DD3B-4847-A524-80F51BFE37A1}|ContactsManager.UI.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 25 - identity_authorization_and_security\\contactsmanager.ui\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAFB5F3C-DD3B-4847-A524-80F51BFE37A1}|ContactsManager.UI.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FAFB5F3C-DD3B-4847-A524-80F51BFE37A1}|ContactsManager.UI.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 25 - identity_authorization_and_security\\contactsmanager.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAFB5F3C-DD3B-4847-A524-80F51BFE37A1}|ContactsManager.UI.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AE6AE93-D917-4FE0-8112-8266D1FE7F4D}|..\\ContactsManager.Core\\ContactsManager.Core.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 25 - identity_authorization_and_security\\contactsmanager.core\\domain\\identityentities\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAFB5F3C-DD3B-4847-A524-80F51BFE37A1}|ContactsManager.UI.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 25 - identity_authorization_and_security\\contactsmanager.ui\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAFB5F3C-DD3B-4847-A524-80F51BFE37A1}|ContactsManager.UI.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AE6AE93-D917-4FE0-8112-8266D1FE7F4D}|..\\ContactsManager.Core\\ContactsManager.Core.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 25 - identity_authorization_and_security\\contactsmanager.core\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AE6AE93-D917-4FE0-8112-8266D1FE7F4D}|..\\ContactsManager.Core\\ContactsManager.Core.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 25 - identity_authorization_and_security\\contactsmanager.core\\enums\\usertypeoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FAFB5F3C-DD3B-4847-A524-80F51BFE37A1}|ContactsManager.UI.csproj|d:\\coding\\development\\back-end\\-asp.net-core-9-.net-9-true-ultimate-guide\\section 25 - identity_authorization_and_security\\contactsmanager.ui\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAFB5F3C-DD3B-4847-A524-80F51BFE37A1}|ContactsManager.UI.csproj|solutionrelative:areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,71 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwEMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T14:37:36.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationRole.cs",
-              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.Core\\Domain\\IdentityEntities\\ApplicationRole.cs",
-              "RelativeDocumentMoniker": "..\\ContactsManager.Core\\Domain\\IdentityEntities\\ApplicationRole.cs",
-              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.Core\\Domain\\IdentityEntities\\ApplicationRole.cs",
-              "RelativeToolTip": "..\\ContactsManager.Core\\Domain\\IdentityEntities\\ApplicationRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T14:37:30.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAQwGkAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T14:36:43.013Z",
+              "WhenOpened": "2025-05-10T15:28:34.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T15:25:04.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.Core\\DTO\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "..\\ContactsManager.Core\\DTO\\RegisterDTO.cs",
-              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.Core\\DTO\\RegisterDTO.cs",
-              "RelativeToolTip": "..\\ContactsManager.Core\\DTO\\RegisterDTO.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwB4AAABOAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAawGcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T14:34:31.996Z",
+              "WhenOpened": "2025-05-10T15:11:11.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserTypeOptions.cs",
-              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.Core\\Enums\\UserTypeOptions.cs",
-              "RelativeDocumentMoniker": "..\\ContactsManager.Core\\Enums\\UserTypeOptions.cs",
-              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.Core\\Enums\\UserTypeOptions.cs",
-              "RelativeToolTip": "..\\ContactsManager.Core\\Enums\\UserTypeOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T15:10:37.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Coding\\Development\\Back-end\\-Asp.Net-Core-9-.NET-9-True-Ultimate-Guide\\Section 25 - Identity_Authorization_and_Security\\ContactsManager.UI\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T14:34:02.525Z",
+              "WhenOpened": "2025-05-10T15:09:30.002Z",
               "EditorCaption": ""
             }
           ]
