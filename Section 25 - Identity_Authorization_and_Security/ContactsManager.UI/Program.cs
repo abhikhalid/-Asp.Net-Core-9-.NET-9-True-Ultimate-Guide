@@ -32,8 +32,6 @@ builder.Services.ConfigureServices(builder.Configuration);
 
 var app = builder.Build();
 
-//it enables the endpoint completion log, means it adds an extra log message as soon as the requsest resposne is completed
-app.UseSerilogRequestLogging(); 
 
 if (builder.Environment.IsDevelopment())
 {
@@ -44,6 +42,12 @@ else
     app.UseExceptionHandlingMiddleware();
 }
 
+app.UseHsts();
+app.UseHttpsRedirection(); //Redirects HTTP requests to HTTPS
+
+
+//it enables the endpoint completion log, means it adds an extra log message as soon as the requsest resposne is completed
+app.UseSerilogRequestLogging();
 
 
 app.UseStaticFiles();
